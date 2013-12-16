@@ -1,0 +1,7 @@
+include=..\BMW_320si_Stcc2.inccar
+Number=00022
+Team="Alternative Engineering"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Robert Schlünssen 010"
+
+FactoryWeight=0.6

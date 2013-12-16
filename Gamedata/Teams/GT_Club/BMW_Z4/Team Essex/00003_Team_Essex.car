@@ -1,0 +1,13 @@
+include=..\BMW_Z4.inccar
+
+GenString=1
+
+Number=00003
+Team="Team Essex"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="John Nielsen"
+
+
+//Evo Magazine, Puma, Logitech
+
+ComparativeTime=104

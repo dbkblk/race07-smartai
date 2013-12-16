@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00010
+Team="Digital Racing"
+GenString=1
+Driver1="Mike Channell"
+
+ComparativeTime=104

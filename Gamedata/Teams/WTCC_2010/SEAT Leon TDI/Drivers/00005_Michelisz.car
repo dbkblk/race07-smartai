@@ -1,0 +1,7 @@
+include=..\Seat_Leon_TDi_WTCC10.inccar
+Number=00005
+Team="Zengo-Dension Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Norbert Michelisz 10"
+
+FactoryWeight=0.9

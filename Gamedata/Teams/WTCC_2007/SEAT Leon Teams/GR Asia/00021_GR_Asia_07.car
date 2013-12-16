@@ -1,0 +1,8 @@
+include=..\SEAT_LEON_2007_3.inccar
+Number=00021
+Team="GR Asia"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Emmet O'Brien 07"
+
+FactoryWeight=1.3
+

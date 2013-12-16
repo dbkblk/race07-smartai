@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_2008.inccar
+Number=00012
+Team="SEAT Sport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Yvan Muller 08"
+
+FactoryWeight=0.9

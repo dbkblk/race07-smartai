@@ -1,0 +1,11 @@
+include=..\Camaro_Generation_5.inccar
+
+GenString=2
+
+Number=00077
+Team="Memphis Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Mikael Wärn 10"
+
+
+ComparativeTime=104

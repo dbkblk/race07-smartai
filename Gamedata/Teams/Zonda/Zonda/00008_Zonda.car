@@ -1,0 +1,10 @@
+include=..\Zonda.inccar
+
+GenString=1
+
+Number=00008
+Team="Team GO GREEN"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Santiago Berta-Andres"
+
+FactoryWeight=0.6

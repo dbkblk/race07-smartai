@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00014
+Team="KR3W Racing"
+GenString=1
+Driver1="Petra Sklenarova"
+
+ComparativeTime=104

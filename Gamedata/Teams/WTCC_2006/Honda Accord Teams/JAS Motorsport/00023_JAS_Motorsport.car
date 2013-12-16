@@ -1,0 +1,89 @@
+CameraFile=..\Honda_Accord.cam
+HDVehicle=..\2006_Honda_Accord.hdc
+Graphics=..\HONDA_ACCORD_EURO_R.cas
+GenString=1
+Sounds=..\HONDA_ACCORD_EURO_R.aud
+HeadPhysics=..\..\..\headphysics.hed
+Eyepoint=(0.359, 1.130, 0.130)
+CameraTarget=(0.000, 1.0, 0.000)
+MaxSeatRear=-0.05
+MaxSeatFront=-0.15
+MaxSeatUp=0.03
+MaxSeatDown=-0.03
+
+//Cockpit
+//SteeringWheelAxis=(0.0,0.098,0.995)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+ExternalDriverPosition=(0.3966, 0.32755, 0.12967)
+FirstPersonDriverPosition=(0.359, 0.156, -0.043)
+
+//1st person bone markers
+
+ShiftStickPosition=(0.070, 0.913, -0.500)
+ClutchPedalPosition=(0.500, 0.484, -0.570)
+BrakePedalPosition=(0.380, 0.484, -0.570)
+AcceleratorPedalPosition=(0.270, 0.484, -0.570)
+
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+
+Display1RPMLights=5
+Display1RPMLightsRange=(5000,8840)
+
+Display1SessionPractice=(410,141)
+Display1SessionWarmup=(410,128)
+Display1SessionRace=(410,115)
+
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(240,94)
+
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+
+Display1ModesPos=(50,0)
+Display1ModesScale=(0.97)
+
+// Exhaust smoke
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.06 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(-0.465, -0.15, 2.70) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(-0.465, -0.22, 3.15)
+
+Number=00023
+Team="JAS Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Pierre-Yves Corthals 06"
+Description="Honda Accord Euro R"
+Engine="ENGINE_UPDATE_ME"
+Manufacturer="HONDA_ACCORD_EURO_R"
+classes="FULL,WTCC_2006"
+ComparativeTime=104
+Make="HONDA"
+Model="Honda Accord Euro R"
+ModelID=15
+
+Horsepower=275
+HorsepowerRpm=8500
+Torque=250
+TorqueRpm=6750
+Weight=1167
+RearWheelDrive=0
+Transmission=6_SPD_SEQ
+EngineVolume=1998
+Valves=16
+Engine=I4_ID
+FactoryWeight=0

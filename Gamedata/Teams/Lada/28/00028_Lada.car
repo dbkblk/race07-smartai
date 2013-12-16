@@ -1,0 +1,6 @@
+include=..\Lada.inccar
+Number=00028
+Team="Russian Bears Motorsport"
+PitGroup=""
+Driver1="Viktor Shapovalov 08"
+FactoryWeight=0.6

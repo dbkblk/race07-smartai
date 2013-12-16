@@ -1,0 +1,7 @@
+include=..\Honda_Accord_R_Stcc2.inccar
+Number=00003
+Team="Hartmann Honda Racing"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="James Thompson 010"
+
+FactoryWeight=0.6

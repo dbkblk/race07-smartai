@@ -1,0 +1,13 @@
+include=..\Vertigo.inccar
+
+GenString=3
+
+Number=00015
+Team="Ecurie Auto Hebdo"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Chris Yates"
+
+
+//Dell, Get the Game, MotorsTV
+
+ComparativeTime=104

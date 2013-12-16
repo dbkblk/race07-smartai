@@ -1,0 +1,7 @@
+include=..\Seat_Leon_TDi_WTCC10.inccar
+Number=00017
+Team="SUNRED Engineering"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Michel Nykjaer 10"
+
+FactoryWeight=0.9

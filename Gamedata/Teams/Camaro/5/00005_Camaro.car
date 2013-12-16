@@ -1,0 +1,7 @@
+include=..\Camaro.inccar
+Number=00005
+Team="Imperial Blue Metallic"
+PitGroup=""
+Driver1="Poa Andersson"
+
+FactoryWeight=0.6

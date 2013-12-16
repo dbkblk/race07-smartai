@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00012
+Team="Ultimate Cars"
+GenString=1
+Driver1="Ignazio Belluardo"
+
+ComparativeTime=104

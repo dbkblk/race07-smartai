@@ -1,0 +1,6 @@
+include=..\Charger.inccar
+Number=00002
+Team="Blue Pearl"
+PitGroup=""
+Driver1="Bram Hengeveld"
+FactoryWeight=0.6

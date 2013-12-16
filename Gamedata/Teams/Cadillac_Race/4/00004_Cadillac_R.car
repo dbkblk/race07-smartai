@@ -1,0 +1,6 @@
+include=..\Cadillac_R.inccar
+Number=00004
+Team="Motor16 Racing"
+PitGroup=""
+Driver1="Paul Metson"
+FactoryWeight=0.6

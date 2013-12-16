@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00052
+Team="Team LSD"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Tim Sandtler"
+
+FactoryWeight=0.6

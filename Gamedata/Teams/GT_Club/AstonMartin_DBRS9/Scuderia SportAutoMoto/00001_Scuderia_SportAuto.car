@@ -1,0 +1,13 @@
+include=..\AstonMartin_DBRS9.inccar
+
+GenString=1
+
+Number=00001
+Team="Scuderia SportAutoMoto"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Wilfred van den Brink"
+
+
+//Dell, Get Real, ZipKarts
+
+ComparativeTime=104

@@ -1,0 +1,11 @@
+include=..\Camaro.inccar
+
+GenString=1
+
+Number=00057
+Team="Lundstrom Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Daniel Svensson 08"
+
+
+ComparativeTime=104

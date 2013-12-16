@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00016
+Team="Kiwi Virtual"
+GenString=1
+Driver1="Daniel Lacuey"
+
+ComparativeTime=104

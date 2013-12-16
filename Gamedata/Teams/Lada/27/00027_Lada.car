@@ -1,0 +1,6 @@
+include=..\Lada.inccar
+Number=00027
+Team="Russian Bears Motorsport"
+PitGroup=""
+Driver1="Kirill Ladygin 08"
+FactoryWeight=0.6

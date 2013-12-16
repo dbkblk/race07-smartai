@@ -1,0 +1,7 @@
+include=..\Challenger.inccar
+Number=00004
+Team="Bright Silver"
+PitGroup=""
+Driver1="Uwe Kriebel"
+
+FactoryWeight=0.6

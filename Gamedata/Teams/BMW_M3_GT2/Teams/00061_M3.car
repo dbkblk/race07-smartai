@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00061
+Team="Team BMW"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Daniel Mancinelli"
+
+FactoryWeight=0.6

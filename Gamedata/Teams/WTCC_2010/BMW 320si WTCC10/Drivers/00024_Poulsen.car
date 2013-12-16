@@ -1,0 +1,7 @@
+include=..\BMW_320si_WTCC10.inccar
+Number=00024
+Team="Poulsen Motorsport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Kristian Poulsen 10"
+
+FactoryWeight=0.6

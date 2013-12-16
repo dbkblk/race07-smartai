@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00028
+Team="Ajira Racing"
+GenString=1
+Driver1="Andreas Wilke"
+
+ComparativeTime=104

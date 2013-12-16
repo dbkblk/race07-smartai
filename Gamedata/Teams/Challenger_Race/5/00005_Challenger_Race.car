@@ -1,0 +1,6 @@
+include=..\Challenger_Race.inccar
+Number=00005
+Team="GTG Racing"
+PitGroup=""
+Driver1="Claus Juel"
+FactoryWeight=0.6

@@ -1,0 +1,6 @@
+include=..\Camaro_R.inccar
+Number=00004
+Team="Team ST"
+PitGroup=""
+Driver1="Clinton Parker"
+FactoryWeight=0.6

@@ -1,0 +1,9 @@
+include=..\Zonda.inccar
+GenString=2
+Number=00006
+Team="Team LSD"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Jan Charouz"
+GenString=2
+
+FactoryWeight=0.6

@@ -1,0 +1,99 @@
+Make="Audi"
+Description="Audi R8"
+Engine="Audi R8"
+Manufacturer="Audi"
+classes="FULL,PRODUCTION_CARS"
+classID=22
+Model="Audi R8"
+ModelID=121
+
+Horsepower=420
+HorsepowerRpm=7800
+Torque=445
+TorqueRpm=7000
+Weight=1560
+RearWheelDrive=1
+Transmission=6_SPD_SEQ
+EngineVolume=4200
+Valves=32
+Engine=V8
+
+HDVehicle=2008_Audi_r8.hdc
+Graphics=Audi.cas
+Sounds=Audi.aud
+HeadPhysics=headphysics.hed
+CameraFile=Audi.cam
+
+Eyepoint=(0.377, 1.000, 0.000)    
+CameraTarget=(0.000, 1.0, 0.00)
+MaxSeatRear=0.02
+MaxSeatFront=-0.09
+MaxSeatUp=0.03
+MaxSeatDown=-0.05 
+FrontWheelsInCockpit=1
+FirstPersonSteeringAnimation=FPDriver_R8_Steering.FXM
+FirstPersonShiftAnimation=FPDriver_R8_Shifting.FXM
+ExternalDriverPosition=(0.364, 0.230, -0.055)
+FirstPersonDriverPosition=(0.0, 0.0, 0.0)
+SuspensionInCockpit=1
+SteeringWheelAxis=(0.0,0.1,1.0)
+AcceleratorPedalPosition=(0.240, 0.233, -0.693)
+BrakePedalPosition=(0.34, 0.282, -0.613)
+ClutchPedalPosition=(0.54, 0.30, -0.660)
+LeftFootBrake=0
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+Display1RPMBars=40
+Display1RPMBarsRange=(1000,9000)
+Display1RPMLights=5
+Display1RPMLightsRange=(5500,7500)
+Display1SessionPractice=(376,36)
+Display1SessionWarmup=(376,23)
+Display1SessionRace=(376,10)
+Display1FuelHeadingParams=LARGE,LEFT
+Display1FuelHeadingPos=(256,145)
+Display1FuelParams=MEDIUM,RIGHT
+Display1FuelPos=(296,187)
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(180,65)
+Display1SpeedParams=LARGE,RIGHT
+Display1SpeedPos=(235,110)
+Display1GearParams=SMALL,CENTER
+Display1GearPos=(26,15)
+Display1LapTimeHeadingParams=LARGE,LEFT
+Display1LapTimeHeadingPos=(270,65)
+Display1LapTImeParams=LARGE,RIGHT
+Display1LapTimePos=(465,110)
+
+
+Display1ModesPos=(14,0) 
+
+//Display Analog
+
+SpeedometerRange=(0.0, 340, 482, 192)
+SpeedometerNeedle=(314.0, 63.0, 10.0, 114.0)
+
+TachometerRange=(1000, 9000, 498, 213)
+TachometerNeedle=(188.0, 63.0, 10.0, 114.0)
+
+OilTempRange=(0.0, 284, 545.0, 382.0)
+OilTempNeedle=(410, 37, 10.0, 70)
+
+//1st person bone markers
+
+
+Exhausts=4 // number of outlets, 0-4
+ExhaustAmount=0.11 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.72, -0.1, 2.0) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.72, -0.1, 2.6)
+Exhaust2=(-0.72, -0.1, 2.0)
+ExhaustVel2=(-0.72, -0.1, 2.6)
+Exhaust3=(0.82, -0.1, 2.0) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel3=(0.82, -0.1, 2.6)
+Exhaust4=(-0.82, -0.1, 2.0)
+ExhaustVel4=(-0.82, -0.1, 2.6)

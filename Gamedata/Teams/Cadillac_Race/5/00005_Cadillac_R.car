@@ -1,0 +1,6 @@
+include=..\Cadillac_R.inccar
+Number=00005
+Team="Team Belltech"
+PitGroup=""
+Driver1="Tarran Booth"
+FactoryWeight=0.6

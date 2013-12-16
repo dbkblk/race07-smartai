@@ -1,0 +1,10 @@
+include=..\2008_BMW_320si.inccar
+
+GenString=1
+
+Number=00017
+Team="Wiechers-Sport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Takayuki Aoki 08"
+
+FactoryWeight=0.6

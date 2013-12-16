@@ -1,0 +1,7 @@
+include=..\BMW_320si_Stcc.inccar
+Number=00006
+Team="Westcoast Racing"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Robin Rudholm 008"
+
+FactoryWeight=0.6

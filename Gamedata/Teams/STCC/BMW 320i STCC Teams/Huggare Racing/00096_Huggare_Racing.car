@@ -1,0 +1,8 @@
+include=..\BMW_320i_Stcc.inccar
+
+Number=00096
+Team="Huggare Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Viktor Huggare 008"
+
+FactoryWeight=2.0

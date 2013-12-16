@@ -1,0 +1,8 @@
+include=..\BMW_320i_Stcc.inccar
+
+Number=00094
+Team="Team Nya Akeriet Orebro"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Mikael Eklund 008"
+
+FactoryWeight=2.0

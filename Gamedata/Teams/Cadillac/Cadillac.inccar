@@ -1,0 +1,99 @@
+Make="Cadillac"
+Description="Cadillac"
+Engine="Cadillac"
+Manufacturer="Cadillac"
+classes="FULL,PRODUCTION_CARS"
+classID=22
+Model="Cadillac CTS-V"
+ModelID=142
+
+
+Horsepower=425
+HorsepowerRpm=7400
+Torque=650
+TorqueRpm=4500
+Weight=1840
+RearWheelDrive=1
+Transmission=6_SPD_HBX
+EngineVolume=6100
+Valves=48
+Engine=V8
+
+HDVehicle=2009_Cadillac_CTS-V.hdc
+Graphics=Cadillac.cas
+Sounds=Cadillac.aud
+HeadPhysics=headphysics.hed
+CameraFile=Cadillac.cam
+
+Eyepoint=(0.40, 1.21, -0.00)    
+CameraTarget=(0.000, 1.0, 0.00)
+MaxSeatRear=0.03
+MaxSeatFront=-0.03
+MaxSeatUp=0.03
+MaxSeatDown=-0.03 
+FrontWheelsInCockpit=1
+FirstPersonSteeringAnimation=FPDriver_Cadillac_Steering.FXM
+FirstPersonShiftAnimation=FPDriver_Cadillac_Shifting.FXM
+ExternalDriverPosition=(0.384, 0.353, -0.128)
+FirstPersonDriverPosition=(0.0, 0.0, 0.0)
+SuspensionInCockpit=1
+SteeringWheelAxis=(0.0,0.2,1.0)
+AcceleratorPedalPosition=(0.272, 0.418, -0.578)
+BrakePedalPosition=(0.395, 0.384, -0.639)
+ClutchPedalPosition=(0.514, 0.384, -0.600)
+ShiftStickPosition=(0.0, 0.0, 0.0)
+SteeringWheelType=1
+LeftFootBrake=0
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+
+// displays
+
+DigitalDisplays=2
+Display1Instance=MOTEC
+Display1SessionPractice=(70,150)
+Display1SessionWarmup=(70,137)
+Display1SessionRace=(70,124)
+Display1FuelParams=LARGE,LEFT
+Display1FuelPos=(70,55)
+Display1SpeedParams=LARGE,CENTER
+Display1SpeedPos=(280,55)
+Display1GearParams=LARGE,RIGHT
+Display1GearPos=(480,55)
+Display1LapTImeParams=LARGE,RIGHT
+Display1LapTimePos=(480,130)
+Display1ModesPos=(14,10) 
+Display1RPMLights=5
+Display1RPMLightsRange=(5800,8800)
+
+//Display Analog
+
+SpeedometerRange=(0.0, 330, 560, 330)
+SpeedometerNeedle=(62.0, 65.0, 10.0, 114.0)
+
+TachometerRange=(0, 8000, 375, 165)
+TachometerNeedle=(189.0, 65.0, 10.0, 117.0)
+
+FuelVolumeRange=(0.0, 86, 420, 300)
+FuelVolumeNeedle=(410, 38, 8.0, 60)
+
+WaterTempRange=(170.0, 260.0, 420.0, 300.0)
+WaterTempNeedle=(469, 88, 8.0, 70)
+
+
+Exhausts=2 // number of outlets, 0-4
+ExhaustAmount=0.08 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.50, -0.15, 2.60) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.50, -0.25, 3.35)
+Exhaust2=(-0.50, -0.15, 2.60)
+ExhaustVel2=(-0.50, -0.25, 3.35)
+
+
+// Max coords for one of the two exhaust (symetrical)
+// X= -6.125 (left/right)
+// Y= 241.662 (lenght) 10 cm behind roughly.
+// Z= 29.354 (up/down)
+// Cant really use the Max coords as an exact messure, but only for guiding. You have to tweak away on them, especially on the height, that doesnt //fit at all, when using max coords.
+// Use between 0.1 and 0.13 in ExhaustAmount, vary between car models.
+// Have the 'Vel' Z coord between 0.35 and 0.45 higher than the emitter positions Z coord

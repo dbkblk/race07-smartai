@@ -1,0 +1,13 @@
+include=..\AudiGT.inccar
+
+GenString=1
+
+Number=00023
+Team="Logitech Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Daniel Lacuey"
+
+
+//Auto Hebdo, SimBin, Zipkarts
+
+ComparativeTime=104

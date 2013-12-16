@@ -1,0 +1,11 @@
+include=..\GTSR.inccar
+
+GenString=2
+
+Number=00017
+Team="Team Navicam"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Santiago Berta-Andres"
+
+
+ComparativeTime=104

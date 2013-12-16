@@ -1,0 +1,415 @@
+// 2009 Dodge Charger SRT-8 ( Manual )
+// Copyright Simbin Development Team AB 2008
+// Created By: Mark Reynolds
+//
+// Version 3.0b GMC
+//
+// Last Edited: 9th March 2009
+
+[GENERAL]
+Rules=0
+GarageDisplayFlags=7
+FeelerFlags=8
+DamageFile=2008_Charger_SRT8.dmg
+Notes=""
+Symmetric=1
+//
+Mass=1900.0
+Inertia=(1950.0,2050.0,337.0)
+FuelTankPos=(0.0, 0.200, 0.200)
+FuelTankMotion=(560.0,0.7)
+//
+CGHeight=0.320
+CGRightRange=(0.50, 0.000, 0)
+CGRightSetting=0
+CGRearRange=(0.46, 0.005, 0)
+CGRearSetting=0
+GraphicalOffset=(0.0, 0.025, 0.0)
+//
+Undertray00=(0.75,  0.05, -1.950) // offset from center of car, and between axles		// 	LF (Left front corner of splitter)
+Undertray01=(-0.75, 0.05, -1.950) // offset from center of car, and between axles		// 	RF (Right front corner of splitter)
+Undertray02=(0.40,  0.05, -2.200) // offset from center of car, and between axles		// 	Left center front nose
+Undertray03=(-0.40, 0.05, -2.200) // offset from center of car, and between axles		// 	Right center front nose
+Undertray04=(0.60,  0.05, -0.800) // offset from center of car, and between axles		//  	Floor LF corner
+Undertray05=(-0.60, 0.05, -0.800) // offset from center of car, and between axles		//  	Floor RF corner
+Undertray06=(0.60,  0.05, 0.800)  // offset from center of car, and between axles 		//  	FLoor LR corner
+Undertray07=(-0.60, 0.05, 0.800)  // offset from center of car, and between axles		//  	Floor RR corner
+Undertray08=(0.25,  0.075, 2.175)  // offset from center of car, and between axles 		// 	Left Centre Rear
+Undertray09=(-0.25, 0.075, 2.175)  // offset from center of car, and between axles 		// 	Right Centre Rear
+Undertray10=(0.65,  0.090, 2.000)  // offset from center of car, and between axles 		// 	LR Corner
+Undertray11=(-0.65, 0.090, 2.000)  // offset from center of car, and between axles 		// 	RR Corner
+UndertrayParams=(250000.0,12500.0, 2.0) // undertray spring rate, damper rate, and coefficient of friction
+//
+TireBrand=2008_Charger_SRT8
+FrontTireCompoundSetting=0
+RearTireCompoundSetting=0
+//
+FuelRange=(1.0, 1.0, 86)
+FuelSetting=41
+//
+NumPitstopsRange=(0, 1, 86)
+NumPitstopsSetting=0
+Pitstop1Range=(1.0, 1.0, 86)
+Pitstop1Setting=41
+Pitstop2Range=(1.0, 1.0, 86)
+Pitstop2Setting=41
+Pitstop3Range=(1.0, 1.0, 86)
+Pitstop3Setting=41
+//
+AIMinPassesPerTick=7
+AIRotationThreshold=0.12
+AIEvenSuspension=1.0
+AISpringRate=1.0
+AIDamperSlow=0.5
+AIDamperFast=0.5
+AIDownforceZArm=0.150
+AIDownforceBias=0.0
+AITorqueStab=(1.05, 1.05, 1.15)
+
+
+
+[BODYAERO]
+BodyDragBase=(0.353)
+BodyDragHeightAvg=(0.10)
+BodyDragHeightDiff=(0.22)
+BodyMaxHeight=(0.20)
+BodyLeft=(-0.6, 0.0, 0.0)
+BodyRight=(0.6, 0.0, 0.0)
+BodyUp=(0.0, -0.9, 0.0)
+BodyDown=(0.0, 0.9, 0.0)
+BodyAft=(0.0, 0.5, -0.8)
+BodyFore=(0.0, -0.000, 0.0)
+BodyRot=(9.73, 7.3, 4.87)
+BodyCenter=(0.0, 0.50, -1.145)
+//
+RadiatorRange=(4.0, 0.0, 0)
+RadiatorSetting=0
+RadiatorDrag=(0.005)
+RadiatorLift=(0.004)
+//
+BrakeDuctRange=(3.0, 0.0, 0)
+BrakeDuctSetting=0
+BrakeDuctDrag=(0.003)
+BrakeDuctLift=(0.0)
+
+
+[SUSPENSION]
+PhysicalModelFile=2008_Charger_SRT8.sp
+ApplySlowToFastDampers=1
+CorrectedInnerSuspHeight=-1
+AdjustSuspRates=1
+AlignWheels=1
+FrontWheelTrack=1.630			//1.603
+RearWheelTrack=1.630			//1.604
+LeftWheelBase=0.0				//2.946
+RightWheelBase=0.0			//2.946
+//
+SpringBasedAntiSway=0
+AllowNoAntiSway=0
+FrontAntiSwayBase=0.0
+FrontAntiSwayRange=(0.028, 0.000, 0)
+FrontAntiSwaySetting=0
+FrontAntiSwayRate=(1.25e8, 2.0)
+RearAntiSwayBase=0.0
+RearAntiSwayRange=(0.018, 0.000, 0)
+RearAntiSwaySetting=0
+RearAntiSwayRate=(7.60e19, 9.0)
+//
+FrontToeInRange=(-0.10, 0.0, 0)
+FrontToeInSetting=0
+RearToeInRange=(0.20, 0.0, 0)
+RearToeInSetting=0
+//
+LeftCasterRange=(-5.0, 0.0, 0)
+LeftCasterSetting=0
+RightCasterRange=(-5.0, 0.0, 0)
+RightCasterSetting=0
+
+
+[CONTROLS]
+SteeringFFBMult=2.0
+SteerLockRange=(5.0, 1.0, 31)
+SteerLockSetting=12
+//
+OnboardBrakeBias=0
+RearBrakeRange=(0.35, 0.00, 0)
+RearBrakeSetting=0
+BrakePressureRange=(0.90, 0.01, 11)
+BrakePressureSetting=5
+HandbrakePressRange=(0.00, 0.05, 21) // 
+HandbrakePressSetting=15
+//
+UpshiftAlgorithm=(0.97,0.0)
+DownshiftAlgorithm=(0.85,0.75,0.6)
+AutoUpshiftGripThresh=0.40
+AutoDownshiftGripThresh=0.40
+//
+TractionControlGrip=(1.00, 0.20)
+TractionControlLevel=(0.30, 0.60, 0.90)
+//
+ABS4Wheel=1
+ABSGrip=(1.00, 0.20)
+ABSLevel=(0.30, 0.90)
+
+
+[ENGINE]
+RevLimitAvailable=1
+SpeedLimiter=0
+Normal=2008_Charger_SRT8
+RestrictorPlate=2008_Charger_SRT8
+
+
+[DRIVELINE]
+ClutchEngageRate=0.9
+ClutchInertia=0.0250
+ClutchTorque=900.0                   
+ClutchWear=0.0
+ClutchFriction=40.0
+BaulkTorque=1250.0
+//
+SemiAutomatic=0
+UpshiftDelay=0.07
+UpshiftClutchTime=0.0
+DownshiftDelay=0.07
+DownshiftClutchTime=0.01
+DownshiftBlipThrottle=0.90
+UpshiftLiftThrottle=0.00
+//
+WheelDrive=REAR
+GearFile=2008_Charger_SRT8.grb
+FinalDriveSetting=1
+ForwardGears=6
+ReverseSetting=0
+Gear1Setting=0
+Gear2Setting=1
+Gear3Setting=2
+Gear4Setting=3
+Gear5Setting=4
+Gear6Setting=5
+//
+DiffPumpTorque=00.0
+DiffPumpRange=(0.00, 0.00, 0)
+DiffPumpSetting=0
+DiffPowerRange=(0.30,0.1,0)
+DiffPowerSetting=0
+DiffCoastRange=(0.30,0.0,0)
+DiffCoastSetting=0
+DiffPreloadRange=(150.0, 0.0, 0)
+DiffPreloadSetting=0
+
+
+[FRONTLEFT]
+BumpTravel=-0.065
+ReboundTravel=-0.200
+BumpStopSpring=250000.0
+BumpStopRisingSpring=1.25e9
+BumpStopDamper=2000.0
+BumpStopRisingDamper=2.19e7
+BumpStage2=0.100
+ReboundStage2=-0.100
+FrictionTorque=9.50
+SpinInertia=1.20
+CGOffsetX=0.000
+PushrodSpindle=(-0.050, -0.100, 0.000)
+PushrodBody=(-0.180, 0.188, 0.000)
+//
+CamberRange=(-1.5, 0.0, 0)
+CamberSetting=0
+//
+PressureRange=(150.0, 1.0, 76)
+PressureSetting=25
+//
+SpringMult=.50
+SpringRange=(90000.0, 10000.0, 0)
+SpringSetting=0
+//
+RideHeightRange=(0.120, 0.000, 0)
+RideHeightSetting=0
+//
+DamperMult=.70
+SlowBumpRange=(4500.0, 500.0, 0)
+SlowBumpSetting=0
+SlowReboundRange=(8500.0, 500.0, 0)
+SlowReboundSetting=0
+//
+FastBumpRange=(3000.0, 500.0, 0)
+FastBumpSetting=0
+FastReboundRange=(5000.0, 500.0, 0)
+FastReboundSetting=0
+//
+BrakeDiscRange=(0.035, 0.000, 0)
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)
+BrakePadSetting=2
+BrakeDiscInertia=1.25
+BrakeOptimumTemp=600.0
+BrakeFadeRange=600.0
+BrakeWearRate=1.215e-011
+BrakeFailure=(1.33e-002,7.20e-004)
+BrakeTorque=3500.0
+BrakeHeating=0.0007
+BrakeCooling=(1.910e-002,0.667e-004)
+BrakeDuctCooling=1.000e-004
+
+
+
+[FRONTRIGHT]
+BumpTravel=-0.065
+ReboundTravel=-0.200
+BumpStopSpring=250000.0
+BumpStopRisingSpring=1.25e9
+BumpStopDamper=2000.0
+BumpStopRisingDamper=2.19e7
+BumpStage2=0.100
+ReboundStage2=-0.100
+FrictionTorque=9.50
+SpinInertia=1.20
+CGOffsetX=0.000
+PushrodSpindle=(0.050, -0.100, 0.000)
+PushrodBody=(0.180, 0.188, 0.000)
+//
+CamberRange=(-1.5, 0.0, 0)
+CamberSetting=0
+//
+PressureRange=(150.0, 1.0, 76)
+PressureSetting=25
+//
+SpringMult=.50
+SpringRange=(90000.0, 10000.0, 0)
+SpringSetting=0
+//
+RideHeightRange=(0.120, 0.000, 0)
+RideHeightSetting=0
+//
+DamperMult=.70
+SlowBumpRange=(4500.0, 500.0, 0)
+SlowBumpSetting=0
+SlowReboundRange=(8500.0, 500.0, 0)
+SlowReboundSetting=0
+//
+FastBumpRange=(3000.0, 500.0, 0)
+FastBumpSetting=0
+FastReboundRange=(5000.0, 500.0, 0)
+FastReboundSetting=0
+//
+BrakeDiscRange=(0.035, 0.000, 0)
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)
+BrakePadSetting=2
+BrakeDiscInertia=1.25
+BrakeOptimumTemp=600.0
+BrakeFadeRange=600.0
+BrakeWearRate=1.215e-011
+BrakeFailure=(1.33e-002,7.20e-004)
+BrakeTorque=3500.0
+BrakeHeating=0.0007
+BrakeCooling=(1.910e-002,0.667e-004)
+BrakeDuctCooling=1.000e-004
+
+
+[REARLEFT]
+BumpTravel=-0.065
+ReboundTravel=-0.220
+BumpStopSpring=250000.0
+BumpStopRisingSpring=1.25e9
+BumpStopDamper=2000.0
+BumpStopRisingDamper=2.19e7
+BumpStage2=0.100
+ReboundStage2=-0.100
+FrictionTorque=12.50
+SpinInertia=1.30
+CGOffsetX=-0.030
+PushrodSpindle=(-0.228, -0.150, 0.000)
+PushrodBody=(-0.300, 0.217, 0.000)
+//
+CamberRange=(-1.0, 0.0, 0)
+CamberSetting=0
+//
+PressureRange=(120.0, 1.0, 106)
+PressureSetting=55
+//
+SpringMult=1.0
+SpringRange=(60000.0, 5000.0, 0)
+SpringSetting=0
+//
+RideHeightRange=(0.130, 0.000, 0)
+RideHeightSetting=0
+//
+DamperMult=1.0
+SlowBumpRange=(3500.0, 500.0, 0)
+SlowBumpSetting=0
+SlowReboundRange=(6500.0, 500.0, 0)
+SlowReboundSetting=0
+//
+FastBumpRange=(1600.0, 500.0, 0)
+FastBumpSetting=0
+FastReboundRange=(3500.0, 500.0, 0)
+FastReboundSetting=0
+//
+BrakeDiscRange=(0.032, 0.000, 0)
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)
+BrakePadSetting=2
+BrakeDiscInertia=1.115
+BrakeOptimumTemp=600.0
+BrakeFadeRange=600.0
+BrakeWearRate=1.215e-011
+BrakeFailure=(1.33e-002,7.20e-004)
+BrakeTorque=2800.0
+BrakeHeating=0.0007
+BrakeCooling=(1.435e-002,0.268e-004)
+BrakeDuctCooling=0.600e-004
+
+
+[REARRIGHT]
+BumpTravel=-0.065
+ReboundTravel=-0.220
+BumpStopSpring=250000.0
+BumpStopRisingSpring=1.25e9
+BumpStopDamper=2000.0
+BumpStopRisingDamper=2.19e7
+BumpStage2=0.100
+ReboundStage2=-0.100
+FrictionTorque=12.50
+SpinInertia=1.30
+CGOffsetX=-0.030
+PushrodSpindle=(0.228, -0.150, 0.000)
+PushrodBody=(0.300, 0.217, 0.000)
+//
+CamberRange=(-1.0, 0.0, 0)
+CamberSetting=0
+//
+PressureRange=(120.0, 1.0, 106)
+PressureSetting=55
+//
+SpringMult=1.0
+SpringRange=(60000.0, 5000.0, 0)
+SpringSetting=0
+//
+RideHeightRange=(0.130, 0.000, 0)
+RideHeightSetting=0
+//
+DamperMult=1.0
+SlowBumpRange=(3500.0, 500.0, 0)
+SlowBumpSetting=0
+SlowReboundRange=(6500.0, 500.0, 0)
+SlowReboundSetting=0
+//
+FastBumpRange=(1600.0, 500.0, 0)
+FastBumpSetting=0
+FastReboundRange=(3500.0, 500.0, 0)
+FastReboundSetting=0
+//
+BrakeDiscRange=(0.032, 0.000, 0)
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)
+BrakePadSetting=2
+BrakeDiscInertia=1.115
+BrakeOptimumTemp=600.0
+BrakeFadeRange=600.0
+BrakeWearRate=1.215e-011
+BrakeFailure=(1.33e-002,7.20e-004)
+BrakeTorque=2800.0
+BrakeHeating=0.0007
+BrakeCooling=(1.435e-002,0.268e-004)
+BrakeDuctCooling=0.600e-004

@@ -1,0 +1,11 @@
+include=..\Camaro.inccar
+
+GenString=2
+
+Number=00052
+Team="TeamX3M"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tommie Eliasson 08"
+
+
+ComparativeTime=104

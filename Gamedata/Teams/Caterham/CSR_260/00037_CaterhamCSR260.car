@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00037
+Team="Perfect Racing Competion"
+GenString=1
+Driver1="Jothan Orlandini"
+
+ComparativeTime=104

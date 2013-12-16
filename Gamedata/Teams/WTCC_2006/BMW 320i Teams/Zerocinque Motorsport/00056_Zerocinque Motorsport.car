@@ -1,0 +1,94 @@
+CameraFile=..\BMW_320i.cam
+HDVehicle=..\2006_BMW_320i.hdc
+Graphics=..\BMW_320i.cas
+GenString=1
+Sounds=..\BMW_320i.aud
+HeadPhysics=..\..\..\headphysics.hed
+MaxSeatRear=-0.05
+MaxSeatFront=-0.17
+MaxSeatUp=0.03
+MaxSeatDown=-0.04
+
+
+// car cameras offset
+CameraTarget=(0.000, 1.0, 0.000) 
+
+// Cockpit
+Eyepoint=(0.3534, 1.080, 0.250)
+
+SteeringWheelAxis=(0.0,0.098,0.995)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+ExternalDriverPosition=(0.3711, 0.2993, 0.1228)
+FirstPersonDriverPosition=(0.3652, 0.1050, 0.0276)
+
+//1st person bone markers
+
+ShiftStickPosition=(0.0148, 0.7407, -0.2658)
+ClutchPedalPosition=(0.5294, 0.4151, -0.8392)
+BrakePedalPosition=(0.4043, 0.4151, -0.8392)
+AcceleratorPedalPosition=(0.2436, 0.4151, -0.8392)
+
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+
+Display1RPMLights=8
+Display1RPMLightsRange=(4500,9100)
+
+Display1SessionPractice=(426,141)
+Display1SessionWarmup=(426,128)
+Display1SessionRace=(426,115)
+
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(240,94)
+
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+
+Display1ModesPos=(33,0) 
+
+// Exhaust smoke
+
+Exhausts=2 // number of outlets, 0-4
+ExhaustAmount=0.04 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.545, -0.23, 2.45) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.545, -0.30, 3.10)
+Exhaust2=(0.475, -0.23, 2.45) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel2=(0.475, -0.30, 3.10)
+
+Number=00056
+Team="Zerocinque Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Simone Iacone 06"
+Description="BMW 320i E46"
+Engine="ENGINE_UPDATE_ME"
+Manufacturer="BMW_320i"
+classes="FULL,WTCC_2006"
+ComparativeTime=104
+Make="BMW"
+Model="BMW 320i E46"
+ModelID=12
+
+Horsepower=275
+HorsepowerRpm=8800
+Torque=230
+TorqueRpm=7000
+Weight=1140
+RearWheelDrive=1
+Transmission=5_SPD_HBX
+EngineVolume=1993
+Valves=24
+Engine=I6_ID
+FactoryWeight=1

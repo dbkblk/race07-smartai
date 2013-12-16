@@ -1,0 +1,6 @@
+include=..\Cadillac.inccar
+Number=00002
+Team="Black Raven"
+PitGroup=""
+Driver1="Laurent Tombez"
+FactoryWeight=0.6

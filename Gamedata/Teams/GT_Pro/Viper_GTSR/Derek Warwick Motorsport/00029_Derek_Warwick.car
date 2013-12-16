@@ -1,0 +1,11 @@
+include=..\GTSR.inccar
+
+GenString=3
+
+Number=00029
+Team="Derek Warwick Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Derek Warwick"
+
+
+ComparativeTime=104

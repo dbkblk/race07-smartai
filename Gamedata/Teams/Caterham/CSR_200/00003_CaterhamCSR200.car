@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00003
+Team="Syncro Racing"
+GenString=1
+Driver1="Jaroslav Janis"
+
+ComparativeTime=104

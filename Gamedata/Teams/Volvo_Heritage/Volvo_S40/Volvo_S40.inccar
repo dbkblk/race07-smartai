@@ -1,0 +1,86 @@
+Make="Volvo"
+Description="Volvo S40"
+Engine="Volvo"
+Manufacturer="Volvo_S40"
+classes="FULL,PRODUCTION_CARS"
+classID=22
+Model="Volvo S40"
+ModelID=201
+
+Horsepower=320
+HorsepowerRpm=8400
+Torque=269
+TorqueRpm=6500
+Weight=975
+RearWheelDrive=0
+Transmission=6_SPD_SEQ
+EngineVolume=2000
+Valves=16
+Engine=I4
+
+HDVehicle=1998_Volvo_S40_BTCC.hdc
+Graphics=VOLVO_S40.cas
+Sounds=VOLVO_S40.aud
+HeadPhysics=headphysics.hed
+CameraFile=VOLVO_S40.cam
+
+//Cockpit
+
+Eyepoint=(0.280, 1.0, 0.05)
+CameraTarget=(0.000, 1.0, 0.000)
+MaxSeatRear=0.01
+MaxSeatFront=-0.08
+MaxSeatUp=0.02
+MaxSeatDown=-0.04
+SteeringWheelAxis=(0.0,0.1,0.8)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+FirstPersonSteeringAnimation=FPDriver_VolvoS40_Steering.FXM
+FirstPersonShiftAnimation=FPDriver_VolvoS40_Shifting.FXM
+ExternalDriverPosition=(0.279, 0.185, 0.024)
+FirstPersonDriverPosition=(0.006, -0.013, 0.014)
+SuspensionInCockpit=1
+AcceleratorPedalPosition=(0.200, 0.311, -0.586)
+BrakePedalPosition=(0.323, 0.343, -0.530)
+ClutchPedalPosition=(0.425, 0.267, -0.617)
+LeftFootBrake=0
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+Display1RPMLights=5
+Display1RPMLightsRange=(6000,8500)
+Display1RPMBars=40
+Display1RPMBarsRange=(1450,8500)
+Display1SessionPractice=(410,141)
+Display1SessionWarmup=(410,128)
+Display1SessionRace=(410,115)
+Display1FuelHeadingParams=LARGE,LEFT
+Display1FuelHeadingPos=(431,70)
+Display1FuelParams=MEDIUM,RIGHT
+Display1FuelPos=(428,70)
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(234,94)
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+Display1ModesPos=(14,0)
+
+//1st person bone markers
+//Display1GearPos=(234,94)
+
+
+// Exhaust smoke
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.13 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(-0.50, -0.19, 2.55) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(-0.50, -0.22, 3.15)

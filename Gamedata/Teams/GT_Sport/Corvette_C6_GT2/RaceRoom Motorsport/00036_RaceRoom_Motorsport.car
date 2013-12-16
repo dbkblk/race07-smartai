@@ -1,0 +1,11 @@
+include=..\Corvette_C6_GT2.inccar
+
+GenString=3
+
+Number=00036
+Team="RaceRoom Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Marcus Bodin"
+
+
+ComparativeTime=104

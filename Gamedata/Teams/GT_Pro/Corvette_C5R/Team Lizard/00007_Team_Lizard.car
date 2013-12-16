@@ -1,0 +1,13 @@
+include=..\C5R.inccar
+
+GenString=1
+
+Number=00007
+Team="Team Lizard"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Anders Molin"
+
+
+//Clear Initiatives, Evo Magazine, RaceRoom
+
+ComparativeTime=104

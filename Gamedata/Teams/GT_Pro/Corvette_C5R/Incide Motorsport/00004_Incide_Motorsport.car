@@ -1,0 +1,13 @@
+include=..\C5R.inccar
+
+GenString=3
+
+Number=00004
+Team="Incide Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Attila Domjan"
+
+
+//AutoHebdo, Dell, Hype
+
+ComparativeTime=104

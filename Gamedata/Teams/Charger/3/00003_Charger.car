@@ -1,0 +1,7 @@
+include=..\Charger.inccar
+Number=00003
+Team="TorRed"
+PitGroup=""
+Driver1="Caspar Kahari"
+
+FactoryWeight=0.6

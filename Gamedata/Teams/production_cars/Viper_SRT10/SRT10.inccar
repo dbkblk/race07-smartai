@@ -1,0 +1,93 @@
+Make="Dodge"
+Description="Viper SRT10"
+Engine="Viper SRT10"
+Manufacturer="SRT10"
+classes="FULL,PRODUCTION_CARS"
+classID=22
+Model="Viper SRT10"
+ModelID=120
+
+Horsepower=600
+HorsepowerRpm=6100
+Torque=760
+TorqueRpm=5000
+Weight=1552
+RearWheelDrive=1
+Transmission=6_SPD_SEQ
+EngineVolume=8400
+Valves=20
+Engine=V10
+
+HDVehicle=2008_Viper_SRT10.hdc
+Graphics=SRT10.cas
+Sounds=SRT10.aud
+HeadPhysics=headphysics.hed
+CameraFile=SRT10.cam
+
+Eyepoint=(0.393, 0.95, 0.48)    
+CameraTarget=(0.000, 1.0, 0.00)
+MaxSeatRear=0.03
+MaxSeatFront=-0.05
+MaxSeatUp=0.05
+MaxSeatDown=-0.02 
+FrontWheelsInCockpit=1
+FirstPersonSteeringAnimation=FPDriver_SRT10_Steering.FXM
+FirstPersonShiftAnimation=FPDriver_SRT10_Shifting.FXM
+ExternalDriverPosition=(0.391, 0.201, 0.505)
+FirstPersonDriverPosition=(0.0, 0.0, 0.0)
+SuspensionInCockpit=1
+SteeringWheelAxis=(0.0,0.1,1.0)
+AcceleratorPedalPosition=(0.27, 0.249, -0.179)
+BrakePedalPosition=(0.419, 0.311, -0.164)
+ClutchPedalPosition=(0.529, 0.239, -0.197)
+LeftFootBrake=0
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+Display1RPMBars=40
+Display1RPMBarsRange=(1000,9000)
+Display1RPMLights=5
+Display1RPMLightsRange=(5500,7500)
+Display1SessionPractice=(376,36)
+Display1SessionWarmup=(376,23)
+Display1SessionRace=(376,10)
+Display1FuelHeadingParams=LARGE,LEFT
+Display1FuelHeadingPos=(256,145)
+Display1FuelParams=MEDIUM,RIGHT
+Display1FuelPos=(296,187)
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(180,65)
+Display1SpeedParams=LARGE,RIGHT
+Display1SpeedPos=(235,110)
+Display1GearParams=SMALL,CENTER
+Display1GearPos=(26,15)
+Display1LapTimeHeadingParams=LARGE,LEFT
+Display1LapTimeHeadingPos=(270,65)
+Display1LapTImeParams=LARGE,RIGHT
+Display1LapTimePos=(465,110)
+
+Display1ModesPos=(14,0) 
+//257
+
+SpeedometerRange=(10.0, 238, 490, 210)
+SpeedometerNeedle=(63.0, 63.0, 10.0, 120.0)
+
+TachometerRange=(1000, 9000, 530, 220)
+TachometerNeedle=(188.0, 63.0, 10.0, 114.0
+// 160
+FuelVolumeRange=(0.0, 160, 400, 180)
+FuelVolumeNeedle=(410.0, 46.0, 6.0, 70.0)
+
+//1st person bone markers
+
+
+Exhausts=2 // number of outlets, 0-4
+ExhaustAmount=0.11 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.9, -0.2, 0.7) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(1.2, -0.1, 1.05)
+Exhaust2=(-0.9, -0.2, 0.7)
+ExhaustVel2=(-1.2, -0.1, 1.05)

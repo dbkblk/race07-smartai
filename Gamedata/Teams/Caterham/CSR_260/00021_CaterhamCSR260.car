@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00021
+Team="Team RaceSim Central"
+GenString=1
+Driver1="Gerard Top"
+
+ComparativeTime=104

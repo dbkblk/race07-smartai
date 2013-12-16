@@ -1,0 +1,11 @@
+include=..\A4.inccar
+
+GenString=1
+
+Number=00014
+Team="KMS"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tommy Kristoffersson 008"
+
+
+ComparativeTime=104

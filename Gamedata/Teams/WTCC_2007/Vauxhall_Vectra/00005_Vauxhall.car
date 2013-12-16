@@ -1,0 +1,9 @@
+include=Vauxhall.inccar
+
+GenString=1
+
+Number=00005
+Team="VX Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Fabrizio Giovanardi 06"
+ComparativeTime=104

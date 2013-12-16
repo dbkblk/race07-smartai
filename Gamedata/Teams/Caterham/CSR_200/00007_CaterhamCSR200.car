@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00007
+Team="Transparance"
+GenString=1
+Driver1="Erik van Leeuwen"
+
+ComparativeTime=104

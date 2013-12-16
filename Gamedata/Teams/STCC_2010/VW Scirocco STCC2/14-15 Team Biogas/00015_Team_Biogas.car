@@ -1,0 +1,7 @@
+include=..\VW_Scirocco_STCC2.inccar
+Number=00015
+Team="Team Biogas.se"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Patrik Olsson 010"
+
+FactoryWeight=0.6

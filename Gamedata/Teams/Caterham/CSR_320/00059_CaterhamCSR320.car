@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00059
+Team="Pedal To The Metal Racing Team"
+GenString=1
+Driver1="Alexander Osen"
+
+ComparativeTime=104

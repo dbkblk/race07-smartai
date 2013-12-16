@@ -1,0 +1,13 @@
+include=..\Sunred.inccar
+
+GenString=1
+
+Number=00023
+Team="Hype Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Joakim Langberg"
+
+
+
+
+ComparativeTime=104

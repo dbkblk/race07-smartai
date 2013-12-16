@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00051
+Team="Team LSD"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Arturo Llobell"
+
+FactoryWeight=0.6

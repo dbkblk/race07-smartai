@@ -1,0 +1,7 @@
+include=..\Chevrolet_Cruze_STCC2.inccar
+Number=00017
+Team="Chevrolet Motorsport Sweden"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Viktor Hallrup 010"
+
+FactoryWeight=0.6

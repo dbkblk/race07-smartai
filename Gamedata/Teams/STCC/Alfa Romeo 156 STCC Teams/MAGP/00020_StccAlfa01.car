@@ -1,0 +1,10 @@
+Include=..\Alfa_Romeo_156_Stcc.inccar
+
+GenString=1
+
+Number=00020
+Team="MA:GP"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Mattias Andersson 008"
+
+FactoryWeight=0.1

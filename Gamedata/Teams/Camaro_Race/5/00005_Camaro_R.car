@@ -1,0 +1,6 @@
+include=..\Camaro_R.inccar
+Number=00005
+Team="Team DTS"
+PitGroup=""
+Driver1="Brendan Wilkin"
+FactoryWeight=0.6

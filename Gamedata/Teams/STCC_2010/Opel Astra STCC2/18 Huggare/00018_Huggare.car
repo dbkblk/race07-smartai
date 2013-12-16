@@ -1,0 +1,7 @@
+include=..\Opel_Astra_STCC2.inccar
+Number=00018
+Team="Huggare"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Viktor Huggare 010"
+
+FactoryWeight=0.6

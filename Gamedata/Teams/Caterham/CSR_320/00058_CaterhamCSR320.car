@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00058
+Team="GTN Drivers Club"
+GenString=1
+Driver1="Andrea Piccini"
+
+ComparativeTime=104

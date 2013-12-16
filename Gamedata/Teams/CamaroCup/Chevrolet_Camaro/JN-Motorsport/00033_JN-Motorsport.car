@@ -1,0 +1,11 @@
+include=..\Camaro.inccar
+
+GenString=1
+
+Number=00033
+Team="JN-Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jonas Nilsson 08"
+
+
+ComparativeTime=104

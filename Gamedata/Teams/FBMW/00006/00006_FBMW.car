@@ -1,0 +1,9 @@
+include=..\2006_FBMW_FB02.inccar
+
+GenString=1
+Number=00006
+Team="Williams BMW"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Giovanni Tifosi"
+ComparativeTime=104
+

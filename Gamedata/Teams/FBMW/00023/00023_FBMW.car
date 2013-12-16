@@ -1,0 +1,8 @@
+include=..\2006_FBMW_FB02.inccar
+
+GenString=1
+Number=00023
+Team="Style Benetton"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Dan Gemwall"
+ComparativeTime=104

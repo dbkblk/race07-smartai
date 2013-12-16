@@ -1,0 +1,11 @@
+include=..\Camaro_Generation_4.inccar
+
+GenString=1
+
+Number=00057
+Team="Svensson"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Daniel Svensson 10"
+
+
+ComparativeTime=104

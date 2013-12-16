@@ -1,0 +1,7 @@
+include=..\Chevrolet_Cruze_WTCC10.inccar
+Number=00008
+Team="Chevrolet"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Alain Menu 10"
+
+FactoryWeight=0.6

@@ -1,0 +1,7 @@
+include=..\VW_Scirocco_STCC2.inccar
+Number=00041
+Team="Team Biogas.se"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Johan Kristoffersson 010"
+
+FactoryWeight=0.6

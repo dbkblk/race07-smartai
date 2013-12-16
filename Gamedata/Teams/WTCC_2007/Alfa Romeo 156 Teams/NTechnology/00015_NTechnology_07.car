@@ -1,0 +1,10 @@
+Include=..\Alfa_Romeo_156_2007.inccar
+
+GenString=1
+
+Number=00015
+Team="N.Technology"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="James Thompson 07"
+
+FactoryWeight=0.1

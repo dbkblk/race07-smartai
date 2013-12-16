@@ -1,0 +1,11 @@
+include=..\Peugeot.inccar
+
+GenString=1
+
+Number=00021
+Team="IPS Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Johan Stureson 008"
+
+
+ComparativeTime=104

@@ -1,0 +1,13 @@
+Include=..\DB9R.inccar
+
+GenString=322
+
+Number=00009
+Team="KW Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tiff Needell"
+
+
+//Belltech, LSD, ST Suspensions
+
+FactoryWeight=0.0

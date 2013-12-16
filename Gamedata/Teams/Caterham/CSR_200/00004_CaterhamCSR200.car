@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00004
+Team="Syncro Racing"
+GenString=1
+Driver1="Derek Warwick"
+
+ComparativeTime=104

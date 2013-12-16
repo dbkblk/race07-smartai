@@ -1,0 +1,12 @@
+include=..\2008_Chevrolet.inccar
+
+GenString=1
+
+Number=00007
+Team="Chevrolet"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Robert Huff 08"
+
+FactoryWeight=0.7
+
+

@@ -1,0 +1,11 @@
+include=..\Camaro_Generation_5.inccar
+
+GenString=2
+
+Number=00021
+Team="Team 'Cash' Nilsson"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jan Nilsson 10C"
+
+
+ComparativeTime=104

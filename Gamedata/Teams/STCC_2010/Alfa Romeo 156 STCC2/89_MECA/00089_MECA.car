@@ -1,0 +1,10 @@
+Include=..\Alfa_Romeo_156_Stcc2.inccar
+
+GenString=1
+
+Number=00089
+Team="MECA"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Claes Hoffsten 010"
+
+FactoryWeight=0.1

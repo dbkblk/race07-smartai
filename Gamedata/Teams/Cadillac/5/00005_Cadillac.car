@@ -1,0 +1,7 @@
+include=..\Cadillac.inccar
+Number=00005
+Team="Thunder Gray"
+PitGroup=""
+Driver1="Gerard Top"
+
+FactoryWeight=0.6

@@ -1,0 +1,13 @@
+include=..\BMW_Z4.inccar
+
+GenString=3
+
+Number=00054
+Team="Dell Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Renato Simioni"
+
+
+//Autosport.com, KW, Raadzaak
+
+ComparativeTime=104

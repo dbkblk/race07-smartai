@@ -1,0 +1,100 @@
+Description="Pagani Zonda R"
+Engine="ENGINE_UPDATE_ME"
+Manufacturer="Pagani"
+classes="FULL,PRODUCTION_CARS"
+classID=22
+ComparativeTime=104
+Make="Pagani"
+Model="Pagani Zonda R"
+ModelID=196
+
+Horsepower=750
+HorsepowerRpm=7500
+Torque=710
+TorqueRpm=5700
+Weight=1070
+RearWheelDrive=1
+Transmission=6_SPD_SEQ
+EngineVolume=5987
+Valves=48
+Engine=V12
+
+HDVehicle=Zonda.hdc
+Graphics=Zonda.cas
+Sounds=Zonda.aud
+HeadPhysics=headphysics.hed
+CameraFile=Zonda.cam
+
+Eyepoint=(0.32, 0.9, -0.30)    
+CameraTarget=(0.000, 1.0, 0.00)
+MaxSeatRear=0.04
+MaxSeatFront=-0.04
+MaxSeatUp=0.04
+MaxSeatDown=-0.03 
+FrontWheelsInCockpit=1
+FirstPersonSteeringAnimation=FPDRIVER_Zonda_Steer.FXM
+FirstPersonShiftAnimation=None
+ExternalDriverPosition=(0.323, 0.169, -0.311)
+FirstPersonDriverPosition=(0.0, 0.0, 0.0)
+SuspensionInCockpit=1
+SteeringWheelAxis=(0.0,0.1,1.0)
+AcceleratorPedalPosition=(0.156, 0.295, -0.787)
+BrakePedalPosition=(0.243, 0.340, -0.826)
+ClutchPedalPosition=(0.360, 0.245, -0.908)
+//ShiftStickPosition=(0.0, 0.0, 0.0)
+SteeringWheelType=1
+LeftFootBrake=0
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+
+// displays
+
+DigitalDisplays=2
+Display1Instance=MOTEC
+Display1SessionPractice=(70,150)
+Display1SessionWarmup=(70,137)
+Display1SessionRace=(70,124)
+Display1FuelParams=LARGE,LEFT
+Display1FuelPos=(70,55)
+Display1SpeedParams=LARGE,CENTER
+Display1SpeedPos=(280,55)
+Display1GearParams=LARGE,RIGHT
+Display1GearPos=(480,55)
+Display1LapTImeParams=LARGE,RIGHT
+Display1LapTimePos=(480,130)
+Display1ModesPos=(14,25) 
+Display1RPMLights=5
+Display1RPMLightsRange=(6500,8200)
+
+
+//Display Analog
+
+TachometerRange=(4000, 10000, 180, 405)
+TachometerNeedle=(63.0,63.0,10.0, 114.0)
+
+OilPressureRange=(0.00, 100, 55.0, 305.0)
+OilPressureNeedle=(473.0,86.0,8.0, 77.0) 
+
+WaterTempRange=(104.0, 248.0, 225.0, 495.0)
+WaterTempNeedle=(471.0,22.0, 5.0, 40.0)
+
+FuelVolumeRange=(0.0, 100.0, 403, 320)
+FuelVolumeNeedle=(410.0,54.0,8.0, 74.0)
+
+OilTempRange=(104.0, 284.0, 225.0, 495.0)
+OilTempNeedle=(399.0,100.0, 5.0, 52.0)
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.08 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.0, 0.20, 2.35) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.0, 0.26, 2.8)
+
+
+// Max coords for one of the two exhaust (symetrical)
+// X= -6.125 (left/right)
+// Y= 241.662 (lenght) 10 cm behind roughly.
+// Z= 29.354 (up/down)
+// Cant really use the Max coords as an exact messure, but only for guiding. You have to tweak away on them, especially on the height, that doesnt fit at all, when using max coords.
+// Use between 0.1 and 0.13 in ExhaustAmount, vary between car models.
+// Have the 'Vel' Z coord between 0.35 and 0.45 higher than the emitter positions Z coord

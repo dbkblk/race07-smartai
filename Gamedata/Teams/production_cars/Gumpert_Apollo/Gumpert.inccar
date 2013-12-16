@@ -1,0 +1,97 @@
+Make="Gumpert"
+Description="Gumpert Apollo"
+Engine="Gumpert Apollo"
+Manufacturer="Gumpert"
+classes="FULL,PRODUCTION_CARS"
+classID=22
+Model="Gumpert Apollo"
+ModelID=123
+
+Horsepower=650
+HorsepowerRpm=6000
+Torque=850
+TorqueRpm=4500
+Weight=1120
+RearWheelDrive=1
+Transmission=6_SPD_SEQ
+EngineVolume=4163
+Valves=40
+Engine=V8
+
+HDVehicle=2008_Gumpert_Apollo.hdc
+Graphics=gumpert.cas
+Sounds=gumpert.aud
+HeadPhysics=headphysics.hed
+CameraFile=gumpert.cam
+
+Eyepoint=(0.273, 0.9, -0.1)    
+CameraTarget=(0.000, 1.0, 0.00)
+MaxSeatRear=0.01
+MaxSeatFront=-0.08
+MaxSeatUp=0.04
+MaxSeatDown=-0.04 
+FrontWheelsInCockpit=1
+FirstPersonSteeringAnimation=FPDriver_GumpertProd_Steering.FXM
+FirstPersonShiftAnimation=FPDriver_GumpertProd_Shifting.FXM
+ExternalDriverPosition=(0.275, 0.133, -0.082)
+FirstPersonDriverPosition=(0.0, 0.0, 0.0)
+SuspensionInCockpit=1
+SteeringWheelAxis=(0.0,0.2,0.9)
+AcceleratorPedalPosition=(0.159, 0.268, -0.683)
+BrakePedalPosition=(0.263, 0.274, -0.707)
+ClutchPedalPosition=(0.366, 0.237, -0.691)
+LeftFootBrake=0
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+Display1RPMBars=40
+Display1RPMBarsRange=(1000,9000)
+Display1RPMLights=5
+Display1RPMLightsRange=(5500,7500)
+Display1SessionPractice=(376,36)
+Display1SessionWarmup=(376,23)
+Display1SessionRace=(376,10)
+Display1FuelHeadingParams=LARGE,LEFT
+Display1FuelHeadingPos=(256,145)
+Display1FuelParams=MEDIUM,RIGHT
+Display1FuelPos=(296,187)
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(180,65)
+Display1SpeedParams=LARGE,RIGHT
+Display1SpeedPos=(235,110)
+Display1GearParams=SMALL,CENTER
+Display1GearPos=(26,15)
+Display1LapTimeHeadingParams=LARGE,LEFT
+Display1LapTimeHeadingPos=(270,65)
+Display1LapTImeParams=LARGE,RIGHT
+Display1LapTimePos=(465,110)
+
+Display1ModesPos=(14,0)
+
+ 
+//Display Analog
+
+SpeedometerRange=(10.0, 297, 490, 290)
+SpeedometerNeedle=(63.0, 63.0, 10.0, 114.0)
+
+TachometerRange=(1000, 9000, 500, 200)
+TachometerNeedle=(188.0, 63.0, 10.0, 117.0
+
+FuelVolumeRange=(0.0, 70, 435, 280)
+FuelVolumeNeedle=(410, 38, 8.0, 60)
+
+WaterTempRange=(104.0, 248.0, 403.0, 320.0)
+WaterTempNeedle=(471, 88, 8.0, 70)
+
+
+Exhausts=2 // number of outlets, 0-4
+ExhaustAmount=0.11 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.061, -0.1, 2.0) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.061, -0.1, 2.50)
+Exhaust2=(-0.061, -0.1, 2.0)
+ExhaustVel2=(-0.061, -0.1, 2.50)

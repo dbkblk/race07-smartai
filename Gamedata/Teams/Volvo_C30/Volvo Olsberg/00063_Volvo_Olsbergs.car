@@ -1,0 +1,11 @@
+include=..\2008_C30.inccar
+
+GenString=1
+
+Number=00063
+Team="Volvo Olsbergs Green Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Robert Dahlgren 08"
+
+
+ComparativeTime=104

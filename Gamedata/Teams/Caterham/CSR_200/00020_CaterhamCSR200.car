@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00020
+Team="PJ Special Racing Team"
+GenString=1
+Driver1="Simon James"
+
+ComparativeTime=104

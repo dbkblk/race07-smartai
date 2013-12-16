@@ -1,0 +1,6 @@
+include=..\Camaro_R.inccar
+Number=00001
+Team="Team Belltech"
+PitGroup=""
+Driver1="Peter Kroon"
+FactoryWeight=0.6

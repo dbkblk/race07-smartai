@@ -1,0 +1,6 @@
+include=..\Cadillac_R.inccar
+Number=00003
+Team="Racepak Competition"
+PitGroup=""
+Driver1="Paul Quiroga"
+FactoryWeight=0.6

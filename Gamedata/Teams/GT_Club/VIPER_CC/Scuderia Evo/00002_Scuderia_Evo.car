@@ -1,0 +1,13 @@
+include=..\VIPER_CC.inccar
+
+GenString=1
+
+Number=00002
+Team="Scuderia EVO"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Niels Tieman"
+
+
+//Get the Game, SportAutoMoto, Gigawave
+
+ComparativeTime=104

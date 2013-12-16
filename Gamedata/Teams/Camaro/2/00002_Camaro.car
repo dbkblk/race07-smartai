@@ -1,0 +1,6 @@
+include=..\Camaro.inccar
+Number=00002
+Team="Victory Red"
+PitGroup=""
+Driver1="Javier Roldan"
+FactoryWeight=0.6

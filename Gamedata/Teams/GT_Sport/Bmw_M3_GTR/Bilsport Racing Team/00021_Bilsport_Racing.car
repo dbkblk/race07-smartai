@@ -1,0 +1,11 @@
+include=..\M3.inccar
+
+GenString=1
+
+Number=00021
+Team="Bilsport Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Goran Strandh"
+
+
+ComparativeTime=104

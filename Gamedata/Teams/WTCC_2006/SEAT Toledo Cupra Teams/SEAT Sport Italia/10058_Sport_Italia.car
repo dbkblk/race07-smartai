@@ -1,0 +1,88 @@
+CameraFile=..\Toledo.cam
+HDVehicle=..\2006_Seat_Toledo_Cupra_Works.hdc
+Graphics=..\SEAT_TOLEDO_CUPRA.cas
+GenString=1
+Sounds=..\SEAT_TOLEDO_CUPRA.aud
+HeadPhysics=..\..\..\headphysics.hed
+Eyepoint=(0.317, 1.050, 0.200)
+CameraTarget=(0.000, 0.97, 0.00)
+MaxSeatRear=-0.05
+MaxSeatFront=-0.15
+MaxSeatUp=0.04
+MaxSeatDown=-0.02
+
+//Cockpit
+SteeringWheelAxis=(0.0, 0.0, 1.0)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+ExternalDriverPosition=(0.347, 0.27, -0.045)
+FirstPersonDriverPosition=(0.317, 0.053, 0.037)
+
+//1st person bone markers
+ShiftStickPosition=(0.075, 0.800, -0.285)
+     ClutchPedalPosition=(0.45, 0.35, -0.50)
+      BrakePedalPosition=(0.31, 0.35, -0.50)
+AcceleratorPedalPosition=(0.20, 0.35, -0.50)
+
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+
+Display1RPMLights=5
+Display1RPMLightsRange=(5000,8840)
+
+Display1SessionPractice=(410,141)
+Display1SessionWarmup=(410,128)
+Display1SessionRace=(410,115)
+
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(240,94)
+
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+
+Display1ModesPos=(108,20)
+Display1ModesScale=(0.81) 
+
+// Exhaust smoke
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.08 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.405, -0.14, 2.60) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.405, -0.21, 3.05)
+
+Number=10058
+Team="SEAT Sport Italia"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Roberto Colciago 06"
+Description="SEAT Toledo Cupra"
+Engine="ENGINE_UPDATE_ME"
+Manufacturer="SEAT_TOLEDO_CUPRA"
+classes="FULL,WTCC_2006"
+ComparativeTime=104
+Make="SEAT"
+Model="SEAT Toledo Cupra"
+ModelID=18
+
+Horsepower=260
+HorsepowerRpm=8500
+Torque=250
+TorqueRpm=7000
+Weight=1167
+RearWheelDrive=0
+Transmission=6_SPD_SEQ
+EngineVolume=2000
+Valves=16
+Engine=I4_ID
+FactoryWeight=1

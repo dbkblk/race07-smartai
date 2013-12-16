@@ -1,0 +1,13 @@
+include=..\Chevrolet_07.inccar
+Graphics=..\CHEVROLET_LACETTI_2_07.cas
+
+GenString=2
+
+Number=00007
+Team="Chevrolet"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Nicola Larini 07"
+
+FactoryWeight=0.5
+
+

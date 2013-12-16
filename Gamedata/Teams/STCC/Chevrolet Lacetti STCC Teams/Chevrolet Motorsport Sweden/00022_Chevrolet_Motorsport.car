@@ -1,0 +1,12 @@
+include=..\Chevrolet_Stcc.inccar
+
+GenString=2
+
+Number=00022
+Team="Chevrolet Motorsport Sweden"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Thomas Schie 008"
+
+FactoryWeight=0.7
+
+

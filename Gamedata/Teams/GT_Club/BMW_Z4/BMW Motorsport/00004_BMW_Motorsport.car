@@ -1,0 +1,13 @@
+include=..\BMW_Z4.inccar
+
+GenString=1
+
+Number=00004
+Team="BMW Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Maurice Hurkmans"
+
+
+//CASTROL
+
+ComparativeTime=104

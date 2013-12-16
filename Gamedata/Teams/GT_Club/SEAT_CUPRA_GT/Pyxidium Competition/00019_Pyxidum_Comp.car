@@ -1,0 +1,14 @@
+include=..\SEAT_CUPRA.inccar
+
+GenString=3
+
+Number=00019
+Team="Pyxidium Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Kamba Mbewe"
+
+
+//Charden, Forsberg, Navicam
+
+ComparativeTime=104
+

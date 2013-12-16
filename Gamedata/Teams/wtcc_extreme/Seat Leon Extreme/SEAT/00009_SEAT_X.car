@@ -1,0 +1,10 @@
+include=..\2008_Seat_Leon_Extreme.inccar
+
+Genstring=1
+
+Number=00009
+Team="SEAT Sport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jordi Gene 08"
+
+FactoryWeight=0.8

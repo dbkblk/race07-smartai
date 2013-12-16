@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00054
+Team="Syncro Racing"
+GenString=1
+Driver1="Shaun Cole"
+
+ComparativeTime=104

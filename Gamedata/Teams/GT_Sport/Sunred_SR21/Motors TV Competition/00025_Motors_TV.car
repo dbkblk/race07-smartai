@@ -1,0 +1,13 @@
+include=..\Sunred.inccar
+
+GenString=1
+
+Number=00025
+Team="Motors TV Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Richard Andersson"
+
+
+//OKA Racing, Raadzaak, Bilsport
+
+ComparativeTime=104

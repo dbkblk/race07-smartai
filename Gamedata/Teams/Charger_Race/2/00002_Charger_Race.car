@@ -1,0 +1,6 @@
+include=..\Charger_Race.inccar
+Number=00002
+Team="KW Competition"
+PitGroup=""
+Driver1="Brian Martin"
+FactoryWeight=0.6

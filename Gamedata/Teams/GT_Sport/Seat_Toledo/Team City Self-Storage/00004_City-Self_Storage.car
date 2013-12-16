@@ -1,0 +1,13 @@
+include=..\Toledo.inccar
+
+GenString=2
+
+Number=00004
+Team="Team City Self-Storage"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Donald Goldsmith"
+
+
+//MotorsTV, Puma, Sutton Images
+
+ComparativeTime=104

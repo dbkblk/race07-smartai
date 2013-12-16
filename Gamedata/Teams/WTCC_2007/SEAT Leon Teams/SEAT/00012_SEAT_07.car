@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_2007_4.inccar
+Number=00012
+Team="SEAT"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Yvan Muller 07"
+
+FactoryWeight=0.1

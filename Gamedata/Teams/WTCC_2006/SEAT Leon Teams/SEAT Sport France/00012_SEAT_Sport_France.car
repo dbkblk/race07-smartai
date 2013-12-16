@@ -1,0 +1,90 @@
+CameraFile=..\Seat_Leon.cam
+HDVehicle=..\2006_Seat_Leon_Works.hdc
+Graphics=..\SEAT_LEON.cas
+GenString=1
+Sounds=..\SEAT_LEON_3.aud
+HeadPhysics=..\..\..\headphysics.hed
+Eyepoint=(0.351, 1.100, 0.330)
+CameraTarget=(0.000, 1.0, 0.000)
+MaxSeatRear=0.03
+MaxSeatFront=-0.12
+MaxSeatUp=0.04
+MaxSeatDown=-0.0
+
+//Cockpit
+SteeringWheelAxis=(0.0,0.098,0.995)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+ExternalDriverPosition=(0.347, 0.332, 0.362)
+FirstPersonDriverPosition=(0.349, 0.161, 0.250)
+
+//1st person bone markers
+ShiftStickPosition=(0.07, 0.87, -0.10)
+ClutchPedalPosition=(0.48, 0.44, -0.29)
+BrakePedalPosition=(0.37, 0.44, -0.29)
+AcceleratorPedalPosition=(0.27, 0.44, -0.29)
+
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+
+Display1RPMLights=5
+Display1RPMLightsRange=(5000,8840)
+
+Display1SessionPractice=(410,141)
+Display1SessionWarmup=(410,128)
+Display1SessionRace=(410,115)
+
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(240,94)
+
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+
+Display1ModesPos=(108,20)
+Display1ModesScale=(0.81) 
+
+// Exhaust smoke
+
+Exhausts=2 // number of outlets, 0-4
+ExhaustAmount=0.03 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.375, -0.23, 2.35) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.405, -0.20, 3.10)
+Exhaust2=(-0.375, -0.23, 2.35) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel2=(-0.405, -0.20, 3.10)
+
+Number=00012
+Team="SEAT Sport France"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Yvan Muller 06"
+Description="SEAT Leon"
+Engine="ENGINE_UPDATE_ME"
+Manufacturer="SEAT_LEON"
+classes="FULL,WTCC_2006"
+ComparativeTime=104
+Make="SEAT"
+Model="SEAT Leon"
+ModelID=17
+
+Horsepower=260
+HorsepowerRpm=8500
+Torque=250
+TorqueRpm=7000
+Weight=1140
+RearWheelDrive=0
+Transmission=6_SPD_SEQ
+EngineVolume=2000
+Valves=16
+Engine=I4_ID
+FactoryWeight=0

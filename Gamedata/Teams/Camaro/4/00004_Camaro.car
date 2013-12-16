@@ -1,0 +1,7 @@
+include=..\Camaro.inccar
+Number=00004
+Team="Cyber Gray Metallic"
+PitGroup=""
+Driver1="Clinton Parker"
+
+FactoryWeight=0.6

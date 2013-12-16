@@ -1,0 +1,13 @@
+include=..\AudiGT.inccar
+
+GenString=1
+
+Number=00036
+Team="Scuderia Bio-Fox"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Gianni Morbidelli"
+
+
+//Camozzi, SportAutoMoto, CannonBall8000
+
+ComparativeTime=104

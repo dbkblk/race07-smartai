@@ -1,0 +1,10 @@
+Include=..\Gumpert.inccar
+
+GenString=1
+
+Number=00002
+Team="Gumpert Apollo Blue"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Oliver Sartori"
+
+FactoryWeight=0.0

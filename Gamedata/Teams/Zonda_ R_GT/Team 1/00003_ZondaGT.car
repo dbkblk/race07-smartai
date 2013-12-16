@@ -1,0 +1,10 @@
+include=..\ZondaGT.inccar
+
+GenString=1
+
+Number=00003
+Team="Team KW"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Paul Metson"
+
+FactoryWeight=0.6

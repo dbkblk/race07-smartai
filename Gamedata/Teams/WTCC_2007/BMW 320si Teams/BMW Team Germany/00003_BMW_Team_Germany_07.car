@@ -1,0 +1,8 @@
+include=..\BMW_320si_07.inccar
+Number=00003
+Team="BMW Team Germany"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Augusto Farfus Jr. 07"
+
+FactoryWeight=0.3
+

@@ -1,0 +1,11 @@
+include=..\Lister.inccar
+
+GenString=3
+
+Number=00049
+Team="Lister Storm Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jonathan Jansson"
+
+
+ComparativeTime=104

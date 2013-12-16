@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00005
+Team="Apex Motorsport"
+GenString=1
+Driver1="Lloyd Crawford"
+
+ComparativeTime=104

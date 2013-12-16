@@ -1,0 +1,11 @@
+Include=..\C6R.inccar
+
+GenString=1
+
+Number=00001
+Team="Gigawave Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Pontus Eriksson"
+
+
+FactoryWeight=0.0

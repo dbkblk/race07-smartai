@@ -1,0 +1,11 @@
+include=..\Camaro.inccar
+
+GenString=1
+
+Number=00037
+Team="Lindum-Kongsrud Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Ole-Martin Lindum 08"
+
+
+ComparativeTime=104

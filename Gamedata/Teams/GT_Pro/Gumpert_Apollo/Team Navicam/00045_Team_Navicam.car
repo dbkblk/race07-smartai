@@ -1,0 +1,13 @@
+include=..\Gumpert_GT.inccar
+
+GenString=1
+
+Number=00045
+Team="Team Navicam"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Alexander Osen"
+
+
+//Autosport Magazine, BenQ, Matrox TripleHead2Go
+
+ComparativeTime=104

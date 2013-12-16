@@ -1,0 +1,10 @@
+Include=..\Gumpert.inccar
+
+GenString=1
+
+Number=00004
+Team="Gumpert Apollo Red"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Mike Channell"
+
+FactoryWeight=0.0

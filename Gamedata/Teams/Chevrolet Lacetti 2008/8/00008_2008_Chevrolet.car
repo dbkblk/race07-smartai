@@ -1,0 +1,12 @@
+include=..\2008_Chevrolet.inccar
+
+GenString=1
+
+Number=00008
+Team="Chevrolet"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Alain Menu 08"
+
+FactoryWeight=0.7
+
+

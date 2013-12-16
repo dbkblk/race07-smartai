@@ -1,0 +1,11 @@
+include=..\Camaro.inccar
+
+GenString=1
+
+Number=00069
+Team="Bryntesson Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Anders Brofalk 08"
+
+
+ComparativeTime=104

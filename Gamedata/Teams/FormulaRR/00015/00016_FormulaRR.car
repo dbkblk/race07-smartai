@@ -1,0 +1,9 @@
+include=..\FormulaRR.inccar
+
+GenString=1
+
+Number=00016
+Team="Sauber"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Sergio Perez"
+ComparativeTime=104

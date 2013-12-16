@@ -1,0 +1,7 @@
+include=..\2008_Golden_Motors.inccar
+Number=00055
+Driver1="Andrey Smetsky 08"
+GenString=1
+Team="Golden Motors"
+PitGroup="PITGROUP_UPDATE_ME"
+

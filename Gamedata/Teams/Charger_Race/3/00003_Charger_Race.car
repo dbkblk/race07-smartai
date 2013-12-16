@@ -1,0 +1,6 @@
+include=..\Charger_Race.inccar
+Number=00003
+Team="Motor16 Racing"
+PitGroup=""
+Driver1="Dan Charles"
+FactoryWeight=0.6

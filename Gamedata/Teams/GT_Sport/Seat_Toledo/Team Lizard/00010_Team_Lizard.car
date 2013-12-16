@@ -1,0 +1,13 @@
+include=..\Toledo.inccar
+
+GenString=1
+
+Number=00010
+Team="Team Lizard"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jan Johansson"
+
+
+//Motortorget, OKA Racing, Transfer Studio
+
+ComparativeTime=104

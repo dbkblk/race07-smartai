@@ -1,0 +1,92 @@
+CameraFIle=..\2006_Alfa_Romeo_156_GTA.cam
+HDVehicle=..\2006_Alfa_Romeo_156_GTA.hdc
+Graphics=..\Alfa_Romeo_156_GTA.cas
+GenString=1
+Sounds=..\ALFA_ROMEO_156_GTA.aud
+HeadPhysics=..\..\..\headphysics.hed
+MaxSeatRear=0.03
+MaxSeatFront=-0.12
+MaxSeatUp=0.04
+MaxSeatDown=-0.03
+
+//Cockpit
+
+Eyepoint=(0.363, 1.1200, 0.237)
+CameraTarget=(0.000, 1.0, 0.000)
+SteeringWheelAxis=(0.0,0.098,0.995)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+ExternalDriverPosition=(0.364, 0.294, 0.210)
+FirstPersonDriverPosition=(0.361, 0.100, 0.123)
+
+//1st person bone markers
+
+ShiftStickPosition=(0.025, 0.782, -0.195)
+     ClutchPedalPosition=(0.420, 0.374, -0.494)
+      BrakePedalPosition=(0.327, 0.374, -0.494)
+AcceleratorPedalPosition=(0.240, 0.374, -0.494)
+
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+
+Display1RPMLights=5
+Display1RPMLightsRange=(5000,8840)
+
+Display1SessionPractice=(410,141)
+Display1SessionWarmup=(410,128)
+Display1SessionRace=(410,115)
+
+
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(240,94)
+
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+
+Display1ModesPos=(50,20)
+Display1ModesScale(0.97) 
+
+// Exhaust smoke
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.05 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.515, -0.13, 2.55) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.515, -0.05, 2.90)
+
+
+Number=00053
+Team="Scuderla La Torre"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Riccardo Romagnoli 06"
+Description="Alfa Romeo 156 Gta"
+Engine="ENGINE_UPDATE_ME"
+Manufacturer="ALFA_ROMEO_156_GTA"
+classes="FULL,WTCC_2006"
+ComparativeTime=104
+Make="Alfa Romeo"
+Model="Alfa Romeo 156 Gta"
+ModelID=10
+
+Horsepower=275
+HorsepowerRpm=8450
+Torque=260
+TorqueRpm=7000
+Weight=1140
+RearWheelDrive=0
+Transmission=6_SPD_SEQ
+EngineVolume=1998
+Valves=16
+Engine=I4_ID
+FactoryWeight=1

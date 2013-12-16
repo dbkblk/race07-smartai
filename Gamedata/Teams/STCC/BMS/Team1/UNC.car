@@ -1,0 +1,11 @@
+include=..\UNC.inccar
+
+GenString=1
+
+Number=00090
+Team="Brovallen Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tobias Johansson 008"
+
+
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00060
+Team="Team SimBin"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Fabio Leimer"
+
+FactoryWeight=0.6

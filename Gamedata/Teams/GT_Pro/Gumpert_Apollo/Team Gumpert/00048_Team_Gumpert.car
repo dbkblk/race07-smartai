@@ -1,0 +1,12 @@
+include=..\Gumpert_GT.inccar
+
+GenString=1
+
+Number=00048
+Team="Team Gumpert"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="John Wikberg"
+
+//Apollo
+
+ComparativeTime=104

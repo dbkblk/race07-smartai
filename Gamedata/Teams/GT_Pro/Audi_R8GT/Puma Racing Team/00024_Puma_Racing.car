@@ -1,0 +1,14 @@
+include=..\AudiGT.inccar
+
+GenString=1
+
+Number=00024
+Team="Puma Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Marco Berta"
+
+
+
+//Dell, Sutton Images, SportAutoMoto
+
+ComparativeTime=104

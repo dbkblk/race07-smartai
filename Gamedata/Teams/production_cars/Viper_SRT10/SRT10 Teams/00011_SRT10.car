@@ -1,0 +1,9 @@
+include=../SRT10.inccar
+
+GenString=1
+
+Number=00011
+Team="Dodge Viper SRT10 Viper Black"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Kristian Ghedina"
+ComparativeTime=104

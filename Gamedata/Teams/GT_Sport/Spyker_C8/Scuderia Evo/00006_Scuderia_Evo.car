@@ -1,0 +1,13 @@
+include=..\Spyker.inccar
+
+GenString=3
+
+Number=00006
+Team="Scuderia EVO"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Micke Chu"
+
+
+//Get the Game, Logitech, Cannonball8000
+
+ComparativeTime=104

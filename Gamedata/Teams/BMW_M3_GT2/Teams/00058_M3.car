@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00058
+Team="Team DTS2"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Frankie Provenzano"
+
+FactoryWeight=0.6

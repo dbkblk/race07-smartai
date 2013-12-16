@@ -1,0 +1,7 @@
+include=..\Toyota_Corolla_STCC2.inccar
+Number=00024
+Team="Christiansen"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Niels Christiansen 010"
+
+FactoryWeight=0.6

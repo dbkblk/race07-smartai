@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00053
+Team="Team GO GREEN"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Sergey Afanasiev"
+
+FactoryWeight=0.6

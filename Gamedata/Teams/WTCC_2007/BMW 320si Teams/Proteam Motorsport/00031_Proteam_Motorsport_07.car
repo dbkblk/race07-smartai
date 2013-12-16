@@ -1,0 +1,7 @@
+include=..\BMW_320si_07.inccar
+Number=00031
+Team="Proteam Motorsport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Sergio Hernandez 07"
+
+FactoryWeight=1.2

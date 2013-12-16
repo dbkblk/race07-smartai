@@ -1,0 +1,13 @@
+include=..\Mosler.inccar
+
+GenString=3
+
+Number=00035
+Team="SkyQuest Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Lorna Saxin"
+
+
+//Forsberg, KW, Lizard
+
+ComparativeTime=104

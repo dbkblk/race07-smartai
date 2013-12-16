@@ -1,0 +1,7 @@
+include=..\BMW_320si_Stcc2.inccar
+Number=00096
+Team="Ebbesson Motorsport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Andreas Ebbesson 010"
+
+FactoryWeight=0.6

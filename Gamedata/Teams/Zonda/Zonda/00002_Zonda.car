@@ -1,0 +1,10 @@
+include=..\Zonda.inccar
+
+GenString=1
+
+Number=00002
+Team="Team Zonda"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Mauricio Delgado"
+
+FactoryWeight=0.6

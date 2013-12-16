@@ -1,0 +1,11 @@
+Include=..\Audi.inccar
+
+GenString=1
+
+Number=00021
+Team="Audi R8 Red"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Martin Donnelly"
+
+
+FactoryWeight=0.0

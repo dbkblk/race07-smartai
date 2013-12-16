@@ -1,0 +1,7 @@
+include=..\BMW_320si_2009_WTCC10.inccar
+Number=00010
+Team="BMW Team RBM"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Augusto Farfus Jr. 10"
+
+FactoryWeight=0.6

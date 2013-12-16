@@ -1,0 +1,6 @@
+include=..\Challenger_Race.inccar
+Number=00003
+Team="KW Competition"
+PitGroup=""
+Driver1="Oliver Sartori"
+FactoryWeight=0.6

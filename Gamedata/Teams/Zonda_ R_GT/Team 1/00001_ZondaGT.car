@@ -1,0 +1,10 @@
+include=..\ZondaGT.inccar
+
+GenString=1
+
+Number=00001
+Team="Team Zonda"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Brian Martin"
+
+FactoryWeight=0.6

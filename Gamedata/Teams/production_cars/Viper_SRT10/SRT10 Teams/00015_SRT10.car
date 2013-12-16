@@ -1,0 +1,9 @@
+include=../SRT10.inccar
+
+GenString=3
+
+Number=00015
+Team="Dodge Viper SRT10 Viper Very Orange"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Gianni Giudici"
+ComparativeTime=104

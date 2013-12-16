@@ -1,0 +1,6 @@
+include=..\Charger_Race.inccar
+Number=00005
+Team="Toxic Drift"
+PitGroup=""
+Driver1="Samuel Hübinette"
+FactoryWeight=0.6

@@ -1,0 +1,11 @@
+include=..\Sunred.inccar
+
+GenString=3
+
+Number=00031
+Team="Escuderia SunRed"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Bob Simmerman"
+
+
+ComparativeTime=104

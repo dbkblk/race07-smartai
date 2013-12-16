@@ -1,0 +1,11 @@
+include=..\Saleen.inccar
+
+GenString=1
+
+Number=00003
+Team="Belltech Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Christopher Kristiansson"
+
+
+ComparativeTime=104

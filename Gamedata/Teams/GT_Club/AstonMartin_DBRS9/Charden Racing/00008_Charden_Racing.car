@@ -1,0 +1,13 @@
+include=..\AstonMartin_DBRS9.inccar
+
+GenString=1
+
+Number=00008
+Team="Charden Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Charlie Gunnarsson"
+
+
+//BenQ, Raadzaak, Bilsport
+
+ComparativeTime=104

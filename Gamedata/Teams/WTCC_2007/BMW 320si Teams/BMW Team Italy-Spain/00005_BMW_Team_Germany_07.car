@@ -1,0 +1,8 @@
+include=..\BMW_320si_07.inccar
+Number=00005
+Team="BMW Team Italy-Spain"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Felix Porteiro 07"
+
+FactoryWeight=1.0
+

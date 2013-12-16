@@ -1,0 +1,10 @@
+Include=..\Gumpert.inccar
+
+GenString=3
+
+Number=00005
+Team="Gumpert Apollo White"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Emanuele Pirro"
+
+FactoryWeight=0.0

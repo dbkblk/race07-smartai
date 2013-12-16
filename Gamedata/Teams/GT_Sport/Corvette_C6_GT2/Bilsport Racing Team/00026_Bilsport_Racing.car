@@ -1,0 +1,11 @@
+include=..\Corvette_C6_GT2.inccar
+
+GenString=3
+
+Number=00026
+Team="Bilsport Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jessica Stark"
+
+
+ComparativeTime=104

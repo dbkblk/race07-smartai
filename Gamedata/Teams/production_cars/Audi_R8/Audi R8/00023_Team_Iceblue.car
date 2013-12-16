@@ -1,0 +1,11 @@
+Include=..\Audi.inccar
+
+GenString=1
+
+Number=00023
+Team="Audi R8 Iceblue"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Dave Gardner"
+
+
+FactoryWeight=0.0

@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_2008.inccar
+Number=00010
+Team="SEAT Sport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Rickard Rydell 08"
+
+FactoryWeight=0.9

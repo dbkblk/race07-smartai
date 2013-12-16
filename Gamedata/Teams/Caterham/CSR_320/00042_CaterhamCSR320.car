@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00042
+Team="HK Get Real Racing Team"
+GenString=1
+Driver1="Thierry Boutsen"
+
+ComparativeTime=104

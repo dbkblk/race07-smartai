@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00031
+Team="Desafio Virtual Racing Team"
+GenString=1
+Driver1="Mike Roe"
+
+ComparativeTime=104

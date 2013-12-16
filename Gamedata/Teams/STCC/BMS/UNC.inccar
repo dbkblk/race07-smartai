@@ -1,0 +1,85 @@
+Make="Mercedes"
+Description="Mercedes C200"
+Engine="Gemüse"
+Manufacturer="Mercedes"
+classes="FULL,STCC"
+classID=30
+Model="Mercedes C200"
+ModelID=163
+
+Horsepower=283
+HorsepowerRpm=8500
+Torque=248
+TorqueRpm=7000
+Weight=1140
+RearWheelDrive=1
+Transmission=6_SPD_SEQ
+EngineVolume=1997
+Valves=16
+Engine=I4_ID
+
+HDVehicle=UNC.hdc
+Graphics=UNC.cas
+Sounds=UNC.aud
+HeadPhysics=headphysics.hed
+CameraFile=UNC.cam
+
+Eyepoint=(0.364, 1.03, 0.11)    
+CameraTarget=(0.000, 1.0, 0.00)
+MaxSeatRear=0.04
+MaxSeatFront=-0.04
+MaxSeatUp=0.04
+MaxSeatDown=-0.04 
+FrontWheelsInCockpit=1
+ExternalDriverPosition=(0.305, 0.235, 0.082)
+FirstPersonDriverPosition=(0.364, 0.056, 0.066)
+SuspensionInCockpit=1
+SteeringWheelAxis=(0.0,0.2,1.0)
+AcceleratorPedalPosition=(0.329, 0.439, -0.449)
+BrakePedalPosition=(0.424, 0.453, -0.429)
+ClutchPedalPosition=(0.539, 0.418, -0.455)
+ShiftStickPosition=(0.084, 0.738, -0.143)
+SteeringWheelType=1
+LeftFootBrake=0
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+
+// displays
+
+DigitalDisplays=2
+Display1Instance=MOTEC
+Display1SessionPractice=(70,150)
+Display1SessionWarmup=(70,137)
+Display1SessionRace=(70,124)
+Display1FuelParams=LARGE,LEFT
+Display1FuelPos=(70,55)
+Display1SpeedParams=LARGE,CENTER
+Display1SpeedPos=(280,55)
+Display1GearParams=LARGE,RIGHT
+Display1GearPos=(480,55)
+Display1LapTImeParams=LARGE,RIGHT
+Display1LapTimePos=(480,130)
+Display1ModesPos=(14,10) 
+Display1RPMLights=5
+Display1RPMLightsRange=(5800,8800)
+
+//Display Analog
+
+OilPressureRange=(0.0, 62.72, 510.0, 260.0)
+OilPressureNeedle=(312, 63, 12, 100)
+
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.08 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.46, -0.2, 2.45) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.46, -0.22, 2.75)
+
+
+// Max coords for one of the two exhaust (symetrical)
+// X= -6.125 (left/right)
+// Y= 241.662 (lenght) 10 cm behind roughly.
+// Z= 29.354 (up/down)
+// Cant really use the Max coords as an exact messure, but only for guiding. You have to tweak away on them, especially on the height, that doesnt fit at all, when using max coords.
+// Use between 0.1 and 0.13 in ExhaustAmount, vary between car models.
+// Have the 'Vel' Z coord between 0.35 and 0.45 higher than the emitter positions Z coord

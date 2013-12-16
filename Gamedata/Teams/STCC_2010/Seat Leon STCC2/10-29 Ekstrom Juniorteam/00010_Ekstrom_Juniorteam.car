@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_STCC2.inccar
+Number=00010
+Team="Mattias Ekström Juniorteam"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Roger Eriksson 010"
+
+FactoryWeight=1.2

@@ -1,0 +1,9 @@
+include=..\2006_FBMW_FB02.inccar
+
+GenString=1
+Number=00007
+Team="Nvidia Play Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Markus Forsstrom"
+ComparativeTime=104
+

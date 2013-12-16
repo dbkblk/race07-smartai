@@ -1,0 +1,8 @@
+include=..\BMW_320i_Stcc.inccar
+
+Number=00093
+Team="Team Caliber"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Dick Sahlen 008"
+
+FactoryWeight=2.0

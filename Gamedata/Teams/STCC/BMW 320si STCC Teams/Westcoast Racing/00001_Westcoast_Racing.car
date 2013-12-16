@@ -1,0 +1,7 @@
+include=..\BMW_320si_Stcc.inccar
+Number=00001
+Team="Westcoast Racing"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Fredrik Ekblom 008"
+
+FactoryWeight=0.6

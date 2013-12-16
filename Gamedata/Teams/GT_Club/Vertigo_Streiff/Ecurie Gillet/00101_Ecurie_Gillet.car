@@ -1,0 +1,13 @@
+include=..\Vertigo.inccar
+
+GenString=1
+
+Number=00101
+Team="Ecurie Gillet"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Sebastian Schillag"
+
+
+//GILLET
+
+ComparativeTime=104

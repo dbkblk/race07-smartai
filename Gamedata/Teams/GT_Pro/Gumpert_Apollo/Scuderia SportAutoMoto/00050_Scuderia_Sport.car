@@ -1,0 +1,13 @@
+include=..\Gumpert_GT.inccar
+
+GenString=1
+
+Number=00050
+Team="Scuderia SportAutoMoto"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Chris Pirro"
+
+
+//Get Real, RaceRoom, Logitech
+
+ComparativeTime=104

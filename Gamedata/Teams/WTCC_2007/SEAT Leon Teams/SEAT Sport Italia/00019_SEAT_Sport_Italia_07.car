@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_2007_2.inccar
+Number=00019
+Team="SEAT Sport Italia"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Roberto Colciago 07"
+
+FactoryWeight=1.1

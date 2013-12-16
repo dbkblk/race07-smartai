@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00002
+Team="RS Motorsport"
+GenString=1
+Driver1="Vladimir Arabadzhiev"
+
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\Seat_Leon_TDi_WTCC10.inccar
+Number=00039
+Team="SEAT Customers Technology"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Marc Carol 10"
+
+FactoryWeight=0.9

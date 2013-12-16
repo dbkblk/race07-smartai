@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00038
+Team="Perfect Racing Competion"
+GenString=1
+Driver1="Filip Salaquarda"
+
+ComparativeTime=104

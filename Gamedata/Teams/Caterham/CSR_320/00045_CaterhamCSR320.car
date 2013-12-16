@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00045
+Team="Oz Sport"
+GenString=1
+Driver1="Ewan Chamberlain"
+
+ComparativeTime=104

@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00047
+Team="Lusa Racing"
+GenString=1
+Driver1="Hans-Joachim Stuck"
+
+ComparativeTime=104

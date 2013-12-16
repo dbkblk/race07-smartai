@@ -1,0 +1,11 @@
+Include=..\Audi.inccar
+
+GenString=1
+
+Number=00024
+Team="Audi R8 Silver"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Thomas Lehmann"
+
+
+FactoryWeight=0.0

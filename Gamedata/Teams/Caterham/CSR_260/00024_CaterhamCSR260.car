@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00024
+Team="VG Racing Team"
+GenString=1
+Driver1="Chris English"
+
+ComparativeTime=104

@@ -1,0 +1,79 @@
+Make="Vauxhall"
+Description="Vauxhall Vectra"
+Engine="Vauxhall Vectra"
+Manufacturer="Vauxhall"
+classes="FULL,WTCC_2006"
+Model="Vectra"
+ModelID=73
+
+Horsepower=290
+HorsepowerRpm=8400
+Torque=270
+TorqueRpm=7000
+Weight=1140
+RearWheelDrive=0
+Transmission=6_SPD_SEQ
+EngineVolume=1998
+Valves=16
+Engine=I4_ID
+
+HDVehicle=2007_Vauxhall_Vectra.hdc
+Graphics=Vauxhall.cas
+Sounds=Vauxhall.aud
+HeadPhysics=headphysics.hed
+CameraFile=Vauxhall.cam
+
+Eyepoint=(0.3, 1.125, 0.278)
+CameraTarget=(0.000, 1.0, 0.000)
+MaxSeatRear=-0.02
+MaxSeatFront=-0.05
+MaxSeatUp=-0.03
+MaxSeatDown=-0.07 
+FrontWheelsInCockpit=0
+ExternalDriverPosition=(0.0, 0.0, 0.0)
+FirstPersonDriverPosition=(0.0, 0.0, -0.02)
+SuspensionInCockpit=1
+SteeringWheelAxis=(0.0,0.223,0.975)
+SteeringWheelType=1
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+
+Display1RPMLights=5
+Display1RPMLightsRange=(5500,8875)
+
+Display1SessionPractice=(410,141)
+Display1SessionWarmup=(410,128)
+Display1SessionRace=(410,115)
+
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(240,94)
+
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+
+Display1ModesPos=(14,0) 
+
+//1st person bone markers
+//ShiftStickPosition=(0.08, 0.85, 0.05)
+ClutchPedalPosition=(0.4, 0.44, -0.35)
+BrakePedalPosition=(0.24, 0.44, -0.35)
+LeftFootBrake=0
+AcceleratorPedalPosition=(0.15, 0.55, -0.19)
+
+LeftLegBendAngle=15.0
+RightLegBendAngle=-25.0
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.05 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.570, -0.22, 2.65) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.425, -0.22, 3.20)

@@ -1,0 +1,7 @@
+include=..\Honda_Accord_R_Stcc.inccar
+Number=00007
+Team="Honda Racing"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Thomas Engstrom 008"
+
+FactoryWeight=0.6

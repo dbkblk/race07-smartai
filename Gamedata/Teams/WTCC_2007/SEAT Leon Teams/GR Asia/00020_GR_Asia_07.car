@@ -1,0 +1,8 @@
+include=..\SEAT_LEON_2007_2.inccar
+Number=00020
+Team="GR Asia"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tom Coronel 07"
+
+FactoryWeight=1.1
+

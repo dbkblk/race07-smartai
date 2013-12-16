@@ -1,0 +1,11 @@
+include=..\Corvette_C6_GT2.inccar
+
+GenString=1
+
+Number=00016
+Team="Logitech Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Andres Peredo"
+
+
+ComparativeTime=104

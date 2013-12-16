@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00040
+Team="Ahead Racing"
+GenString=1
+Driver1="Joakim Langberg"
+
+ComparativeTime=104

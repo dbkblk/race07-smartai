@@ -1,0 +1,7 @@
+include=..\Volvo_C30_STCC2.inccar
+Number=00001
+Team="Volvo Olsbergs Green Racing"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Tommy Rustad 010"
+
+FactoryWeight=0.6

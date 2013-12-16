@@ -1,0 +1,11 @@
+include=..\Camaro.inccar
+
+GenString=1
+
+Number=00006
+Team="Bryntesson Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Richard Berggren 08"
+
+
+ComparativeTime=104

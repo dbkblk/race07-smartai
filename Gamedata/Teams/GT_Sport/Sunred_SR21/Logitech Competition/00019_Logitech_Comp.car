@@ -1,0 +1,13 @@
+include=..\Sunred.inccar
+
+GenString=3
+
+Number=00019
+Team="Logitech Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Robert Lazic"
+
+
+//Lizard, MotorsTV, Transfer Studio
+
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\Honda_Accord_R_Stcc.inccar
+Number=00004
+Team="Honda Racing"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Thed Bjork 008"
+
+FactoryWeight=0.6

@@ -1,0 +1,11 @@
+include=..\C30.inccar
+
+GenString=1
+
+Number=00002
+Team="Volvo Original Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Robert Dahlgren 008"
+
+
+ComparativeTime=104

@@ -1,0 +1,6 @@
+include=..\Challenger_Race.inccar
+Number=00004
+Team="Lizard Racing"
+PitGroup=""
+Driver1="Anton Chu"
+FactoryWeight=0.6

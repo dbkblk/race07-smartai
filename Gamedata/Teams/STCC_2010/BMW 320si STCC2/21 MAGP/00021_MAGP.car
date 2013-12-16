@@ -1,0 +1,7 @@
+include=..\BMW_320si_Stcc2.inccar
+Number=00021
+Team="MA:GP / IPS / Bilsport & MC"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Johan Stureson 010"
+
+FactoryWeight=0.6

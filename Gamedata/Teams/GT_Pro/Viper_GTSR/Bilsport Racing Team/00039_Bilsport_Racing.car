@@ -1,0 +1,11 @@
+include=..\GTSR.inccar
+
+GenString=3
+
+Number=00039
+Team="Bilsport Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Svend Seegert"
+
+
+ComparativeTime=104

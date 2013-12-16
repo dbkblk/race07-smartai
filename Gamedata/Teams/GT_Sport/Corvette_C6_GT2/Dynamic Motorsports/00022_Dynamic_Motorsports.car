@@ -1,0 +1,11 @@
+include=..\Corvette_C6_GT2.inccar
+
+GenString=3
+
+Number=00022
+Team="Dynamic Motorsports"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Diego Sartori"
+
+
+ComparativeTime=104

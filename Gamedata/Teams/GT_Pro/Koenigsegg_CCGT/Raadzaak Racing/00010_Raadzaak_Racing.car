@@ -1,0 +1,11 @@
+Include=..\CCGT.inccar
+
+GenString=2
+
+Number=00010
+Team="Raadzaak Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Willem Welter"
+
+
+FactoryWeight=0.0

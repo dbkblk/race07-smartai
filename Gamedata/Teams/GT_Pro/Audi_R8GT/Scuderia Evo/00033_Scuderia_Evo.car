@@ -1,0 +1,13 @@
+include=..\AudiGT.inccar
+
+GenString=3
+
+Number=00033
+Team="Scuderia EVO"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Gil Ritter"
+
+
+//RaceRoom, SimBin, CannonBall8000
+
+ComparativeTime=104

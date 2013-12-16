@@ -1,0 +1,13 @@
+include=..\BMW_Z4.inccar
+
+GenString=3
+
+Number=00007
+Team="Autosport Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Peter Madsen"
+
+
+//BenQ, Pyxidium, Gigawave
+
+ComparativeTime=104

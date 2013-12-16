@@ -1,0 +1,11 @@
+include=..\Zonda.inccar
+
+
+GenString=1
+
+Number=00001
+Team="Team Zonda"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Mu zuki"
+
+FactoryWeight=0.6

@@ -1,0 +1,78 @@
+Make="Volvo"
+Description="Volvo 850"
+Engine="Volvo"
+Manufacturer="Volvo"
+classes="FULL,PRODUCTION_CARS"
+classID=22
+Model="Volvo 850"
+ModelID=200
+
+Horsepower=300
+HorsepowerRpm=8000
+Torque=250
+TorqueRpm=5500
+Weight=975
+RearWheelDrive=0
+Transmission=6_SPD_SEQ
+EngineVolume=2000
+Valves=16
+Engine=I4
+
+HDVehicle=1994_Volvo_850_BTCC.hdc
+Graphics=Volvo_850.cas
+Sounds=Volvo_850.aud
+HeadPhysics=headphysics.hed
+CameraFile=Volvo_850.cam
+
+//Cockpit
+
+Eyepoint=(-0.42, 1.05, 0.2075)
+CameraTarget=(0.000, 1.0, 0.000)
+MaxSeatRear=0.01
+MaxSeatFront=-0.08
+MaxSeatUp=0.02
+MaxSeatDown=-0.10
+SteeringWheelAxis=(0.0,0.16,0.8)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+FirstPersonSteeringAnimation=FPDriver_Volvo850_Steering.FXM
+FirstPersonShiftAnimation=FPDriver_Volvo850_Shifting.FXM
+ExternalDriverPosition=(-0.362, 0.221, 0.076)
+FirstPersonDriverPosition=(0.0, 0.0, 0.0)
+SuspensionInCockpit=1
+AcceleratorPedalPosition=(-0.528, 0.407, -0.381)
+BrakePedalPosition=(-0.426, 0.397, -0.376)
+ClutchPedalPosition=(-0.259, 0.294, -0.540)
+LeftFootBrake=0
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+Display1RPMLights=2 (max=8)
+Display1RPMLightsRange=(7900,8300)
+Display1FuelParams=SMALL,RIGHT
+Display1FuelPos=(235,5)
+Display1SpeedParams=SMALL,RIGHT
+Display1SpeedPos=(235,34)
+Display1LapTImeParams=SMALL,RIGHT
+Display1LapTimePos=(480,5)
+Display1GearParams=SMALL,RIGHT
+Display1GearPos=(480,34)
+
+TachometerRange=(4000, 10000, 270, 490)
+TachometerNeedle=(188.0, 62.0, 12.0, 114.0)
+
+//1st person bone markers
+//Display1GearPos=(234,94)
+
+
+// Exhaust smoke
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.13 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.55, -0.15, 2.7) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.55, -0.22, 3.2)
+

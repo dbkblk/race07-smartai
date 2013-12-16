@@ -1,0 +1,10 @@
+include=..\2008_BMW_320si.inccar
+
+GenString=1
+
+Number=00043
+Team="Liqui Moly Team Engstler"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Andrey Romanov 08"
+
+FactoryWeight=0.6

@@ -1,0 +1,10 @@
+include=..\Zonda.inccar
+
+GenString=1
+
+Number=00007
+Team="Team GO GREEN"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Attila Domjan"
+
+FactoryWeight=0.6

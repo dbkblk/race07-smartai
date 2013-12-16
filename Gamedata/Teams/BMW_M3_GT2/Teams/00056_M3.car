@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00056
+Team="Team DTS"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Michael Ammermuller"
+
+FactoryWeight=0.6

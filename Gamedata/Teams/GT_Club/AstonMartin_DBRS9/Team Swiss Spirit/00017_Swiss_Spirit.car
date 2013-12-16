@@ -1,0 +1,14 @@
+include=..\AstonMartin_DBRS9.inccar
+
+GenString=3
+
+Number=00017
+Team="Team Swiss Spirit"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Marcel Fassler"
+
+
+
+//Evo Magazine, Hype, Logitech 
+
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00059
+Team="Team SimBin"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Filip Salaquarda"
+
+FactoryWeight=0.6

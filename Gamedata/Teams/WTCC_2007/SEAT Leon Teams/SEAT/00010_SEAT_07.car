@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_2007_2.inccar
+Number=00010
+Team="SEAT"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Michel Jourdain 07"
+
+FactoryWeight=1.0

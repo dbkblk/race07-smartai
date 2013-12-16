@@ -1,0 +1,13 @@
+include=..\Mosler.inccar
+
+GenString=1
+
+Number=00007
+Team="Autosport Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Kalle Helgesson"
+
+
+//Incide, Mybusinessbrandbook.com, SimBin
+
+ComparativeTime=104

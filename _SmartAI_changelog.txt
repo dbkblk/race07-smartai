@@ -1,0 +1,22 @@
+v1.0
+Initial AI Enhancements
+Reworked STCC and WTCC lineups
+
+v1.1
+Fixed starting bug (see installations instructions)
+Formula Masters, F3000, FBMW, Formula RaceRoom: Reworked talents
+Muscle Cars: Reworked talents & balanced category (+100kg to the Camaro)
+GT Club, Sport, Pro, GT Zonda (Pro) & Matech (Pro): Reworked talents and updated script.
+Gathered productions cars into one unique category.
+Sorted categories.
+
+v1.2
+- Caterham, Retro, Radicals, Minis, Productions cars: Reworked talents (randomized)
+- WTCC Extreme: Use the 2008 WTCC talents
+- Camaro Cup 2008 & 2010: Talents based on real results
+- Formula RR will now be Formula 1 2011 with skins and talents (thanks to Chrisi and DantePLL)
+- Formula BMW will now get 12 teams/24 drivers and reworked talents and skins (thanks to ESP and lee1971)
+- Increased script to 24 drivers because the game won't include the car you've chosen if you select 23 drivers in-game.
+- AI will make less mistakes but will be slightly less regular.
+- Little decrease of AI stability
+- Added missing UI files for those who doesn't have extensions

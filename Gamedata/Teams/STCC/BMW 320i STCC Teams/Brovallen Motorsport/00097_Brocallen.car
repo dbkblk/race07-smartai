@@ -1,0 +1,8 @@
+include=..\BMW_320i_Stcc.inccar
+
+Number=00097
+Team="Brovallen Motorsport Jr"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Joakim Ahlberg 008"
+
+FactoryWeight=2.0

@@ -1,0 +1,11 @@
+include=..\M3.inccar
+
+GenString=3
+
+Number=00028
+Team="Dell Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Michael Aberg"
+
+
+ComparativeTime=104

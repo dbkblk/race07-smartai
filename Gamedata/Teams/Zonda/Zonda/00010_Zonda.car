@@ -1,0 +1,10 @@
+include=..\Zonda.inccar
+
+GenString=1
+
+Number=00010
+Team="Team LSD2"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Simon Trendell"
+
+FactoryWeight=0.6

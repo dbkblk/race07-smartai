@@ -1,0 +1,11 @@
+Include=..\C6R.inccar
+
+GenString=1
+
+Number=00012
+Team="Team CannonBall8000"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jon Backlund"
+
+
+FactoryWeight=0.0

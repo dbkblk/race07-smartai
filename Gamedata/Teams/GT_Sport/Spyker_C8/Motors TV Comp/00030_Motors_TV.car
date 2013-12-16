@@ -1,0 +1,13 @@
+include=..\Spyker.inccar
+
+GenString=3
+
+Number=00030
+Team="Motors TV Competition "
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Erik van Leeuwen"
+
+
+//Autosport Magazine, Get Real, Navicam
+
+ComparativeTime=104

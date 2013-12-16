@@ -1,0 +1,7 @@
+include=..\BMW_320si_2009_WTCC10.inccar
+Number=00025
+Team="Scuderia Proteam Motorsport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Sergio Hernandez 10"
+
+FactoryWeight=0.6

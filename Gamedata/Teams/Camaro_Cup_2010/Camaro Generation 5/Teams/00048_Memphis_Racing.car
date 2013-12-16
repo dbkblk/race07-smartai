@@ -1,0 +1,11 @@
+include=..\Camaro_Generation_5.inccar
+
+GenString=1
+
+Number=00048
+Team="Memphis Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Magnus Krokström 10"
+
+
+ComparativeTime=104

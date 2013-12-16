@@ -1,0 +1,9 @@
+include=..\FormulaRR.inccar
+
+GenString=3
+
+Number=00003
+Team="McLaren"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Lewis Hamilton"
+ComparativeTime=104

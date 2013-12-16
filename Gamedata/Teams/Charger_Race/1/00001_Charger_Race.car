@@ -1,0 +1,6 @@
+include=..\Charger_Race.inccar
+Number=00001
+Team="Team Simbin"
+PitGroup=""
+Driver1="Pete Thicket"
+FactoryWeight=0.6

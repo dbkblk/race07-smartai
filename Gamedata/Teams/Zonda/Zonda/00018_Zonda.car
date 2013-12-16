@@ -1,0 +1,10 @@
+include=..\Zonda.inccar
+
+GenString=1
+
+Number=00018
+Team="Team LSD3"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Arturo Pereira"
+
+FactoryWeight=0.6

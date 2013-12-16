@@ -1,0 +1,11 @@
+include=..\Camaro_Generation_5.inccar
+
+GenString=1
+
+Number=00084
+Team="Memphis Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Richard Berggren 08"
+
+
+ComparativeTime=104

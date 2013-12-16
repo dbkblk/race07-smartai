@@ -1,0 +1,11 @@
+Include=..\Audi.inccar
+
+GenString=1
+
+Number=00020
+Team="Audi R8 White"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Mario Hytten"
+
+
+FactoryWeight=0.0

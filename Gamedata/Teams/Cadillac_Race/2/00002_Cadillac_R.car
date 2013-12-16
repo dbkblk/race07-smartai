@@ -1,0 +1,6 @@
+include=..\Cadillac_R.inccar
+Number=00002
+Team="Team DTS"
+PitGroup=""
+Driver1="Luca Ceretti"
+FactoryWeight=0.6

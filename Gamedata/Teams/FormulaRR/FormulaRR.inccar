@@ -1,0 +1,75 @@
+Make="Formula 1 RR 2011"
+Description="Formula 1 RR 2011"
+Engine="Formula V8"
+Manufacturer="SimBin Development"
+classes="FULL, FORMULA_RACEROOM"
+classID=85
+Model="Formula 1 RR"
+ModelID=230
+
+Horsepower=850
+HorsepowerRpm=17500
+Torque=406
+TorqueRpm=14500
+Weight=545
+RearWheelDrive=1
+Transmission=7 Speed
+EngineVolume=2497
+Valves=32
+Engine=V8
+
+HDVehicle=FormulaRR.hdc
+Graphics=FormulaRR.cas
+Sounds=FormulaRRsounds.aud
+HeadPhysics=headphysics.hed
+CameraFile=FormulaRR.cam
+
+Eyepoint=(0.00, 0.740, -0.25)    
+CameraTarget=(0.000, 1.0, 0.00)
+MaxSeatRear=0.03
+MaxSeatFront=-0.05
+MaxSeatUp=0.05
+MaxSeatDown=-0.02 
+FrontWheelsInCockpit=1
+FirstPersonSteeringAnimation=FPDriver_FormulaRR_Steering.FXM
+FirstPersonShiftAnimation=None
+ExternalDriverPosition=(-0.002, -0.029, -0.271)
+FirstPersonDriverPosition=(0.000, 0.000, 0.000)
+ShiftStickPosition=(0.0, 0.0, 0.0)
+SuspensionInCockpit=1
+SteeringWheelAxis=(0.0,0.098,0.8)
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+Display1ModesPos=(10,0)
+Display1RPMLights=8
+Display1RPMLightsRange=(16000,18600)
+Display1GearParams=LARGE,CENTER
+Display1GearPos=(95,57)
+Display1FuelHeadingParams=LARGE,LEFT
+Display1FuelHeadingPos=(145,18)
+Display1FuelParams=LARGE,LEFT
+Display1FuelPos=(145,18)
+Display1SpeedHeadingParams=LARGE,RIGHT
+Display1SpeedHeadingPos=(484,76)
+Display1SpeedParams=LARGE,RIGHT
+Display1SpeedPos=(468,18)
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(330,140)
+Display1LapTImeParams=LARGE,RIGHT
+Display1LapTimePos=(464,100)
+
+//1st person bone markers
+ClutchPedalPosition=(0.0, 0.0, 0.0)
+BrakePedalPosition=(0.0, 0.0, 0.0)
+LeftFootBrake=1
+AcceleratorPedalPosition=(0.0, 0.0, 0.0)
+PaddleShift=1
+SteeringWheelType=1
+
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+UseFeetAnimation=0
+UseExtSteerAnimation=0

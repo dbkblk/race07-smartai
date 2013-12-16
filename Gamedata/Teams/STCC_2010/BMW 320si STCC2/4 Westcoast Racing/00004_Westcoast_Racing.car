@@ -1,0 +1,7 @@
+include=..\BMW_320si_Stcc2.inccar
+Number=00004
+Team="Westcoast Racing"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Richard Göransson 010"
+
+FactoryWeight=0.6

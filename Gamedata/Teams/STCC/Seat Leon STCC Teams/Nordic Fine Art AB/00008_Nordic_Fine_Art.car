@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_STCC.inccar
+Number=00008
+Team="Nordic Fine Art AB"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Roger Eriksson 008"
+
+FactoryWeight=1.2

@@ -1,0 +1,8 @@
+include=..\2006_FBMW_FB02.inccar
+
+GenString=1
+Number=00022
+Team="Ubiquitous"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tiff Needell"
+ComparativeTime=104

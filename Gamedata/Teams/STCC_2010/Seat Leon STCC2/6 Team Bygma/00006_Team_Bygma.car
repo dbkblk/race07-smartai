@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_STCC2.inccar
+Number=00006
+Team="Team Bygma"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jason Watt 010"
+
+FactoryWeight=1.2

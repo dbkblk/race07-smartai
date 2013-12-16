@@ -1,0 +1,7 @@
+include=..\BMW_320si_07.inccar
+Number=00026
+Team="Wiechers-Sport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Stefano D'Aste 07"
+
+FactoryWeight=1.4

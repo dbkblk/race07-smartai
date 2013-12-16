@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00053
+Team="Syncro Racing"
+GenString=1
+Driver1="Ello Lundgren"
+
+ComparativeTime=104

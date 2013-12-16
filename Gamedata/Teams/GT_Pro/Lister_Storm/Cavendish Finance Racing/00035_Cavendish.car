@@ -1,0 +1,11 @@
+include=..\Lister.inccar
+
+GenString=1
+
+Number=00035
+Team="Cavendish Finance Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Julian Bailey"
+
+
+ComparativeTime=104

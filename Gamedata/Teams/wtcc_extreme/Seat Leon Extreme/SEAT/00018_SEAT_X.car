@@ -1,0 +1,11 @@
+include=..\2008_Seat_Leon_Extreme.inccar
+
+Genstring=1
+
+
+Number=00018
+Team="SEAT Sport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tiago Monteiro 08"
+
+FactoryWeight=1.0

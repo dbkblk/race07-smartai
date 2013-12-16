@@ -1,0 +1,11 @@
+Include=..\C6R.inccar
+
+GenString=1
+
+Number=00008
+Team="KW Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Uwe Kriebel"
+
+
+FactoryWeight=0.0

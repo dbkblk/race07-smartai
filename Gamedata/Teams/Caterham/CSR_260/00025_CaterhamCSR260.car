@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00025
+Team="Oz Sport"
+GenString=1
+Driver1="Luca Ceretti"
+
+ComparativeTime=104

@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00049
+Team="Team Speed Fighter"
+GenString=1
+Driver1="Axel Moebius"
+
+ComparativeTime=104

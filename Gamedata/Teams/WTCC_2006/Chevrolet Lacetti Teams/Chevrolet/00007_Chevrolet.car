@@ -1,0 +1,82 @@
+CameraFile=..\Chevrolet_Lacetti.cam
+HDVehicle=..\2006_Chevrolet_Lacetti.hdc
+Graphics=..\CHEVROLET_LACETTI_2.cas
+GenString=2
+Sounds=..\CHEVROLET_LACETTI.aud
+HeadPhysics=..\..\..\headphysics.hed
+Eyepoint=(0.312, 1.0750, 0.227)
+CameraTarget=(0.000, 1.0, 0.000)
+MaxSeatRear=-0.05
+MaxSeatFront=-0.16
+MaxSeatUp=0.04
+MaxSeatDown=-0.03
+
+
+//Cockpit
+
+SteeringWheelAxis=(0.0,0.098,0.995)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+ExternalDriverPosition=(0.314, 0.300, 0.088)
+FirstPersonDriverPosition=(0.312, 0.085, 0.131)
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+
+Display1RPMLights=4
+Display1RPMLightsRange=(5500,8875)
+
+Display1SessionPractice=(410,141)
+Display1SessionWarmup=(410,128)
+Display1SessionRace=(410,115)
+
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(240,94)
+
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+
+Display1ModesPos=(50,0)
+Display1ModesScale=(0.96) 
+
+// Exhaust smoke
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.04 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.425, -0.15, 2.65) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.425, -0.22, 3.20)
+
+
+Number=00007
+Team="Chevrolet"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Nicola Larini 06"
+Description="Chevrolet Lacetti"
+Engine="ENGINE_UPDATE_ME"
+Manufacturer="CHEVROLET_LACETTI"
+classes="FULL,WTCC_2006"
+ComparativeTime=104
+Make="CHEVROLET"
+Model="Chevrolet Lacetti"
+ModelID=14
+
+Horsepower=280
+HorsepowerRpm=8500
+Torque=267
+TorqueRpm=5800
+Weight=1167
+RearWheelDrive=0
+Transmission=6_SPD_SEQ
+EngineVolume=1998
+Valves=16
+Engine=I4_ID
+FactoryWeight=0

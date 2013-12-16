@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_STCC2.inccar
+Number=00012
+Team="Team FDM Teege-Dan Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Kim Holmgaard 010"
+
+FactoryWeight=1.2

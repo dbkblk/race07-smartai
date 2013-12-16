@@ -1,0 +1,13 @@
+include=..\VIPER_CC.inccar
+
+GenString=3
+
+Number=00016
+Team="Team Boutsen Aviation"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Thierry Boutsen"
+
+
+//MotorsTV, SimBin, SportAutoMoto
+
+ComparativeTime=104

@@ -1,0 +1,11 @@
+include=..\A4.inccar
+
+GenString=1
+
+Number=00017
+Team="Cawalli"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Andreas Simonsen 008"
+
+
+ComparativeTime=104

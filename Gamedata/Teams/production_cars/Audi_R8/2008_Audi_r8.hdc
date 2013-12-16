@@ -1,0 +1,908 @@
+// 2008 Audi R8 Production Car
+// Copyright SimBin Development Team AB 2008
+// Created By Renato Simioni + Mark Reynolds
+// Version 1.1c 
+// File last edited on: 29th September 2008
+
+[GENERAL]
+Rules=0                         // what rules to apply to garage setups (0=none, 1=stock car)
+GarageDisplayFlags=7            // how settings are displayed in garage (add): 1=rear wing, 2=radiator, 4=more gear info
+FeelerFlags=0                   // how collision feelers are generated (add): 1=box influence 2=reduce wall-jumping 4=allow adjustment hack 8=top directions
+Mass=1560.0                      // all mass except fuel (1200kg car + 80kg driver)
+Inertia=(1600,2000,425)    // all inertia except fuel
+FuelTankPos=(0.0, 0.250, -0.650)  // location of tank affects center of gravity (very close and even slightly ahead of CG in F1)
+FuelTankMotion=(560.0,0.7)      // simple model of fuel movement in tank (spring rate per kg, critical damping ratio)
+Notes=""
+Symmetric=1
+DamageFile=2008_Audi_r8.dmg
+CGHeight=0.34                  // height of body mass (excluding fuel) above reference plane
+CGRightRange=(0.50, 0.000, 0)  // fraction of weight on left tires
+CGRightSetting=0
+CGRearRange=(0.55, 0.005, 0)
+CGRearSetting=0
+GraphicalOffset=(0.0, 0.00, 0.0) // does not affect physics!
+Undertray00=(0.95,  0.020, -1.895)  // offset from center of car, and between axles// LF (Left front corner of splitter) (forward is negative, right is negative)
+Undertray01=(-0.95, 0.020, -1.895)  // offset from center of car, and between axles// RF (Right front corner of splitter)
+Undertray02=(0.35,  0.020, 1.855)  // offset from center of car, and between axles // LR (Left rear corner of diffuser)
+Undertray03=(-0.35, 0.020, 1.855)  // offset from center of car, and between axles // RR (Right rear corner of diffuser)
+Undertray04=(0.35,  0.020, -2.195)  // offset from center of car, and between axles// Left center front nose
+Undertray05=(-0.35, 0.020, -2.195)  // offset from center of car, and between axles// Right center front nose
+Undertray06=(0.95,  0.020, 0.000)  // offset from center of car, and between axles //  Center/bottom of Left rocker panel
+Undertray07=(-0.95, 0.020, 0.000)  // offset from center of car, and between axles //  Center/bottom of right rocker panel
+Undertray08=(0.35,  0.020, -1.000)  // offset from center of car, and between axles//  Floor LF corner
+Undertray09=(-0.35, 0.020, -1.000)  // offset from center of car, and between axles//  Floor RF corner
+Undertray10=(0.35,  0.020, 1.000)  // offset from center of car, and between axles //  FLoor LR corner
+Undertray11=(-0.35, 0.020, 1.000)  // offset from center of car, and between axles //  Floor RR corner
+UndertrayParams=(262500.0,11600.0, 4.0) // undertray spring rate, damper rate, and coefficient of friction
+TireBrand=2008_Audi_r8.tyr
+FrontTireCompoundSetting=0         // Front compound index within brand
+RearTireCompoundSetting=0         // Rear compound index within brand
+FuelRange=(1.0, 1.0, 70)
+FuelSetting=49
+NumPitstopsRange=(0, 1, 4)
+NumPitstopsSetting=3
+Pitstop1Range=(1.0, 1.0, 100)
+Pitstop1Setting=64
+Pitstop2Range=(1.0, 1.0, 100)
+Pitstop2Setting=64
+Pitstop3Range=(1.0, 1.0, 100)
+Pitstop3Setting=64
+AIMinPassesPerTick=7            // minimum passes per tick (can use more accurate spring/damper/torque values, but takes more CPU)
+AIRotationThreshold=0.12        // rotation threshold (rads/sec) to temporarily increment passes per tick
+AIEvenSuspension=0.3            // averages out spring and damper rates to improve stability (0.0 - 1.0)
+AISpringRate=0.95               // spring rate adjustment for AI physics (improves stability)
+AIDamperSlow=0.95                // contribution of average slow damper into simple AI damper
+AIDamperFast=0.5                // contribution of average fast damper into simple AI damper       
+AIDownforceZArm=0.20      
+AIDownforceBias=0.8       
+AITorqueStab=(1.05, 1.05, 1.15)
+
+
+[FRONTWING]
+FWRange=(1.0, 1.0, 1)          // front wing range
+FWSetting=1                    // front wing setting
+FWMaxHeight=(0.50)              // maximum height to take account of for downforce
+FWDragParams=(0.00, 0.00, 0.0001)        
+FWLiftParams=(-0.100, -0.0, 0.00002)  // base lift and 1st and 2nd order with setting
+FWLiftHeight=(0.750)            // effect of current height on lift coefficient
+FWLiftSideways=(0.2)            // dropoff in downforce with yaw (0.0 = none, 1.0 = max)
+FWLeft=(-0.005, 0.0, 0.0)        // aero forces from moving left
+FWRight=(0.005, 0.0, 0.0)        // aero forces from moving right
+FWUp=(0.0, -0.05, -0.001)       // aero forces from moving up
+FWDown=(0.0, 0.025, 0.001)       // aero forces from moving down
+FWAft=(0.0, 0.02, -0.02)        // aero forces from moving rearwards
+FWFore=(0.0, 0.0, 0.0)          // aero forces from moving forwards (recomputed from settings)
+FWRot=(0.05, 0.025, 0.075)        // aero torque from rotating
+FWCenter=(0.00, 0.00, -0.70)    // center of front wing forces (offset from center of front axle in ref plane)
+
+[REARWING]
+RWRange=(1.0, 1.0, 1)          // rear wing range
+RWSetting=1                   // rear wing setting
+RWDragParams=(0.080, 0.0000, 0.0001)        // base drag and 1st and 2nd order with setting
+RWLiftParams=(-0.190, -0.000, 0.00002)  // base lift and 1st and 2nd order with setting
+RWLiftSideways=(0.2)            // dropoff in downforce with yaw (0.0 = none, 1.0 = max)
+RWPeakYaw=(0.0, 1.00)           // angle of peak, multiplier at peak
+RWLeft=(-0.002, 0.0, 0.0)        // aero forces from moving left
+RWRight=(0.002, 0.0, 0.0)        // aero forces from moving right
+RWUp=(0.0, -0.05, -0.002)       // aero forces from moving up
+RWDown=(0.0, 0.030, 0.002)       // aero forces from moving down
+RWAft=(0.0, 0.03, -0.4)        // aero forces from moving rearwards
+RWFore=(0.0, 0.0, 0.0)          // aero forces from moving forwards (recomputed from settings)
+RWRot=(0.08, 0.05, 0.11)        // aero torque from rotating
+RWCenter=(0.00, 0.80, 0.50)     // center of rear wing forces (offset from center of rear axle at ref plane) 
+
+
+[BODYAERO]
+BodyDragBase=(0.34)            // base drag
+BodyDragHeightAvg=(0.22)       // drag increase with average ride height
+BodyDragHeightDiff=(0.90)       // drag increase with front/rear ride height difference
+BodyMaxHeight=(0.20)            // maximum ride height that affects drag/lift
+BodyLeft=(-0.5, 0.0, 0.0)       // aero forces from moving left
+BodyRight=(0.5, 0.0, 0.0)       // aero forces from moving right
+BodyUp=(0.0, -1.1, 0.0)         // aero forces from moving up
+BodyDown=(0.0, 1.1, 0.0)        // aero forces from moving down
+BodyAft=(0.0, 0.50, -0.8)      // aero forces from moving rearwards
+BodyFore=(0.0, -0.0800, 0.435)  // aero forces from moving forwards (lift value important!)
+BodyRot=(9.73, 7.3, 4.87)         // aero torque from rotating 
+BodyCenter=(0.0, 0.40, -2.200)   // center of body aero forces (offset from center of rear axle at ref plane)
+RadiatorRange=(0.0, 1.0, 4)      // radiator range
+RadiatorSetting=3               // radiator setting
+RadiatorDrag=(0.002)            // effect of radiator setting on drag
+RadiatorLift=(0.0015)            // effect of radiator setting on lift
+BrakeDuctRange=(0.0, 1.0, 4)    // brake duct range
+BrakeDuctSetting=3              // brake duct setting
+BrakeDuctDrag=(0.002)           // effect of brake duct setting on drag
+BrakeDuctLift=(0.00425)  
+
+
+[SUSPENSION]
+PhysicalModelFile=2008_Audi_r8.SP
+ApplySlowToFastDampers=0         // whether to apply slow damper settings to fast damper settings
+CorrectedInnerSuspHeight=-1.0        // instead of moving inner susp height relative with ride height, use this offset (set to -1 for original behavior)
+AdjustSuspRates=1                // adjust suspension rates due to motion ratio ( 0=enable, 1=disable)
+AlignWheels=1                    // correct for minor graphical offsets
+FrontWheelTrack=0.0
+RearWheelTrack=0.0
+LeftWheelBase=0.0
+RightWheelBase=0.0
+SpringBasedAntiSway=1            // 0=diameter-based, 1=spring-based
+FrontAntiSwayBase=0.0
+FrontAntiSwayRange=(40000.0, 5000.0, 25)
+FrontAntiSwaySetting=4
+FrontAntiSwayRate=(1.36e11, 4.0) // not applicable with spring-based antisway
+AllowNoAntiSway=1                // Whether first setting gets overridden to mean no antisway bar
+RearAntiSwayBase=0.0
+RearAntiSwayRange=(5000.0, 5000.0, 20)
+RearAntiSwaySetting=5
+RearAntiSwayRate=(1.36e11, 4.0)  // not applicable with spring-based antisway
+FrontToeInRange=(-2.0, 0.1, 41)
+FrontToeInSetting=19
+RearToeInRange=(-2.0, 0.1, 41)
+RearToeInSetting=21
+LeftCasterRange=(-0.0, 0.25, 36)          // front-left caster
+LeftCasterSetting=28
+RightCasterRange=(-0.0, 0.25, 36)         // front-right caster
+RightCasterSetting=28
+
+[CONTROLS]
+SteeringFFBMult=1.7
+UpshiftAlgorithm=(0.98,0.0) //  percentage of the rev limit to upshift at.  If the 2nd value is non-zero, then we will use it as the exact RPM to upshift at.
+DownshiftAlgorithm=(0.9,0.82,0.6) // percentage of "optimum" downshift point in high gears, percentage of "optimum" downshift point in low gears, oval adjustment.
+SteerLockRange=(5.0, 0.5, 57)
+SteerLockSetting=20
+RearBrakeRange=(0.200, 0.005, 121)
+RearBrakeSetting=38
+BrakePressureRange=(0.80, 0.01, 21)
+BrakePressureSetting=15
+HandbrakePressRange=(0.00, 0.05, 21) // 
+HandbrakePressSetting=0
+AutoUpshiftGripThresh=0.30          // auto upshift waits until all driven wheels have this much grip (reasonable range: 0.4-0.9)
+AutoDownshiftGripThresh=0.10        // auto downshift waits until all driven wheels have this much grip (reasonable range: 0.4-0.9)
+TractionControlGrip=(1.00, 0.20)    // average driven wheel grip multiplied by 1st number, then added to 2nd
+TractionControlLevel=(0.40, 0.90)   // effect of grip on throttle for low TC and high TC
+ABS4Wheel=1                         // 0 = old-style single brake pulse, 1 = more effective 4-wheel ABS
+ABSGrip=(1.00, 0.20)                // grip multiplied by 1st number and added to 2nd
+ABSLevel=(0.34, 0.90)               // effect of grip on brakes for low ABS and high ABS
+
+[ENGINE]
+RevLimitAvailable=1 
+SpeedLimiter=1  
+Normal=2008_Audi_r8
+RestrictorPlate=2008_Audi_r8
+
+[DRIVELINE]
+ClutchEngageRate=0.7          //Auto clutch gradual engagement rate from neutral to 1st gear.
+ClutchInertia=0.0148
+ClutchTorque=1400.0
+ClutchWear=0.0
+ClutchFriction=20.0
+BaulkTorque=1250.0
+SemiAutomatic=1                     // whether throttle and clutch are operated automatically
+UpshiftDelay=0.09                  // delay in selecting higher gear (low for semi-automatic, higher for manual)
+UpshiftClutchTime=0.09             // time to ease auto-clutch in AFTER upshift (0.0 for F1 cars)
+DownshiftDelay=0.15                // delay in selecting lower gear (low for semi-automatic, higher for manual)
+DownshiftClutchTime=0.20          // time to ease auto-clutch in AFTER downshift (used to be SemiAutoClutchTime, note that the shift will complete significantly before the clutch is fully engaged)
+DownshiftBlipThrottle=0.80
+WheelDrive=FOUR                    // which wheels are driven: REAR, FOUR (even torque split), or FRONT
+GearFile=2008_Audi_R8.grb             // Must come before final/reverse/gear settings!
+FinalDriveSetting=0
+ReverseSetting=0
+ForwardGears=6
+Gear1Setting=0
+Gear2Setting=1
+Gear3Setting=2
+Gear4Setting=3
+Gear5Setting=4
+Gear6Setting=5
+DiffPumpTorque=400.0                // at 100% pump diff setting, the torque redirected per wheelspeed difference in radians/sec (roughly 1.2kph)
+DiffPumpRange=(0.0,0.05,21)         // differential acting on all driven wheels
+DiffPumpSetting=16
+DiffPowerRange=(0.0,0.05,21)        // fraction of power-side input torque transferred through diff
+DiffPowerSetting=4                  // (not implemented for four-wheel drive)
+DiffCoastRange=(0.0,0.05,21)        // fraction of coast-side input torque transferred through diff
+DiffCoastSetting=12                  // (not implemented for four-wheel drive)
+DiffPreloadRange=(5.0, 5.0, 10)     // preload torque that must be overcome to have wheelspeed difference
+DiffPreloadSetting=1                // (not implemented for four-wheel drive)
+
+[FRONTLEFT]
+BumpTravel=0
+ReboundTravel=-0.18         
+BumpStopSpring=150000.0             
+BumpStopRisingSpring=5.00e6         
+BumpStopDamper=2500.0               
+BumpStopRisingDamper=6.00e5   
+BumpStage2=0.12                  
+ReboundStage2=-0.12                
+FrictionTorque=8                
+SpinInertia=1.0  
+PushrodSpindle=(0,0,0)
+PushrodBody=(-0.07194,0.408,0)
+CamberRange=(-4.0, 0.1, 66)
+CamberSetting=23
+PressureRange=(120.0, 1.0, 106)
+PressureSetting=70
+PackerRange=(0, 0, 0)
+PackerSetting=0
+SpringMult=0.9 
+SpringRange=(80000,0,0)		
+SpringSetting=0					
+RideHeightRange=(0.09,0,0)
+RideHeightSetting=0
+DamperMult=0.9 
+SlowBumpRange=(3400, 250, 5)
+SlowBumpSetting=0					
+FastBumpRange=(2250, 250, 5)
+FastBumpSetting=0					
+SlowReboundRange=(7750, 250, 5)
+SlowReboundSetting=0					
+FastReboundRange=(3900, 250, 5)
+FastReboundSetting=0
+BrakeDiscRange=(0.034, 0.000, 0)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.001              // inertia per meter of thickness
+BrakeOptimumTemp=450.0              // optimum brake temperature in Celsius
+BrakeFadeRange=450.0               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=1.215e-011             // meters of wear per second at optimum temperature
+BrakeFailure=(1.33e-002,7.20e-004)  // average and variation in disc thickness at failure
+BrakeTorque=3500.00                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.0006                 // heat added linearly with brake torque
+BrakeCooling=(1.910e-002,0.667e-004)  // minimum brake cooling rate (static and per unit velocity)
+BrakeDuctCooling=2.160e-004         // brake cooling rate per brake duct setting
+
+[FRONTRIGHT]
+BumpTravel=0
+ReboundTravel=-0.18         
+BumpStopSpring=150000.0             
+BumpStopRisingSpring=5.00e6         
+BumpStopDamper=2500.0               
+BumpStopRisingDamper=6.00e5   
+BumpStage2=0.12                  
+ReboundStage2=-0.12                
+FrictionTorque=8                
+SpinInertia=1.0  
+PushrodSpindle=(0,0,0)
+PushrodBody=(0.07194,0.408,0)
+CamberRange=(-4.0, 0.1, 66)
+CamberSetting=23
+PressureRange=(120.0, 1.0, 106)
+PressureSetting=70
+PackerRange=(0, 0, 0)
+PackerSetting=0
+SpringMult=0.9 
+SpringRange=(80000,0,0)		
+SpringSetting=0					
+RideHeightRange=(0.09,0,0)
+RideHeightSetting=0
+DamperMult=0.9 
+SlowBumpRange=(3400, 250, 5)
+SlowBumpSetting=0					
+FastBumpRange=(2250, 250, 5)
+FastBumpSetting=0					
+SlowReboundRange=(7750, 250, 5)
+SlowReboundSetting=0					
+FastReboundRange=(3900, 250, 5)
+FastReboundSetting=0
+BrakeDiscRange=(0.034, 0.000, 0)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.001              // inertia per meter of thickness
+BrakeOptimumTemp=450.0              // optimum brake temperature in Celsius
+BrakeFadeRange=450.0               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=1.215e-011             // meters of wear per second at optimum temperature
+BrakeFailure=(1.33e-002,7.20e-004)  // average and variation in disc thickness at failure
+BrakeTorque=3500.00                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.0006                 // heat added linearly with brake torque
+BrakeCooling=(1.910e-002,0.667e-004)  // minimum brake cooling rate (static and per unit velocity)
+BrakeDuctCooling=2.160e-004         // brake cooling rate per brake duct setting
+ 
+[REARLEFT]
+BumpTravel=-0.01
+ReboundTravel=-0.19
+BumpStopSpring=150000.0             
+BumpStopRisingSpring=5.00e6         
+BumpStopDamper=2500.0               
+BumpStopRisingDamper=6.00e5    
+BumpStage2=0.12                  
+ReboundStage2=-0.12             
+FrictionTorque=10                 
+SpinInertia=1.50                                     
+PushrodSpindle=(0,0,0)
+PushrodBody=(-0.07031,0.39875,0)
+CamberRange=(-4.5, 0.1, 66)
+CamberSetting=29
+PressureRange=(120.0, 1.0, 106)
+PressureSetting=80
+PackerRange=(0.000, 0.00, 0)
+PackerSetting=0  
+SpringMult=0.96        
+SpringRange=(110000.0, 0, 0)
+SpringSetting=0				
+RideHeightRange=(0.10,0,0)
+RideHeightSetting=0
+DamperMult=0.96
+SlowBumpRange=(4300, 250, 5)
+SlowBumpSetting=0					
+FastBumpRange=(1800, 250, 5)
+FastBumpSetting=0					
+SlowReboundRange=(9800, 250 , 5)
+SlowReboundSetting=1					
+FastReboundRange=(3900, 250, 5)
+FastReboundSetting=3			
+BrakeDiscRange=(0.034, 0.000, 0)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.001              // inertia per meter of thickness
+BrakeOptimumTemp=450.0              // optimum brake temperature in Celsius (peak brake grip)
+BrakeFadeRange=450.0               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=1.215e-011             // meters of wear per second at optimum temperature
+BrakeFailure=(1.33e-002,7.20e-004)  // average and variation in disc thickness at failure
+BrakeTorque=3200.0                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.0006                 // heat added linearly with brake torque
+BrakeCooling=(1.672e-002,0.587e-004)  // minimum brake cooling rate (static and per unit velocity)
+BrakeDuctCooling=1.760e-004         // brake cooling rate per brake duct setting
+
+[REARRIGHT]
+BumpTravel=-0.01
+ReboundTravel=-0.19
+BumpStopSpring=150000.0             
+BumpStopRisingSpring=5.00e6         
+BumpStopDamper=2500.0               
+BumpStopRisingDamper=6.00e5    
+BumpStage2=0.12                  
+ReboundStage2=-0.12             
+FrictionTorque=10                 
+SpinInertia=1.50                                     
+PushrodSpindle=(0,0,0)
+PushrodBody=(0.07031,0.39875,0)
+CamberRange=(-4.5, 0.1, 66)
+CamberSetting=29
+PressureRange=(120.0, 1.0, 106)
+PressureSetting=80
+PackerRange=(0.000, 0.0, 0)
+PackerSetting=0  
+SpringMult=0.96        
+SpringRange=(110000.0, 0, 0)
+SpringSetting=0				
+RideHeightRange=(0.10,0,0)
+RideHeightSetting=0
+DamperMult=0.96
+SlowBumpRange=(4300, 250, 5)
+SlowBumpSetting=0					
+FastBumpRange=(1800, 250, 5)
+FastBumpSetting=0					
+SlowReboundRange=(9800, 250 , 5)
+SlowReboundSetting=1					
+FastReboundRange=(3900, 250, 5)
+FastReboundSetting=3			
+BrakeDiscRange=(0.034, 0.000, 0)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.001              // inertia per meter of thickness
+BrakeOptimumTemp=450.0              // optimum brake temperature in Celsius (peak brake grip)
+BrakeFadeRange=450.0               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=1.215e-011             // meters of wear per second at optimum temperature
+BrakeFailure=(1.33e-002,7.20e-004)  // average and variation in disc thickness at failure
+BrakeTorque=3200.0                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.0006                 // heat added linearly with brake torque
+BrakeCooling=(1.672e-002,0.587e-004)  // minimum brake cooling rate (static and per unit velocity)
+BrakeDuctCooling=1.760e-004         // brake cooling rate per brake duct setting
+
+////////////////////////////////////
+////					 /////
+////  Car specific overrides   /////
+////					 /////
+////////////////////////////////////
+
+[OVERRIDES]
+RoadDryGrip_2007_ANDERSTORP=1.0
+AIDryGrip_2007_ANDERSTORP=1.05
+RoadWetGrip_2007_ANDERSTORP=0.87
+AIWetGrip_2007_ANDERSTORP=0.89
+PlayerTireWear_2007_ANDERSTORP=1.0
+FrontTireHeatMult_2007_ANDERSTORP=1.0
+RearTireHeatMult_2007_ANDERSTORP=1.0
+[OVERRIDES]
+RoadDryGrip_Brands_Hatch=1.0
+AIDryGrip_Brands_Hatch=1.0
+RoadWetGrip_Brands_Hatch=0.87
+AIWetGrip_Brands_Hatch=0.89
+PlayerTireWear_Brands_Hatch=1.0
+FrontTireHeatMult_Brands_Hatch=1.0
+RearTireHeatMult_Brands_Hatch=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Brands_Hatch=1.0
+AIDryGrip_2007_Brands_Hatch=1.0
+RoadWetGrip_2007_Brands_Hatch=0.87
+AIWetGrip_2007_Brands_Hatch=0.89
+PlayerTireWear_2007_Brands_Hatch=1.0
+FrontTireHeatMult_2007_Brands_Hatch=1.0
+RearTireHeatMult_2007_Brands_Hatch=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Brands_Hatch2=1.0
+AIDryGrip_2007_Brands_Hatch2=1.0
+RoadWetGrip_2007_Brands_Hatch2=0.87
+AIWetGrip_2007_Brands_Hatch2=0.89
+PlayerTireWear_2007_Brands_Hatch2=1.0
+FrontTireHeatMult_2007_Brands_Hatch2=1.0
+RearTireHeatMult_2007_Brands_Hatch2=1.0
+[OVERRIDES]
+RoadDryGrip_2006_Brno=1.0
+AIDryGrip_2006_Brno=1.02
+RoadWetGrip_2006_Brno=0.87
+AIWetGrip_2006_Brno=0.89
+PlayerTireWear_2006_Brno=1.0
+FrontTireHeatMult_2006_Brno=1.0
+RearTireHeatMult_2006_Brno=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Brno=1.0
+AIDryGrip_2007_Brno=1.02
+RoadWetGrip_2007_Brno=0.87
+AIWetGrip_2007_Brno=0.89
+PlayerTireWear_2007_Brno=1.0
+FrontTireHeatMult_2007_Brno=1.0
+RearTireHeatMult_2007_Brno=1.0
+[OVERRIDES]
+RoadDryGrip_2006_Curitiba=1.0
+AIDryGrip_2006_Curitiba=1.01
+RoadWetGrip_2006_Curitiba=0.87
+AIWetGrip_2006_Curitiba=0.89
+PlayerTireWear_2006_Curitiba=1.0
+FrontTireHeatMult_2006_Curitiba=1.0
+RearTireHeatMult_2006_Curitiba=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Curitiba=1.0
+AIDryGrip_2007_Curitiba=1.01
+RoadWetGrip_2007_Curitiba=0.87
+AIWetGrip_2007_Curitiba=0.89
+PlayerTireWear_2007_Curitiba=1.0
+FrontTireHeatMult_2007_Curitiba=1.0
+RearTireHeatMult_2007_Curitiba=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Curitiba_Oval=1.0
+AIDryGrip_2007_Curitiba_Oval=1.01
+RoadWetGrip_2007_Curitiba_Oval=0.87
+AIWetGrip_2007_Curitiba_Oval=0.89
+PlayerTireWear_2007_Curitiba_Oval=1.0
+FrontTireHeatMult_2007_Curitiba_Oval=1.0
+RearTireHeatMult_2007_Curitiba_Oval=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Curitiba_rev=1.0
+AIDryGrip_2007_Curitiba_rev=1.01
+RoadWetGrip_2007_Curitiba_rev=0.87
+AIWetGrip_2007_Curitiba_rev=0.89
+PlayerTireWear_2007_Curitiba_rev=1.0
+FrontTireHeatMult_2007_Curitiba_rev=1.0
+RearTireHeatMult_2007_Curitiba_rev=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Estoril=1.0
+AIDryGrip_2007_Estoril=1.02
+RoadWetGrip_2007_Estoril=0.87
+AIWetGrip_2007_Estoril=0.89
+PlayerTireWear_2007_Estoril=1.0
+FrontTireHeatMult_2007_Estoril=1.0
+RearTireHeatMult_2007_Estoril=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Imola=1.0
+AIDryGrip_2007_Imola=1.04
+RoadWetGrip_2007_Imola=0.87
+AIWetGrip_2007_Imola=0.89
+PlayerTireWear_2007_Imola=1.0
+FrontTireHeatMult_2007_Imola=1.0
+RearTireHeatMult_2007_Imola=1.0
+[OVERRIDES]
+RoadDryGrip_2006_Istanbul=1.0
+AIDryGrip_2006_Istanbul=1.12
+RoadWetGrip_2006_Istanbul=0.87
+AIWetGrip_2006_Istanbul=0.89
+PlayerTireWear_2006_Istanbul=1.0
+FrontTireHeatMult_2006_Istanbul=1.0
+RearTireHeatMult_2006_Istanbul=1.0
+[OVERRIDES]
+RoadDryGrip_2006_Macau=1.0
+AIDryGrip_2006_Macau=1.00
+RoadWetGrip_2006_Macau=0.87
+AIWetGrip_2006_Macau=0.89
+PlayerTireWear_2006_Macau=1.0
+FrontTireHeatMult_2006_Macau=1.0
+RearTireHeatMult_2006_Macau=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Macau=1.0
+AIDryGrip_2007_Macau=1.0
+RoadWetGrip_2007_Macau=0.87
+AIWetGrip_2007_Macau=0.89
+PlayerTireWear_2007_Macau=1.0
+FrontTireHeatMult_2007_Macau=1.0
+RearTireHeatMult_2007_Macau=1.0
+[OVERRIDES]
+RoadDryGrip_2006_Macau_REV=1.0
+AIDryGrip_2006_Macau_REV=1.00
+RoadWetGrip_2006_Macau_REV=0.87
+AIWetGrip_2006_Macau_REV=0.89
+PlayerTireWear_2006_Macau_REV=1.0
+FrontTireHeatMult_2006_Macau_REV=1.0
+RearTireHeatMult_2006_Macau_REV=1.0
+[OVERRIDES]
+RoadDryGrip_2006_Magny_Cours=1.0
+AIDryGrip_2006_Magny_Cours=1.10
+RoadWetGrip_2006_Magny_Cours=0.87
+AIWetGrip_2006_Magny_Cours=0.89
+PlayerTireWear_2006_Magny_Cours=1.0
+FrontTireHeatMult_2006_Magny_Cours=1.0
+RearTireHeatMult_2006_Magny_Cours=1.0
+[OVERRIDES]
+RoadDryGrip_2006_Magny_Cours_2=1.0
+AIDryGrip_2006_Magny_Cours_2=1.10
+RoadWetGrip_2006_Magny_Cours_2=0.87
+AIWetGrip_2006_Magny_Cours_2=0.89
+PlayerTireWear_2006_Magny_Cours_2=1.0
+FrontTireHeatMult_2006_Magny_Cours_2=1.0
+RearTireHeatMult_2006_Magny_Cours_2=1.0
+[OVERRIDES]
+RoadDryGrip_2006_Monza=1.0
+AIDryGrip_2006_Monza=1.05
+RoadWetGrip_2006_Monza=0.87
+AIWetGrip_2006_Monza=0.89
+PlayerTireWear_2006_Monza=1.0
+FrontTireHeatMult_2006_Monza=1.0
+RearTireHeatMult_2006_Monza=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Monza=1.0
+AIDryGrip_2007_Monza=1.05
+RoadWetGrip_2007_Monza=0.87
+AIWetGrip_2007_Monza=0.89
+PlayerTireWear_2007_Monza=1.0
+FrontTireHeatMult_2007_Monza=1.0
+RearTireHeatMult_2007_Monza=1.0
+[OVERRIDES]
+RoadDryGrip_2007_Monza=1.0
+AIDryGrip_2007_Monza=1.05
+RoadWetGrip_2007_Monza=0.87
+AIWetGrip_2007_Monza=0.89
+PlayerTireWear_2007_Monza=1.0
+FrontTireHeatMult_2007_Monza=1.0
+RearTireHeatMult_2007_Monza=1.0
+[OVERRIDES]
+RoadDryGrip_2006_Oschersleben=1.00
+AIDryGrip_2006_Oschersleben=1.15
+RoadWetGrip_2006_Oschersleben=0.87
+AIWetGrip_2006_Oschersleben=0.89
+PlayerTireWear_2006_Oschersleben=1.0
+FrontTireHeatMult_2006_Oschersleben=1.00
+RearTireHeatMult_2006_Oschersleben=1.00
+[OVERRIDES]
+RoadDryGrip_2006_Oschersleben_2=1.00
+AIDryGrip_2006_Oschersleben_2=1.10
+RoadWetGrip_2006_Oschersleben_2=0.87
+AIWetGrip_2006_Oschersleben_2=0.89
+PlayerTireWear_2006_Oschersleben_2=1.0
+FrontTireHeatMult_2006_Oschersleben_2=1.00
+RearTireHeatMult_2006_Oschersleben_2=1.00
+[OVERRIDES]
+RoadDryGrip_2006_Oschersleben_rev=1.00
+AIDryGrip_2006_Oschersleben_rev=1.10
+RoadWetGrip_2006_Oschersleben_rev=0.87
+AIWetGrip_2006_Oschersleben_rev=0.89
+PlayerTireWear_2006_Oschersleben_rev=1.0
+FrontTireHeatMult_2006_Oschersleben_rev=1.00
+RearTireHeatMult_2006_Oschersleben_rev=1.00
+[OVERRIDES]
+RoadDryGrip_2007_Oschersleben=1.00
+AIDryGrip_2007_Oschersleben=1.10
+RoadWetGrip_2007_Oschersleben=0.87
+AIWetGrip_2007_Oschersleben=0.89
+PlayerTireWear_2007_Oschersleben=1.0
+FrontTireHeatMult_2007_Oschersleben=1.00
+RearTireHeatMult_2007_Oschersleben=1.00
+[OVERRIDES]
+RoadDryGrip_2007_Oschersleben_2=1.00
+AIDryGrip_2007_Oschersleben_2=1.10
+RoadWetGrip_2007_Oschersleben_2=0.87
+AIWetGrip_2007_Oschersleben_2=0.89
+PlayerTireWear_2007_Oschersleben_2=1.0
+FrontTireHeatMult_2007_Oschersleben_2=1.00
+RearTireHeatMult_2007_Oschersleben_2=1.00
+[OVERRIDES]
+RoadDryGrip_2007_Oschersleben_rev=1.00
+AIDryGrip_2007_Oschersleben_rev=1.10
+RoadWetGrip_2007_Oschersleben_rev=0.87
+AIWetGrip_2007_Oschersleben_rev=0.89
+PlayerTireWear_2007_Oschersleben_rev=1.0
+FrontTireHeatMult_2007_Oschersleben_rev=1.00
+RearTireHeatMult_2007_Oschersleben_rev=1.00
+[OVERRIDES]
+RoadDryGrip_Pau=1.00
+AIDryGrip_Pau=1.07
+RoadWetGrip_Pau=0.87
+AIWetGrip_Pau=0.89
+PlayerTireWear_Pau=1.0
+FrontTireHeatMult_Pau=1.00
+RearTireHeatMult_Pau=1.00
+[OVERRIDES]
+RoadDryGrip_2006_Puebla=0.90
+AIDryGrip_2006_Puebla=0.95
+RoadWetGrip_2006_Puebla=0.87
+AIWetGrip_2006_Puebla=0.89
+PlayerTireWear_2006_Puebla=1.0
+FrontTireHeatMult_2006_Puebla=1.00
+RearTireHeatMult_2006_Puebla=1.00
+[OVERRIDES]
+RoadDryGrip_2006_Puebla_Oval=0.90
+AIDryGrip_2006_Puebla_Oval=0.95
+RoadWetGrip_2006_Puebla_Oval=0.87
+AIWetGrip_2006_Puebla_Oval=0.89
+PlayerTireWear_2006_Puebla_Oval=1.0
+FrontTireHeatMult_2006_Puebla_Oval=1.00
+RearTireHeatMult_2006_Puebla_Oval=1.00
+[OVERRIDES]
+RoadDryGrip_2006_Puebla_Special=0.90
+AIDryGrip_2006_Puebla_Special=0.95
+RoadWetGrip_2006_Puebla_Special=0.87
+AIWetGrip_2006_Puebla_Special=0.89
+PlayerTireWear_2006_Puebla_Special=1.0
+FrontTireHeatMult_2006_Puebla_Special=1.00
+RearTireHeatMult_2006_Puebla_Special=1.00
+[OVERRIDES]
+RoadDryGrip_2006_Valencia=1.00
+AIDryGrip_2006_Valencia=1.06
+RoadWetGrip_2006_Valencia=0.87
+AIWetGrip_2006_Valencia=0.89
+PlayerTireWear_2006_Valencia=1.0
+FrontTireHeatMult_2006_Valencia=1.00
+RearTireHeatMult_2006_Valencia=1.00
+[OVERRIDES]
+RoadDryGrip_2007_Valencia=1.00
+AIDryGrip_2007_Valencia=1.06
+RoadWetGrip_2007_Valencia=0.87
+AIWetGrip_2007_Valencia=0.89
+PlayerTireWear_2007_Valencia=1.0
+FrontTireHeatMult_2007_Valencia=1.00
+RearTireHeatMult_2007_Valencia=1.00
+[OVERRIDES]
+RoadDryGrip_2007_Valencia_2=1.00
+AIDryGrip_2007_Valencia_2=1.06
+RoadWetGrip_2007_Valencia_2=0.87
+AIWetGrip_2007_Valencia_2=0.89
+PlayerTireWear_2007_Valencia_2=1.0
+FrontTireHeatMult_2007_Valencia_2=1.00
+RearTireHeatMult_2007_Valencia_2=1.00
+[OVERRIDES]
+RoadDryGrip_2007_Valencia_3=1.00
+AIDryGrip_2007_Valencia_3=1.06
+RoadWetGrip_2007_Valencia_3=0.87
+AIWetGrip_2007_Valencia_3=0.89
+PlayerTireWear_2007_Valencia_3=1.0
+FrontTireHeatMult_2007_Valencia_3=1.00
+RearTireHeatMult_2007_Valencia_3=1.00
+[OVERRIDES]
+RoadDryGrip_2007_Valencia_REV=1.00
+AIDryGrip_2007_Valencia_REV=1.06
+RoadWetGrip_2007_Valencia_REV=0.87
+AIWetGrip_2007_Valencia_REV=0.89
+PlayerTireWear_2007_Valencia_REV=1.0
+FrontTireHeatMult_2007_Valencia_REV=1.00
+RearTireHeatMult_2007_Valencia_REV=1.00
+[OVERRIDES]
+RoadDryGrip_2007_Vara=1.00
+AIDryGrip_2007_Vara=1.02
+RoadWetGrip_2007_Vara=0.87
+AIWetGrip_2007_Vara=0.89
+PlayerTireWear_2007_Vara=1.0
+FrontTireHeatMult_2007_Vara=1.00
+RearTireHeatMult_2007_Vara=1.00
+[OVERRIDES]
+RoadDryGrip_2007_Zandvoort=1.00
+AIDryGrip_2007_Zandvoort=1.03
+RoadWetGrip_2007_Zandvoort=0.87
+AIWetGrip_2007_Zandvoort=0.89
+PlayerTireWear_2007_Zandvoort=1.0
+FrontTireHeatMult_2007_Zandvoort=1.00
+RearTireHeatMult_2007_Zandvoort=1.00
+[OVERRIDES]
+RoadDryGrip_Nurburgring=1.00
+AIDryGrip_Nurburgring=1.07
+RoadWetGrip_Nurburgring=0.89
+AIWetGrip_Nurburgring=0.91
+PlayerTireWear_Nurburgring=1.0
+FrontTireHeatMult_Nurburgring=1.00
+RearTireHeatMult_Nurburgring=1.00
+[OVERRIDES]
+RoadDryGrip_Nordschleife=1.00
+AIDryGrip_Nordschleife=1.07
+RoadWetGrip_Nordschleife=0.89
+AIWetGrip_Nordschleife=0.91
+PlayerTireWear_Nordschleife=1.0
+FrontTireHeatMult_Nordschleife=1.00
+RearTireHeatMult_Nordschleife=1.00
+[OVERRIDES]
+RoadDryGrip_Nurburg=1.00
+AIDryGrip_Nurburg=1.07
+RoadWetGrip_Nurburg=0.89
+AIWetGrip_Nurburg=0.91
+PlayerTireWear_Nurburg=1.0
+FrontTireHeatMult_Nurburg=1.00
+RearTireHeatMult_Nurburg=1.00
+[OVERRIDES]
+RoadDryGrip_Valerbanen=1.00
+AIDryGrip_Valerbanen=1.07
+RoadWetGrip_Valerbanen=0.87
+AIWetGrip_Valerbanen=0.89
+PlayerTireWear_Valerbanen=1.0
+FrontTireHeatMult_Valerbanen=1.00
+RearTireHeatMult_Valerbanen=1.00
+[OVERRIDES]
+RoadDryGrip_Falkenberg=1.00
+AIDryGrip_Falkenberg=1.05
+RoadWetGrip_Falkenberg=0.87
+AIWetGrip_Falkenberg=0.89
+PlayerTireWear_Falkenberg=1.0
+FrontTireHeatMult_Falkenberg=1.00
+RearTireHeatMult_Falkenberg=1.00
+[OVERRIDES]
+RoadDryGrip_Gothenburg=1.01
+AIDryGrip_Gothenburg=1.08
+RoadWetGrip_Gothenburg=0.87
+AIWetGrip_Gothenburg=0.89
+PlayerTireWear_Gothenburg=1.0
+FrontTireHeatMult_Gothenburg=1.00
+RearTireHeatMult_Gothenburg=1.00
+[OVERRIDES]
+RoadDryGrip_Karlskoga=1.02
+AIDryGrip_Karlskoga=1.06
+RoadWetGrip_Karlskoga=0.87
+AIWetGrip_Karlskoga=0.89
+PlayerTireWear_Karlskoga=1.0
+FrontTireHeatMult_Karlskoga=1.00
+RearTireHeatMult_Karlskoga=1.00
+[OVERRIDES]
+RoadDryGrip_Mantorp=1.00
+AIDryGrip_Mantorp=1.09
+RoadWetGrip_Mantorp=0.87
+AIWetGrip_Mantorp=0.89
+PlayerTireWear_Mantorp=1.0
+FrontTireHeatMult_Mantorp=1.00
+RearTireHeatMult_Mantorp=1.00
+[OVERRIDES]
+RoadDryGrip_Ring_Knutstorp=1.01
+AIDryGrip_Ring_Knutstorp=1.12
+RoadWetGrip_Ring_Knutstorp=0.87
+AIWetGrip_Ring_Knutstorp=0.91
+PlayerTireWear_Ring_Knutstorp=1.0
+FrontTireHeatMult_Ring_Knutstorp=1.00
+RearTireHeatMult_Ring_Knutstorp=1.00
+[OVERRIDES]
+RoadDryGrip_Sturup=1.01
+AIDryGrip_Sturup=1.11
+RoadWetGrip_Sturup=0.87
+AIWetGrip_Sturup=0.90
+PlayerTireWear_Sturup=1.0
+FrontTireHeatMult_Sturup=1.00
+RearTireHeatMult_Sturup=1.00
+//
+// TOAD TRACKS
+//
+[OVERRIDES]
+RoadDryGrip_2008_Imola=1.0
+AIDryGrip_2008_Imola=1.07
+RoadWetGrip_2008_Imola=0.87
+AIWetGrip_2008_Imola=0.89
+PlayerTireWear_2008_Imola=1.0
+FrontTireHeatMult_2008_Imola=1.00
+RearTireHeatMult_2008_Imola=1.00
+[OVERRIDES]
+RoadDryGrip_2008_Brands_Hatch=1.0
+AIDryGrip_2008_Brands_Hatch=1.0
+RoadWetGrip_2008_Brands_Hatch=0.87
+AIWetGrip_2008_Brands_Hatch=0.89
+PlayerTireWear_2008_Brands_Hatch=1.0
+FrontTireHeatMult_2008_Brands_Hatch=1.0
+RearTireHeatMult_2008_Brands_Hatch=1.0
+[OVERRIDES]
+RoadDryGrip_2008_Brno=1.0
+AIDryGrip_2008_Brno=1.02
+RoadWetGrip_2008_Brno=0.87
+AIWetGrip_2008_Brno=0.89
+PlayerTireWear_2008_Brno=1.0
+FrontTireHeatMult_2008_Brno=1.0
+RearTireHeatMult_2008_Brno=1.0
+[OVERRIDES]
+RoadDryGrip_2008_Curitiba=1.0
+AIDryGrip_2008_Curitiba=1.01
+RoadWetGrip_2008_Curitiba=0.87
+AIWetGrip_2008_Curitiba=0.89
+PlayerTireWear_2008_Curitiba=1.0
+FrontTireHeatMult_2008_Curitiba=1.0
+RearTireHeatMult_2008_Curitiba=1.0
+[OVERRIDES]
+RoadDryGrip_2008_Estoril=1.0
+AIDryGrip_2008_Estoril=1.02
+RoadWetGrip_2008_Estoril=0.87
+AIWetGrip_2008_Estoril=0.89
+PlayerTireWear_2008_Estoril=1.0
+FrontTireHeatMult_2008_Estoril=1.0
+RearTireHeatMult_2008_Estoril=1.0
+[OVERRIDES]
+RoadDryGrip_2008_Macau=1.0
+AIDryGrip_2008_Macau=1.0
+RoadWetGrip_2008_Macau=0.87
+AIWetGrip_2008_Macau=0.89
+PlayerTireWear_2008_Macau=1.0
+FrontTireHeatMult_2008_Macau=1.0
+RearTireHeatMult_2008_Macau=1.0
+[OVERRIDES]
+RoadDryGrip_2008_Monza=1.0
+AIDryGrip_2008_Monza=1.05
+RoadWetGrip_2008_Monza=0.87
+AIWetGrip_2008_Monza=0.89
+PlayerTireWear_2008_Monza=1.0
+FrontTireHeatMult_2008_Monza=1.0
+RearTireHeatMult_2008_Monza=1.0
+[OVERRIDES]
+RoadDryGrip_2008_Oschersleben=1.00
+AIDryGrip_2008_Oschersleben=1.10
+RoadWetGrip_2008_Oschersleben=0.87
+AIWetGrip_2008_Oschersleben=0.89
+PlayerTireWear_2008_Oschersleben=1.0
+FrontTireHeatMult_2008_Oschersleben=1.00
+RearTireHeatMult_2008_Oschersleben=1.00
+[OVERRIDES]
+RoadDryGrip_2008_Pau=1.00
+AIDryGrip_2008_Pau=1.07
+RoadWetGrip_2008_Pau=0.87
+AIWetGrip_2008_Pau=0.89
+PlayerTireWear_2008_Pau=1.0
+FrontTireHeatMult_2008_Pau=1.00
+RearTireHeatMult_2008_Pau=1.00
+[OVERRIDES]
+RoadDryGrip_2008_Puebla=1.0
+AIDryGrip_2008_Puebla=1.05
+RoadWetGrip_2008_Puebla=0.87
+AIWetGrip_2008_Puebla=0.89
+PlayerTireWear_2008_Puebla=1.0
+FrontTireHeatMult_2008_Puebla=1.00
+RearTireHeatMult_2008_Puebla=1.00
+[OVERRIDES]
+RoadDryGrip_2008_Valencia=1.00
+AIDryGrip_2008_Valencia=1.06
+RoadWetGrip_2008_Valencia=0.87
+AIWetGrip_2008_Valencia=0.89
+PlayerTireWear_2008_Valencia=1.0
+FrontTireHeatMult_2008_Valencia=1.00
+RearTireHeatMult_2008_Valencia=1.00
+[OVERRIDES]
+RoadDryGrip_Okayama=1.0
+AIDryGrip_Okayama=1.20
+RoadWetGrip_Okayama=0.87
+AIWetGrip_Okayama=0.89
+PlayerTireWear_Okayama=1.0
+FrontTireHeatMult_Okayama=1.00
+RearTireHeatMult_Okayama=1.00
+[OVERRIDES]
+RoadDryGrip_Laguna_Seca=1.0
+AIDryGrip_Laguna_Seca=1.07
+RoadWetGrip_Laguna_Seca=0.87
+AIWetGrip_Laguna_Seca=0.89
+PlayerTireWear_Laguna_Seca=1.0
+FrontTireHeatMult_Laguna_Seca=1.00
+RearTireHeatMult_Laguna_Seca=1.00
+[OVERRIDES]
+RoadDryGrip_Road_America=1.0
+AIDryGrip_Road_America=1.05
+RoadWetGrip_Road_America=0.87
+AIWetGrip_Road_America=0.89
+PlayerTireWear_Road_America=1.0
+FrontTireHeatMult_Road_America=1.00
+RearTireHeatMult_Road_America=1.00
+
+
+
+
+
+
+
+
+

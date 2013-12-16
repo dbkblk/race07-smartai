@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00048
+Team="Lusa Racing"
+GenString=1
+Driver1="David Di Benedetto"
+
+ComparativeTime=104

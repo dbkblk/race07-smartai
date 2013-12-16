@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00030
+Team="GTN Drivers Club"
+GenString=1
+Driver1="Maurice Hurkmans"
+
+ComparativeTime=104

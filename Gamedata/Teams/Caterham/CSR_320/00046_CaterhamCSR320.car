@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00046
+Team="Oz Sport"
+GenString=1
+Driver1="Donald Goldsmith"
+
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\2008_Golden_Motors.inccar
+Number=00015
+Driver1="James Thompson 08"
+GenString=1
+Team="N. Technology"
+PitGroup="PITGROUP_UPDATE_ME"
+

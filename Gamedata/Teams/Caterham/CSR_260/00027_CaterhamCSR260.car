@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00027
+Team="Ajira Racing"
+GenString=1
+Driver1="Marie Bake"
+
+ComparativeTime=104

@@ -1,0 +1,13 @@
+include=..\Toledo.inccar
+
+GenString=1
+
+Number=00008
+Team="Scuderia EVO"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Robert Holm"
+
+
+//Motortorget, MotorsTV, Pyxidium
+
+ComparativeTime=104

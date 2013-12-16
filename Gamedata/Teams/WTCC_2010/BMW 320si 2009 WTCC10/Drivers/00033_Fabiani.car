@@ -1,0 +1,7 @@
+include=..\BMW_320si_2009_WTCC10.inccar
+Number=00033
+Team="Scuderia Proteam Motorsport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Fabio Fabiani 10"
+
+FactoryWeight=0.6

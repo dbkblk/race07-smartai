@@ -1,0 +1,13 @@
+include=..\C5R.inccar
+
+GenString=1
+
+Number=00015
+Team="Puma Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Damon Clewlow"
+
+
+//AutoHebdo, Dell, Hype
+
+ComparativeTime=104

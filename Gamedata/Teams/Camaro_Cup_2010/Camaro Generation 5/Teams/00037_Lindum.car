@@ -1,0 +1,11 @@
+include=..\Camaro_Generation_5.inccar
+
+GenString=1
+
+Number=00037
+Team="Lindum"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Ole-Martin Lindum 10"
+
+
+ComparativeTime=104

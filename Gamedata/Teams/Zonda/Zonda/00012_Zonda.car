@@ -1,0 +1,10 @@
+include=..\Zonda.inccar
+
+GenString=1
+
+Number=00012
+Team="Team DTS"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Andrea Piccini"
+
+FactoryWeight=0.6

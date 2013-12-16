@@ -1,0 +1,7 @@
+include=..\Seat_Leon_TDi_WTCC10.inccar
+Number=00073
+Team=SR-Sport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Michael Rossi 10"
+
+FactoryWeight=0.9

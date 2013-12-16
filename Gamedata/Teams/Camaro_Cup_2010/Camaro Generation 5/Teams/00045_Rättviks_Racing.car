@@ -1,0 +1,11 @@
+include=..\Camaro_Generation_5.inccar
+
+GenString=2
+
+Number=00045
+Team="Rättviks Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jörgen Eriksson 10"
+
+
+ComparativeTime=104

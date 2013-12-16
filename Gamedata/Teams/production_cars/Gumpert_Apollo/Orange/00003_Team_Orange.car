@@ -1,0 +1,10 @@
+Include=..\Gumpert.inccar
+
+GenString=3
+
+Number=00003
+Team="Gumpert Apollo Orange"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Pontus Eriksson"
+
+FactoryWeight=0.0

@@ -1,0 +1,395 @@
+//=====================================================
+// Lola 2002 BT2/50 F3000
+// Created By Mark Reynolds Simbin Development Team AB
+// Version 3.3
+// File last edited on: 26th June 2008
+//=====================================================
+
+[GENERAL]
+Rules=0                         // what rules to apply to garage setups (0=none, 1=stock car)
+GarageDisplayFlags=7
+FeelerFlags=0
+Mass=615.0					// 545kg Car + 70kg Driver
+Inertia=(675.0, 700.0, 180.0)
+FuelTankPos=(0.0, 0.20, -1.300)  // location of tank affects center of gravity (very close and even slightly ahead of CG in F1)
+FuelTankMotion=(560.0,0.7)      // simple model of fuel movement in tank (spring rate per kg, critical damping ratio)
+Notes=""
+Symmetric=1
+DamageFile=2002_LOLA_BT250.dmg               // file to find physical and graphical damage info
+CGHeight=0.23                 // height of body mass (excluding fuel) above reference plane was 25
+CGRightRange=(0.500, 0.0, 0)  // fraction of weight on left tires
+CGRightSetting=0
+CGRearRange=(0.57, 0.0, 0)
+CGRearSetting=0
+WedgeRange=(0.0, 0.25, 1)       // rounds of wedge (disabled here because we use ride heights individually for F1)
+WedgeSetting=0
+WedgePushrod=0.0                // each round of wedge changes rear-left jacking screw by this amount (0.0 to disable, use Rules to allow FR ride height)
+GraphicalOffset=(0.0, 0.0, 0.0) // does not affect physics!
+FLUndertray=(0.15,  0.020, 0.33)  // corner offset from center of front axle in reference plane
+FRUndertray=(-0.15, 0.020, 0.33)  // corner offset from center of front axle in reference plane
+RLUndertray=(0.15,  0.020, 0.00)  // corner offset from center of rear axle in reference plane
+RRUndertray=(-0.15, 0.020, 0.00)  // corner offset from center of rear axle in reference plane
+UndertrayParams=(175000.0, 10000.0, 1.0) // spring/damper/friction
+TireBrand=2002_LOLA_BT250
+TireCompoundSetting=0           // compound index within brand
+FuelRange=(1.0, 1.0, 125)
+FuelSetting=55
+NumPitstopsRange=(0, 1, 4)
+NumPitstopsSetting=0
+Pitstop1Range=(1.0, 1.0, 70)
+Pitstop1Setting=55
+Pitstop2Range=(1.0, 1.0, 70)
+Pitstop2Setting=55
+Pitstop3Range=(1.0, 1.0, 70)
+Pitstop3Setting=55
+AIMinPassesPerTick=7           
+AIRotationThreshold=0.20        
+AIEvenSuspension=0.3       
+AISpringRate=1.0             
+AIDamperSlow=1.0           
+AIDamperFast=0.6       
+AIDownforceZArm=0.15      
+AIDownforceBias=0.8        
+AITorqueStab=(0.50, 0.50, 0.75)
+
+
+[FRONTWING]
+FWRange=(0.0, 1.0, 24)          // front wing range
+FWSetting=17                    // front wing setting
+FWMaxHeight=(0.30)              // maximum height to take account of for downforce
+FWDragParams=(0.0225, 0.00050, 0.0001)        // base drag and 1st and 2nd order with setting
+FWLiftParams=(-0.1975, -0.01925, 0.000001) // base lift and 1st and 2nd order with setting was 650
+FWLiftHeight=(1.040)            // effect of current height on lift coefficient
+FWLiftSideways=(0.41)           // dropoff in downforce with yaw (0.0 = none, 1.0 = max)
+FWLeft=(-0.005, 0.0, 0.0)        // aero forces from moving left
+FWRight=(0.005, 0.0, 0.0)        // aero forces from moving right
+FWUp=(0.0, -0.05, -0.001)       // aero forces from moving up
+FWDown=(0.0, 0.025, 0.001)       // aero forces from moving down
+FWAft=(0.0, 0.02, -0.02)        // aero forces from moving rearwards
+FWFore=(0.0, 0.0, 0.0)          // aero forces from moving forwards (recomputed from settings)
+FWRot=(0.05, 0.025, 0.075)        // aero torque from rotating
+FWCenter=(0.00, 0.00, -0.50)    // center of front wing forces (offset from center of front axle in ref plane)
+
+[REARWING]
+RWRange=(0.0, 1.0, 36)          // rear wing range
+RWSetting=35                    // rear wing setting
+RWDragParams=(0.0675, 0.00150, 0.0001)        // base drag and 1st and 2nd order with setting
+RWLiftParams=(-0.2375, -0.01700, 0.000001) // base lift and 1st and 2nd order with setting
+RWLiftSideways=(0.40)           // dropoff in downforce with yaw (0.0 = none, 1.0 = max)
+RWPeakYaw=(0.0, 1.00)           // angle of peak, multiplier at peak
+RWLeft=(-0.005, 0.0, 0.0)        // aero forces from moving left
+RWRight=(0.005, 0.0, 0.0)        // aero forces from moving right
+RWUp=(0.0, -0.09, -0.002)       // aero forces from moving up
+RWDown=(0.0, 0.045, 0.002)       // aero forces from moving down
+RWAft=(0.0, 0.03, -0.4)        // aero forces from moving rearwards
+RWFore=(0.0, 0.0, 0.0)          // aero forces from moving forwards (recomputed from settings)
+RWRot=(0.08, 0.05, 0.11)        // aero torque from rotating
+RWCenter=(0.00, 0.60, 0.35)     // center of rear wing forces (offset from center of rear axle at ref plane)
+
+[BODYAERO]
+BodyDragBase=(0.43)             // base drag			was 45
+BodyDragHeightAvg=(0.400)       // drag increase with average ride height
+BodyDragHeightDiff=(0.925)      // drag increase with front/rear ride height difference
+BodyMaxHeight=(0.20)            // maximum ride height that affects drag/lift
+BodyLeft=(-0.6, 0.0, 0.0)       // aero forces from moving left
+BodyRight=(0.6, 0.0, 0.0)       // aero forces from moving right
+BodyUp=(0.0, -0.9, 0.0)         // aero forces from moving up
+BodyDown=(0.0, 0.9, 0.0)        // aero forces from moving down
+BodyAft=(0.0, 0.5, -0.8)      // aero forces from moving rearwards
+BodyFore=(0.0, -0.2000, 0.435)  // aero forces from moving forwards (lift value important!)
+BodyRot=(7.0, 6.0, 5.0)         // aero torque from rotating 
+BodyCenter=(0.0, 0.250, -1.00) // center of body aero forces (offset from center of rear axle at ref plane)
+RadiatorRange=(0.0, 1.0, 6)     // radiator range
+RadiatorSetting=3               // radiator setting
+RadiatorDrag=(0.0031)           // effect of radiator setting on drag
+RadiatorLift=(0.008)            // effect of radiator setting on lift
+BrakeDuctRange=(0.0, 1.0, 7)    // brake duct range
+BrakeDuctSetting=2              // brake duct setting
+BrakeDuctDrag=(0.0046)          // effect of brake duct setting on drag
+BrakeDuctLift=(0.010)           // effect of brake duct setting on lift
+
+[DIFFUSER]
+DiffuserBase=(-0.550, -2.90, 52.5)  // base lift and 1st/2nd order with rear ride height
+DiffuserFrontHeight=(0.110)         // 1st order with front ride height
+DiffuserRake=(0.005, -5.0, 150.0)        // Optimum rake (rear - front ride height), 1st order with current difference from opt, 2nd order
+DiffuserLimits=(0.001, 0.100, 0.055)    // Min ride height before stalling begins (0.0 to disable), max rear ride height for computations, max rake difference for computations
+DiffuserStall=(0.3, 0.5)  // function to compute stall ride height (0.0=minimum, 1.0=average), downforce lost when bottoming out (0.0=none,1.0=complete stall)
+DiffuserSideways=(0.3)              // dropoff with yaw (0.0 = none, 1.0 = max)
+DiffuserCenter=(0.0, 0.010, -1.00) // center of diffuser forces (offset from center of rear axle at ref plane)
+
+[SUSPENSION]
+PhysicalModelFile=2002_LOLA_BT250.SP
+ApplySlowToFastDampers=0         // whether to apply slow damper settings to fast damper settings
+CorrectedInnerSuspHeight=-1.0          // instead of moving inner susp height relative with ride height, use this offset (set to -1 for original behavior)
+AdjustSuspRates=1                // adjust suspension rates due to motion ratio
+AlignWheels=1                    // correct for minor graphical offsets
+FrontWheelTrack=0.0			// if non-zero, forces the front wheels to be specified track width 1.476
+RearWheelTrack=0.0			// if non-zero, forces the rear wheels to be specified track width 1.411
+LeftWheelBase=0.0                // if non-zero, forces the left side to use specified wheelbase   3.0
+RightWheelBase=0.0               // if non-zero, forces the right side to use specified wheelbase  3.0
+SpringBasedAntiSway=1            // 0=diameter-based, 1=spring-based
+FrontAntiSwayBase=0.0
+FrontAntiSwayRange=(70000.0, 5000.0, 27)
+FrontAntiSwaySetting=6
+FrontAntiSwayRate=(1.36e11, 4.0) // not applicable with spring-based antisway
+AllowNoAntiSway=1                // Whether first setting gets overridden to mean no antisway bar
+RearAntiSwayBase=0.0
+RearAntiSwayRange=(10000.0, 5000.0, 19)
+RearAntiSwaySetting=2
+RearAntiSwayRate=(1.36e11, 4.0)  // not applicable with spring-based antisway
+FrontToeInRange=(-1.0, 0.05, 41)
+FrontToeInSetting=20
+RearToeInRange=(-1.0, 0.05, 41)
+RearToeInSetting=24
+LeftCasterRange=(0.0, 0.1, 121)          // front-left caster
+LeftCasterSetting=90
+RightCasterRange=(0.0, 0.1, 121)         // front-right caster
+RightCasterSetting=90
+
+[CONTROLS]
+SteeringFFBMult=2.75
+UpshiftAlgorithm=(0.98,0.0) //  percentage of the rev limit to upshift at.  If the 2nd value is non-zero, then we will use it as the exact RPM to upshift at.
+DownshiftAlgorithm=(0.9,0.82,0.6) // percentage of "optimum" downshift point in high gears, percentage of "optimum" downshift point in low gears, oval adjustment.
+SteerLockRange=(5.0, 0.5, 57)
+SteerLockSetting=20
+RearBrakeRange=(0.200, 0.005, 121)
+RearBrakeSetting=50
+BrakePressureRange=(0.80, 0.01, 21)
+BrakePressureSetting=15
+HandbrakePressRange=(0.00, 0.05, 21) // 
+HandbrakePressSetting=0
+AutoUpshiftGripThresh=0.63          // auto upshift waits until all driven wheels have this much grip (reasonable range: 0.4-0.9)
+AutoDownshiftGripThresh=0.63        // auto downshift waits until all driven wheels have this much grip (reasonable range: 0.4-0.9)
+TractionControlGrip=(1.00, 0.20)    // average driven wheel grip multiplied by 1st number, then added to 2nd
+TractionControlLevel=(0.40, 0.70)   // effect of grip on throttle for low TC and high TC
+ABS4Wheel=1                         // 0 = old-style single brake pulse, 1 = more effective 4-wheel ABS
+ABSGrip=(1.00, 0.20)                // grip multiplied by 1st number and added to 2nd
+ABSLevel=(0.30, 0.90)               // effect of grip on brakes for low ABS and high ABS
+OnboardBrakeBias=1                  // whether brake bias is allowed onboard
+
+[ENGINE]
+Normal=2002_LOLA_BT250
+RestrictorPlate=2002_LOLA_BT250
+
+[DRIVELINE]
+ClutchEngageRate=0.9          //Auto clutch gradual engagement rate from neutral to 1st gear.
+ClutchInertia=0.0145
+ClutchTorque=900.0
+ClutchWear=0.0
+ClutchFriction=17.00
+BaulkTorque=850.0
+AllowManualOverride=1               // whether to allow manual shift overrides when using auto shifting
+SemiAutomatic=0                     // whether throttle and clutch are operated automatically
+UpshiftDelay=0.10                  // delay in selecting higher gear (low for semi-automatic, higher for manual)
+UpshiftClutchTime=0.010             // time to ease auto-clutch in AFTER upshift (0.0 for F1 cars)
+DownshiftDelay=0.10               // delay in selecting lower gear (low for semi-automatic, higher for manual)
+DownshiftClutchTime=0.0           // time to ease auto-clutch in AFTER downshift (used to be SemiAutoClutchTime, note that the shift will complete significantly before the clutch is fully engaged)
+DownshiftBlipThrottle=0.90          // amount of throttle used to blip if controlled by game (instead of player)
+WheelDrive=REAR                     // which wheels are driven: REAR, FOUR (even torque split), or FRONT
+GearFile=2002_LOLA_BT250.grb            // Must come before final/reverse/gear settings!
+FinalDriveSetting=1                 // indexed into GearFile list
+ReverseSetting=7
+ForwardGears=6
+Gear1Setting=0
+Gear2Setting=23
+Gear3Setting=34
+Gear4Setting=47
+Gear5Setting=57
+Gear6Setting=66
+DiffPumpTorque=200.0                // at 100% pump diff setting, the torque redirected per wheelspeed difference in radians/sec (roughly 1.2kph)
+DiffPumpRange=(0.0,0.05,21)         // differential acting on all driven wheels
+DiffPumpSetting=6
+DiffPowerRange=(0.0,0.0,0)        // fraction of power-side input torque transferred through diff
+DiffPowerSetting=0                  // (not implemented for four-wheel drive)
+DiffCoastRange=(0.0,0.05,21)        // fraction of coast-side input torque transferred through diff
+DiffCoastSetting=6                  // (not implemented for four-wheel drive)
+DiffPreloadRange=(0.0, 25.0, 21)     // preload torque that must be overcome to have wheelspeed difference
+DiffPreloadSetting=0                // (not implemented for four-wheel drive)
+
+[FRONTLEFT]
+BumpTravel=0.020                  // suspension travel upwards (= 5.5 inches travel - 4.5 inches minimum ride height)
+ReboundTravel=-0.060
+BumpStopSpring=150000.0
+BumpStopRisingSpring=6.50e6
+BumpStopDamper=4500.0
+BumpStopRisingDamper=7.00e5 
+BumpStage2=0.060
+ReboundStage2=-0.060
+FrictionTorque=2.0
+SpinInertia=0.8 
+PushrodSpindle=(-0.060, -0.040, 0.000)
+PushrodBody=(-0.260, 0.200, 0.000)
+CamberRange=(-4.5, 0.1, 45)
+CamberSetting=15
+PressureRange=(130.0, 1.0, 51)
+PressureSetting=30
+PackerRange=(0.000, 0.001, 51)
+PackerSetting=0
+SpringMult=1.0                     // take into account suspension motion if spring is not attached to spindle (affects physics but not garage display)
+SpringRange=(50000.0, 5000.0, 31)
+SpringSetting=14
+RideHeightRange=(0.03, 0.001, 51)
+RideHeightSetting=12
+DamperMult=1.00                     // take into account suspension motion if damper is not attached to spindle (affects physics but not garage display)
+SlowBumpRange=(2000.0, 100.0, 40)
+SlowBumpSetting=19
+FastBumpRange=(1000.0, 100.0, 40)
+FastBumpSetting=19
+SlowReboundRange=(4000.0, 100.0, 50)
+SlowReboundSetting=24
+FastReboundRange=(2000.0, 100.0, 50)
+FastReboundSetting=24
+BrakeDiscRange=(0.0200, 0.000, 1)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.715              // inertia per meter of thickness
+BrakeOptimumTemp=550.0              // optimum brake temperature in Celsius (peak brake grip)
+BrakeFadeRange=1100.0               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=4.156e-011            // meters of wear per second at optimum temperature
+BrakeFailure=(1.43e-002,5.28e-004)  // average and variation in disc thickness at failure
+BrakeTorque=2250.0                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.00195                // heat added linearly with brake torque times wheel speed (at max disc thickness)
+BrakeCooling=(3.450e-002,4.650e-004)  // minimum brake cooling rate (base and per unit velocity) (at max disc thickness)
+BrakeDuctCooling=1.209e-004         // brake cooling rate per brake duct setting (at max disc thickness)
+
+[FRONTRIGHT]
+BumpTravel=0.020                  // suspension travel upwards (= 5.5 inches travel - 4.5 inches minimum ride height)
+ReboundTravel=-0.060
+BumpStopSpring=150000.0
+BumpStopRisingSpring=6.50e6
+BumpStopDamper=4500.0
+BumpStopRisingDamper=7.00e5
+BumpStage2=0.060
+ReboundStage2=-0.060
+FrictionTorque=2.0
+SpinInertia=0.8 
+PushrodSpindle=(0.060, -0.040, 0.000)
+PushrodBody=(0.260, 0.200, 0.000)
+CamberRange=(-4.5, 0.1, 45)
+CamberSetting=15
+PressureRange=(130.0, 1.0, 51)
+PressureSetting=30
+PackerRange=(0.000, 0.001, 51)
+PackerSetting=0
+SpringMult=1.0                     // take into account suspension motion if spring is not attached to spindle (affects physics but not garage display)
+SpringRange=(50000.0, 5000.0, 31)
+SpringSetting=14
+RideHeightRange=(0.03, 0.001, 51)
+RideHeightSetting=12
+DamperMult=1.00                     // take into account suspension motion if damper is not attached to spindle (affects physics but not garage display)
+SlowBumpRange=(2000.0, 100.0, 40)
+SlowBumpSetting=19
+FastBumpRange=(1000.0, 100.0, 40)
+FastBumpSetting=19
+SlowReboundRange=(4000.0, 100.0, 50)
+SlowReboundSetting=24
+FastReboundRange=(2000.0, 100.0, 50)
+FastReboundSetting=24
+BrakeDiscRange=(0.0200, 0.000, 1)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.715              // inertia per meter of thickness
+BrakeOptimumTemp=550.0              // optimum brake temperature in Celsius (peak brake grip)
+BrakeFadeRange=1100.0               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=4.156e-011            // meters of wear per second at optimum temperature
+BrakeFailure=(1.43e-002,5.28e-004)  // average and variation in disc thickness at failure
+BrakeTorque=2250.0                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.00195                // heat added linearly with brake torque times wheel speed (at max disc thickness)
+BrakeCooling=(3.450e-002,4.650e-004)  // minimum brake cooling rate (base and per unit velocity) (at max disc thickness)
+BrakeDuctCooling=1.209e-004         // brake cooling rate per brake duct setting (at max disc thickness)
+
+[REARLEFT]
+BumpTravel=0.028                   // suspension travel upwards (= 5.5 inches travel - 4.5 inches minimum ride height)
+ReboundTravel=-0.075
+BumpStopSpring=150000.0
+BumpStopRisingSpring=6.50e6
+BumpStopDamper=4500.0
+BumpStopRisingDamper=7.00e5
+BumpStage2=0.060
+ReboundStage2=-0.060
+FrictionTorque=1.50
+SpinInertia=0.8 
+PushrodSpindle=(-0.120, -0.080, 0.000)
+PushrodBody=(-0.250, 0.240, 0.000)
+CamberRange=(-3.5, 0.1, 35)
+CamberSetting=10
+PressureRange=(130.0, 1.0, 51)
+PressureSetting=30
+PackerRange=(0.000, 0.001, 51)
+PackerSetting=0
+SpringMult=1.0                   // take into account suspension motion if spring is not attached to spindle (affects physics but not garage display)
+SpringRange=(50000.0, 5000.0, 31)
+SpringSetting=14
+RideHeightRange=(0.03, 0.001, 51)
+RideHeightSetting=22
+DamperMult=1.00                     // take into account suspension motion if damper is not attached to spindle (affects physics but not garage display)
+SlowBumpRange=(2000.0, 100.0, 40)
+SlowBumpSetting=14
+FastBumpRange=(1000.0, 100.0, 40)
+FastBumpSetting=14
+SlowReboundRange=(4000.0, 100.0, 50)
+SlowReboundSetting=19
+FastReboundRange=(2000.0, 100.0, 50)
+FastReboundSetting=19
+BrakeDiscRange=(0.0200, 0.000, 1)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.715              // inertia per meter of thickness
+BrakeOptimumTemp=550.0              // optimum brake temperature in Celsius (peak brake grip)
+BrakeFadeRange=1100.0               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=4.000e-011            // meters of wear per second at optimum temperature
+BrakeFailure=(1.43e-002,5.28e-004)  // average and variation in disc thickness at failure
+BrakeTorque=2000.0                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.00160                // heat added linearly with brake torque times wheel speed (at max disc thickness)
+BrakeCooling=(3.000e-002,4.000e-004)  // minimum brake cooling rate (base and per unit velocity) (at max disc thickness)
+BrakeDuctCooling=1.001e-004         // brake cooling rate per brake duct setting (at max disc thickness)
+
+[REARRIGHT]
+BumpTravel=0.028                 // suspension travel upwards (= 5.5 inches travel - 4.5 inches minimum ride height)
+ReboundTravel=-0.075              // suspension travel downwards (= -5.0 inches travel - 7.0 inches maximum ride height)
+BumpStopSpring=150000.0
+BumpStopRisingSpring=6.50e6
+BumpStopDamper=4500.0
+BumpStopRisingDamper=7.00e5 
+BumpStage2=0.060
+ReboundStage2=-0.060
+FrictionTorque=1.50
+SpinInertia=0.8 
+PushrodSpindle=(0.120, -0.080, 0.000)
+PushrodBody=(0.250, 0.240, 0.000)
+CamberRange=(-3.5, 0.1, 35)
+CamberSetting=10
+PressureRange=(130.0, 1.0, 51)
+PressureSetting=30
+PackerRange=(0.000, 0.001, 51)
+PackerSetting=0
+SpringMult=1.0                   // take into account suspension motion if spring is not attached to spindle (affects physics but not garage display)
+SpringRange=(50000.0, 5000.0, 31)
+SpringSetting=14
+RideHeightRange=(0.03, 0.001, 51)
+RideHeightSetting=22
+DamperMult=1.00                     // take into account suspension motion if damper is not attached to spindle (affects physics but not garage display)
+SlowBumpRange=(2000.0, 100.0, 40)
+SlowBumpSetting=14
+FastBumpRange=(1000.0, 100.0, 40)
+FastBumpSetting=14
+SlowReboundRange=(4000.0, 100.0, 50)
+SlowReboundSetting=19
+FastReboundRange=(2000.0, 100.0, 50)
+FastReboundSetting=19
+BrakeDiscRange=(0.0200, 0.000, 1)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.715              // inertia per meter of thickness
+BrakeOptimumTemp=550.0              // optimum brake temperature in Celsius (peak brake grip)
+BrakeFadeRange=1100.0               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=4.000e-011            // meters of wear per second at optimum temperature
+BrakeFailure=(1.43e-002,5.28e-004)  // average and variation in disc thickness at failure
+BrakeTorque=2000.0                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.00160                // heat added linearly with brake torque times wheel speed (at max disc thickness)
+BrakeCooling=(3.000e-002,4.000e-004)  // minimum brake cooling rate (base and per unit velocity) (at max disc thickness)
+BrakeDuctCooling=1.001e-004         // brake cooling rate per brake duct setting (at max disc thickness)

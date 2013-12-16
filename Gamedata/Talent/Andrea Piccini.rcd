@@ -1,0 +1,56 @@
+Andrea Piccini
+{
+ //Driver Info
+ Abbreviation=A. Piccini
+ Nationality=Italy
+ 
+ 
+ //Driver Stats
+ StartsDry=3.0                      //Average number of drivers passed during start (-4 - 4)
+ StartsWet=1.0           
+ StartStalls=0.0                       //% of starts where driver stalled
+ QualifyingAbility=5.00          //Average qualifying position NOTE: keep GT between 1 -15
+ RaceAbility=4.0
+Consistency=4.0
+
+
+ RainAbility=1.00                  //Range 0 - 6.2 (0 is best)
+ Passing=98.0
+
+ Crash=2.0                         //% of times driver crashed
+ Recovery=100                      //% of times driver continued after a crash
+ CompletedLaps%=99
+ Script=default.scp
+ TrackAggression=0.90
+
+
+ // Increase attempted low-speed cornering by adding a minimum onto calculated speed.
+ // Reduce attempted high-speed cornering by multiplying speed by a number less than 1.0.
+ // <adjusted speed> = CorneringAdd + (CorneringMult * <original speed>)
+  CorneringAdd=1.000
+
+ CorneringAdd=1.000
+
+
+//AI Throttle Control - how good they are at their own traction control upon throttle application
+TCGripThreshold=0.7   // Range: 0.0-1.0
+TCThrottleFract=1.2   // Range: 0.0-???
+TCResponse=0.0        // Range: 0.0-???
+
+//AI skill mistake variables
+MinRacingSkill = 0.98
+
+
+Composure = 0.01
+
+
+
+//AI ColdBrain variables
+RaceColdBrainMin=0.99
+
+RaceColdBrainTime=0
+
+QualColdBrainMin=0.96 
+QualColdBrainTime=180
+
+}

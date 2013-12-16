@@ -1,0 +1,13 @@
+Include=..\DB9R.inccar
+
+GenString=311
+
+Number=00014
+Team="Autosport Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="D.Redfern"
+
+
+//Hype, Navicam, SimBin
+
+FactoryWeight=0.0

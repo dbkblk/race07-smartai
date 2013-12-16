@@ -1,0 +1,6 @@
+include=..\Camaro.inccar
+Number=00001
+Team="Summit White"
+PitGroup=""
+Driver1="Kalle Helgesson"
+FactoryWeight=0.6

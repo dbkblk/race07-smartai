@@ -1,0 +1,7 @@
+include=..\Cadillac.inccar
+Number=00004
+Team="Crystal Red"
+PitGroup=""
+Driver1="Dale Reed"
+
+FactoryWeight=0.6

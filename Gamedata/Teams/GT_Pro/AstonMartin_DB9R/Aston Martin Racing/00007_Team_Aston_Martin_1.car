@@ -1,0 +1,11 @@
+Include=..\DB9R.inccar
+
+GenString=122
+
+Number=00007
+Team="Aston Martin Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Andrea Piccini"
+
+
+FactoryWeight=0.0

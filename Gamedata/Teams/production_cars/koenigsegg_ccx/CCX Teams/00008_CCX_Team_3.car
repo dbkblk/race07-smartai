@@ -1,0 +1,9 @@
+include=../CCX_BT250.inccar
+
+GenString=1
+
+Number=00008
+Team="Koenigsegg CCX Red"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="John Wikberg"
+ComparativeTime=104

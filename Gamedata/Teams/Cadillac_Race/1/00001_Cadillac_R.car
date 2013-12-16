@@ -1,0 +1,6 @@
+include=..\Cadillac_R.inccar
+Number=00001
+Team="LSD Racing"
+PitGroup=""
+Driver1="Keiran Smart"
+FactoryWeight=0.6

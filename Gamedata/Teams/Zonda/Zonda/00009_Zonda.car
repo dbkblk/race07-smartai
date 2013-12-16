@@ -1,0 +1,10 @@
+include=..\Zonda.inccar
+
+GenString=1
+
+Number=00009
+Team="Team LSD2"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Kasper Andersen"
+
+FactoryWeight=0.6

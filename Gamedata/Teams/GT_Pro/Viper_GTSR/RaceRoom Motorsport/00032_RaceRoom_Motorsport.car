@@ -1,0 +1,11 @@
+include=..\GTSR.inccar
+
+GenString=1
+
+Number=00032
+Team="RaceRoom Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Gareth Hickling"
+
+
+ComparativeTime=104

@@ -1,0 +1,13 @@
+include=..\Vertigo.inccar
+
+GenString=1
+
+Number=00012
+Team="RaceRoom Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Davor Mirkovic"
+
+
+//Dell, Get the Game, MotorsTV
+
+ComparativeTime=104

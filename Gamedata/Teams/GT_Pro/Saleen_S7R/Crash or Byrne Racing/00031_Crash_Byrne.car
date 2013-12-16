@@ -1,0 +1,11 @@
+include=..\Saleen.inccar
+
+GenString=1
+
+Number=00031
+Team="Crash or Byrne Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Paul Dallenbach"
+
+
+ComparativeTime=104

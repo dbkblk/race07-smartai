@@ -1,0 +1,6 @@
+include=..\Charger_Race.inccar
+Number=00004
+Team="Team DTS"
+PitGroup=""
+Driver1="Steen Toudal"
+FactoryWeight=0.6

@@ -1,0 +1,13 @@
+include=..\Spyker.inccar
+
+GenString=1
+
+Number=00034
+Team="Team CannonBall8000"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Anthony Monteil"
+
+
+//LSD, RaceRoom, Raadzaak
+
+ComparativeTime=104

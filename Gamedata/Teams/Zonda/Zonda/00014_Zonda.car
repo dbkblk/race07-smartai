@@ -1,0 +1,10 @@
+include=..\Zonda.inccar
+
+GenString=1
+
+Number=00014
+Team="Team DTS2"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Kevin Baumgartner"
+
+FactoryWeight=0.6

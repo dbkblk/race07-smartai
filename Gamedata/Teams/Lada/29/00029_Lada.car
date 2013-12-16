@@ -1,0 +1,6 @@
+include=..\Lada.inccar
+Number=00029
+Team="Russian Bears Motorsport"
+PitGroup=""
+Driver1="Jaap van Lagen 08"
+FactoryWeight=0.6

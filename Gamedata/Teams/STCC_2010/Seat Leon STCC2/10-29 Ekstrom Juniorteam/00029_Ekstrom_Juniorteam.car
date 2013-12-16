@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_STCC2.inccar
+Number=00029
+Team="Mattias Ekström Juniorteam"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Dick Sahlen 010"
+
+FactoryWeight=1.2

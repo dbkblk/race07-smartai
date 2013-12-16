@@ -1,0 +1,13 @@
+include=..\Vertigo.inccar
+
+GenString=3
+
+Number=00020
+Team="SimBin Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Shaun Cole"
+
+
+//Dell, Get the Game, MotorsTV
+
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\BMW_320si_WTCC10.inccar
+Number=00029
+Team="Team Aviva-Cofco"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Colin Turkington 10"
+
+FactoryWeight=0.6

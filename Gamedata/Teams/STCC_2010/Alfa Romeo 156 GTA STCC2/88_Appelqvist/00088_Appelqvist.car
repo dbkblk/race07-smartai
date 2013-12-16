@@ -1,0 +1,10 @@
+Include=..\Alfa_Romeo_156_GTA_Stcc2.inccar
+
+GenString=1
+
+Number=00088
+Team="Appelqvist"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Robin Appelqvist 010"
+
+FactoryWeight=0.1

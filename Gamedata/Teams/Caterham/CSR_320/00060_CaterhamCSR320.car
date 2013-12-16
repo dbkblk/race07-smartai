@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00060
+Team="Pedal To The Metal Racing Team"
+GenString=1
+Driver1="Jan Lammers"
+
+ComparativeTime=104

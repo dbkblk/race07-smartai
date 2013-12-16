@@ -1,0 +1,9 @@
+include=../CCX_BT250.inccar
+
+GenString=1
+
+Number=00006
+Team="Koenigsegg CCX Black"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Javier Jr. Roldan"
+ComparativeTime=104

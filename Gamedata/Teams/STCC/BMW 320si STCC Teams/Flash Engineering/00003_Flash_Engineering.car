@@ -1,0 +1,7 @@
+include=..\BMW_320si_Stcc.inccar
+Number=00003
+Team="Flash Engineering"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Richard Goransson 008"
+
+FactoryWeight=0.6

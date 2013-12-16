@@ -1,0 +1,6 @@
+include=..\Charger.inccar
+Number=00001
+Team="Detonator Yellow"
+PitGroup=""
+Driver1="Daniel Mancinelli"
+FactoryWeight=0.6

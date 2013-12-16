@@ -1,0 +1,11 @@
+Include=..\C6R.inccar
+
+GenString=3
+
+Number=00020
+Team="BenQ Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Christoffer Holmstrom" 
+
+
+FactoryWeight=0.0

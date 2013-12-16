@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00062
+Team="Team BMW"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Chris van der Drift"
+
+FactoryWeight=0.6

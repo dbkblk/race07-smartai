@@ -1,0 +1,10 @@
+include=..\Zonda.inccar
+
+GenString=1
+
+Number=00011
+Team="Team DTS"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Georg Ortner"
+
+FactoryWeight=0.6

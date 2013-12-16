@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00008
+Team="Transparance"
+GenString=1
+Driver1="Fred Kesak"
+
+ComparativeTime=104

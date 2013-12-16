@@ -1,0 +1,10 @@
+Include=..\Alfa_Romeo_156_Stcc2.inccar
+
+GenString=1
+
+Number=00020
+Team="MA:GP/ IPS / Bilsport & MC"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Mattias Andersson 010"
+
+FactoryWeight=0.1

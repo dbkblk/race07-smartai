@@ -1,0 +1,10 @@
+Include=..\PEUGEOT_407_STCC2.inccar
+
+GenString=1
+
+Number=00009
+Team="Carlsen"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Michael Carlsen 010"
+
+FactoryWeight=0.1

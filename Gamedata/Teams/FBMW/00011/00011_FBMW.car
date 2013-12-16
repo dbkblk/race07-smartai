@@ -1,0 +1,9 @@
+include=..\2006_FBMW_FB02.inccar
+
+GenString=1
+Number=00011
+Team="RBS"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jochen Lau"
+ComparativeTime=104
+

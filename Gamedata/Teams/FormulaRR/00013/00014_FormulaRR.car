@@ -1,0 +1,9 @@
+include=..\FormulaRR.inccar
+
+GenString=3
+
+Number=00014
+Team="Force India"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Paul di Resta"
+ComparativeTime=104

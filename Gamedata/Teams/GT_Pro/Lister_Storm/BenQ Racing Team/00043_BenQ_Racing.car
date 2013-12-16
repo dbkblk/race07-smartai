@@ -1,0 +1,11 @@
+include=..\Lister.inccar
+
+GenString=2
+
+Number=00043
+Team="BenQ Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Morten Albertsen"
+
+
+ComparativeTime=104

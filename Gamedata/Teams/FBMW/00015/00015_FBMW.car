@@ -1,0 +1,9 @@
+include=..\2006_FBMW_FB02.inccar
+
+GenString=1
+Number=00015
+Team="Castrol Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Sascha Monig"
+ComparativeTime=104
+

@@ -1,0 +1,13 @@
+include=..\AudiGT.inccar
+
+GenString=3
+
+Number=00021
+Team="TVK Project Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Emanuele Pirro"
+
+
+//Evo Magazine, Logitech, Anamera
+
+ComparativeTime=104

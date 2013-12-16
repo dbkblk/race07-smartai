@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00034
+Team="Team SSR"
+GenString=1
+Driver1="Anderson Villadsene"
+
+ComparativeTime=104

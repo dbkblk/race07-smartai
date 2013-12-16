@@ -1,0 +1,10 @@
+Include=..\Gumpert.inccar
+
+GenString=1
+
+Number=00001
+Team="Gumpert Apollo Black"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Todd Cannon"
+
+FactoryWeight=0.0

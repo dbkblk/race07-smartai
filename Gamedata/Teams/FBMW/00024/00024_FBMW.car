@@ -1,0 +1,8 @@
+include=..\2006_FBMW_FB02.inccar
+
+GenString=1
+Number=00024
+Team="Style Benetton"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jean-Francois Chardon"
+ComparativeTime=104

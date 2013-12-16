@@ -1,0 +1,8 @@
+include=..\BMW_320i_07.inccar
+
+Number=00050
+Team="Russian Bears Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Lev Fridman 07"
+
+FactoryWeight=2.0

@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00013
+Team="KR3W Racing"
+GenString=1
+Driver1="Jason Ruyman"
+
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\Charger.inccar
+Number=00004
+Team="Stone White"
+PitGroup=""
+Driver1="Tiff Needell"
+
+FactoryWeight=0.6

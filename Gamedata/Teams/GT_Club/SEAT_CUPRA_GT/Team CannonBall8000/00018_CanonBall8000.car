@@ -1,0 +1,14 @@
+include=..\SEAT_CUPRA.inccar
+
+GenString=3
+
+Number=00018
+Team="Team CannonBall8000"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Klaus Starke"
+
+
+//Evo Magazine, ZipKarts, Gigawave
+
+ComparativeTime=104
+

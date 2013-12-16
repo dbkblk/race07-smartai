@@ -1,0 +1,11 @@
+include=..\M3.inccar
+
+GenString=1
+
+Number=00014
+Team="SimBin Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Johan Roos"
+
+
+ComparativeTime=104

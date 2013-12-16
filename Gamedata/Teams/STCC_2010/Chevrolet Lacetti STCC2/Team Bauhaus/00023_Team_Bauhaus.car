@@ -1,0 +1,12 @@
+include=..\Chevrolet_Lacetti_Stcc2.inccar
+
+GenString=2
+
+Number=00023
+Team="Team Bauhaus"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jan Magnussen 010"
+
+FactoryWeight=0.7
+
+

@@ -1,0 +1,14 @@
+include=..\Vertigo.inccar
+
+GenString=2
+
+Number=00006
+Team="Hype Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Bertrand Gachot"
+
+
+
+//RaceRoom, Sutton Images, SportAutoMoto
+
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\BMW_320si_Stcc2.inccar
+Number=00087
+Team="Team Telesikring"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Casper Elgaard 010"
+
+FactoryWeight=0.6

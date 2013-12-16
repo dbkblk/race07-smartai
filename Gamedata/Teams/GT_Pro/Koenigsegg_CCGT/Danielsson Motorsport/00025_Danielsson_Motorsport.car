@@ -1,0 +1,10 @@
+Include=..\CCGT.inccar
+
+GenString=3
+
+Number=00025
+Team="Danielsson Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Alx Danielsson"
+
+FactoryWeight=0.0

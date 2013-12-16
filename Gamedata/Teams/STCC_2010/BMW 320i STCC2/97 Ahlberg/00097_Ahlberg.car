@@ -1,0 +1,7 @@
+include=..\BMW_320i_Stcc2.inccar
+Number=00097
+Team="Ahlberg"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Joakim Ahlberg 010"
+
+FactoryWeight=0.6

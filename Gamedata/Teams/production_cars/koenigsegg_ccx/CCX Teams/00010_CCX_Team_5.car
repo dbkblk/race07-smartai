@@ -1,0 +1,9 @@
+include=../CCX_BT250.inccar
+
+GenString=1
+
+Number=00010
+Team="Koenigsegg CCX Yellow"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Chris Yates"
+ComparativeTime=104

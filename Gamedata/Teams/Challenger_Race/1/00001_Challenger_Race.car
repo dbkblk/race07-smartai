@@ -1,0 +1,6 @@
+include=..\Challenger_Race.inccar
+Number=00001
+Team="Motor16 Racing"
+PitGroup=""
+Driver1="Mike Channell"
+FactoryWeight=0.6

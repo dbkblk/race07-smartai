@@ -1,0 +1,11 @@
+include=..\Lister.inccar
+
+GenString=3
+
+Number=00022
+Team="LSD Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Karl Brostrom"
+
+
+ComparativeTime=104

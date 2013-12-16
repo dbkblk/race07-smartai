@@ -1,0 +1,9 @@
+include=../SRT10.inccar
+
+GenString=3
+
+Number=00014
+Team="Dodge Viper SRT10 Snake Skin green"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Klaus Starke"
+ComparativeTime=104

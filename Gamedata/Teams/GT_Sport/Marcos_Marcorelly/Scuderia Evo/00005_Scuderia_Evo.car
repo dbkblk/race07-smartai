@@ -1,0 +1,11 @@
+include=..\Marcos.inccar
+
+GenString=1
+
+Number=00005
+Team="Scuderia EVO"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Mark Reynolds"
+
+
+ComparativeTime=104

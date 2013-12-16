@@ -1,0 +1,7 @@
+include=..\BMW_320si_2009_STCC2.inccar
+Number=00002
+Team="Flash Engineering"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Thed Björk 010"
+
+FactoryWeight=0.6

@@ -1,0 +1,13 @@
+include=..\Toledo.inccar
+
+GenString=1
+
+Number=00037
+Team="GTG Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Edu Marzal"
+
+
+//Raadzaak, SkyQuest, Transfer Studio
+
+ComparativeTime=104

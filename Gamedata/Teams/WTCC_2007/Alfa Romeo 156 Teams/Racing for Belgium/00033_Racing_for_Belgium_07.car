@@ -1,0 +1,10 @@
+Include=..\Alfa_Romeo_156_2007.inccar
+
+GenString=2
+
+Number=00033
+Team="Racing for Belgium"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Miguel Freitas 07"
+
+FactoryWeight=1.4

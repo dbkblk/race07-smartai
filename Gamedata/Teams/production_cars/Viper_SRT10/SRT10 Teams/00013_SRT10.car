@@ -1,0 +1,9 @@
+include=../SRT10.inccar
+
+GenString=1
+
+Number=00013
+Team="Dodge Viper SRT10 Viper Red"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Willem Welter"
+ComparativeTime=104

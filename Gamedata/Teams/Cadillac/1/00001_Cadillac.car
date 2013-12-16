@@ -1,0 +1,6 @@
+include=..\Cadillac.inccar
+Number=00001
+Team="Black Raven"
+PitGroup=""
+Driver1="Sebastian Schillag"
+FactoryWeight=0.6

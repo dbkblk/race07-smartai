@@ -1,0 +1,7 @@
+include=..\Camaro.inccar
+Number=00003
+Team="Rally Yellow"
+PitGroup=""
+Driver1="Alx Danielsson"
+
+FactoryWeight=0.6

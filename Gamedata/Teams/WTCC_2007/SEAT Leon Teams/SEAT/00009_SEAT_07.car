@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_2007_1.inccar
+Number=00009
+Team="SEAT"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jordi Gene 07"
+
+FactoryWeight=0.8

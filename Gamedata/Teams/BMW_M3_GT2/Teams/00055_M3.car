@@ -1,0 +1,7 @@
+include=..\M3.inccar
+Number=00055
+Team="Team DTS"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Norbert Siedler"
+
+FactoryWeight=0.6

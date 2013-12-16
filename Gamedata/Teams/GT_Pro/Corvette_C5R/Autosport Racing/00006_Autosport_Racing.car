@@ -1,0 +1,13 @@
+include=..\C5R.inccar
+
+GenString=3
+
+Number=00006
+Team="Autosport Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="S. Strang"
+
+
+//Forsberg, Lizard, Navicam
+
+ComparativeTime=104

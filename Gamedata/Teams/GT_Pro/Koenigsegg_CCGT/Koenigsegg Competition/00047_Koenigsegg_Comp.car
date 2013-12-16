@@ -1,0 +1,11 @@
+Include=..\CCGT.inccar
+
+GenString=1
+
+Number=00047
+Team="Koenigsegg Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Christian von Koenigsegg"
+
+
+FactoryWeight=0.0

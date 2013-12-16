@@ -1,0 +1,7 @@
+include=..\BMW_320si_07.inccar
+Number=00001
+Team="BMW Team UK"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Andy Priaulx 07"
+
+FactoryWeight=0.0

@@ -1,0 +1,13 @@
+include=..\BMW_Z4.inccar
+
+GenString=1
+
+Number=00011
+Team="KW Competition"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Michal Falana"
+
+
+//Autosport Magazine, Charden, ST Suspensions
+
+ComparativeTime=104

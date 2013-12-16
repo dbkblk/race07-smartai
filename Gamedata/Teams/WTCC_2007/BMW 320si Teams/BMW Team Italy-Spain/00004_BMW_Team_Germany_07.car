@@ -1,0 +1,7 @@
+include=..\BMW_320si_07.inccar
+Number=00004
+Team="BMW Team Italy-Spain"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Alessandro Zanardi 07"
+
+FactoryWeight=1.0

@@ -1,0 +1,10 @@
+include=..\2008_BMW_320si.inccar
+
+GenString=1
+
+Number=00060
+Team="Wiechers-Sport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Kristian Poulsen 08"
+
+FactoryWeight=0.6

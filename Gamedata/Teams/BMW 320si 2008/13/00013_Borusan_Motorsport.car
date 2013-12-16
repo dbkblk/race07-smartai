@@ -1,0 +1,10 @@
+include=..\2008_BMW_320si.inccar
+
+GenString=1
+
+Number=00013
+Team="Borusan Otomotiv Motorsport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Ibrahim Okyay 08"
+
+FactoryWeight=0.6

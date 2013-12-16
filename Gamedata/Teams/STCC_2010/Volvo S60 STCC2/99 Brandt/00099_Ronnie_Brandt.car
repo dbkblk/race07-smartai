@@ -1,0 +1,11 @@
+include=..\Volvo_S60_STCC2.inccar
+
+GenString=1
+
+Number=00099
+Team="Malarpower Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Ronnie Brandt 010"
+
+
+ComparativeTime=104

@@ -1,0 +1,10 @@
+include=..\2008_BMW_E90_Extreme.inccar
+
+Genstring=1
+
+Number=00004
+Team="BMW Team Italy-Spain"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Alessandro Zanardi 08"
+
+FactoryWeight=1.0

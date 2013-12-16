@@ -1,0 +1,6 @@
+include=..\Challenger.inccar
+Number=00002
+Team="Brilliant Black"
+PitGroup=""
+Driver1="Goran Strandh"
+FactoryWeight=0.6

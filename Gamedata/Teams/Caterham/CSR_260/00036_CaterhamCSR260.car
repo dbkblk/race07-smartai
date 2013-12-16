@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00036
+Team="Laughing Man Racing"
+GenString=1
+Driver1="Arne Heine"
+
+ComparativeTime=104

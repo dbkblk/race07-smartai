@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00052
+Team="Apex Motorsport"
+GenString=1
+Driver1="Christopher Kristiansson"
+
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\BMW_320si_07.inccar
+Number=00030
+Team="Proteam Motorsport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Luca Rangoni 07"
+
+FactoryWeight=1.1

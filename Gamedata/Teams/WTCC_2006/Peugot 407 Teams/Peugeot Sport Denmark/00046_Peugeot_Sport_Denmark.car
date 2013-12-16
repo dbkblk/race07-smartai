@@ -1,0 +1,90 @@
+CameraFile=..\Peugeot.cam
+HDVehicle=..\2006_Peugeot_407.hdc
+Graphics=..\PEUGEOT_407.cas
+GenString=1
+Sounds=..\PEUGEOT_407.aud
+HeadPhysics=..\..\..\headphysics.hed
+MaxSeatRear=-0.05
+MaxSeatFront=-0.15
+MaxSeatUp=0.04
+MaxSeatDown=-0.02 
+
+//Cockpit
+
+Eyepoint=(0.397, 1.125, 0.278)
+CameraTarget=(0.000, 1.0, 0.000)
+SteeringWheelAxis=(0.0,0.098,0.995)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+ExternalDriverPosition=(0.371, 0.350, 0.226)
+FirstPersonDriverPosition=(0.397, 0.145, 0.164)
+
+//1st person bone markers
+
+ShiftStickPosition=(0.028, 0.800, -0.195)
+ClutchPedalPosition=(0.420, 0.374, -0.494)
+BrakePedalPosition=(0.327, 0.374, -0.494)
+AcceleratorPedalPosition=(0.240, 0.374, -0.494)
+
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+
+Display1RPMLights=5
+Display1RPMLightsRange=(5000,8840)
+
+Display1SessionPractice=(410,141)
+Display1SessionWarmup=(410,128)
+Display1SessionRace=(410,115)
+
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(240,94)
+
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+
+Display1ModesPos=(58,20)
+Display1ModesScale=(0.93)
+
+// Exhaust smoke
+
+Exhausts=1 // number of outlets, 0-4
+ExhaustAmount=0.06 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.465, -0.14, 2.60) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.465, -0.21, 3.05)
+
+Number=00046
+Team="Peugeot Sport Denmark"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Jens Edman 06"
+Description="Peugeot 407"
+Engine="ENGINE_UPDATE_ME"
+Manufacturer="PEUGEOT_407"
+classes="FULL,WTCC_2006"
+ComparativeTime=104
+Make="PEUGEOT"
+Model="Peugeot 407"
+ModelID=16
+
+Horsepower=280
+HorsepowerRpm=8000
+Torque=
+TorqueRpm=
+Weight=1167
+RearWheelDrive=0
+Transmission=6_SPD_SEQ
+EngineVolume=1999.9
+Valves=16
+Engine=I4_ID
+FactoryWeight=0

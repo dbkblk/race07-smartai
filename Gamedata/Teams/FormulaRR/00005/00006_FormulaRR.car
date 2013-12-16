@@ -1,0 +1,9 @@
+include=..\FormulaRR.inccar
+
+GenString=1
+
+Number=00006
+Team="Ferrari"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Felipe Massa"
+ComparativeTime=104

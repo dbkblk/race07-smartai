@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00035
+Team="Laughing Man Racing"
+GenString=1
+Driver1="Frankie Provenzano"
+
+ComparativeTime=104

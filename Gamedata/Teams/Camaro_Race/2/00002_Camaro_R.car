@@ -1,0 +1,6 @@
+include=..\Camaro_R.inccar
+Number=00002
+Team="Motor16 Racing"
+PitGroup=""
+Driver1="John Schoen"
+FactoryWeight=0.6

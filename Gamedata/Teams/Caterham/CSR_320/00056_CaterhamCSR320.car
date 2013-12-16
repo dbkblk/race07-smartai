@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00056
+Team="BR Motorsport"
+GenString=1
+Driver1="Giorgio Calabresi"
+
+ComparativeTime=104

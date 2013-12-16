@@ -1,0 +1,11 @@
+include=..\Marcos.inccar
+
+GenString=3
+
+Number=00020
+Team="Hype Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Michael Andersson"
+
+
+ComparativeTime=104

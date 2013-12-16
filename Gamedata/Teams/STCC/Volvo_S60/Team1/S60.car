@@ -1,0 +1,11 @@
+include=..\S60.inccar
+
+GenString=1
+
+Number=00099
+Team="Malarpower Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Ronnie Brandt 008"
+
+
+ComparativeTime=104

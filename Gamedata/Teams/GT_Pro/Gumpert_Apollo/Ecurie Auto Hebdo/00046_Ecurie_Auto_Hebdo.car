@@ -1,0 +1,13 @@
+include=..\Gumpert_GT.inccar
+
+GenString=3
+
+Number=00046
+Team="Ecurie Auto Hebdo"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Lisa Wiklund"
+
+
+//Get the Game, KW, SimBin
+
+ComparativeTime=104

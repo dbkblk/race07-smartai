@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_2007_1.inccar
+Number=00023
+Team="Exagon Engineering"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Pierre-Yves Corthals 07"
+
+FactoryWeight=1.2

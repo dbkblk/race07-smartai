@@ -1,0 +1,6 @@
+include=..\Challenger.inccar
+Number=00001
+Team="HEMI Orange"
+PitGroup=""
+Driver1="Henri Toivanen"
+FactoryWeight=0.6

@@ -1,0 +1,11 @@
+include=..\Chevrolet_07.inccar
+
+GenString=1
+
+Number=00036
+Team="Maurer Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Maria De Villota 07"
+
+FactoryWeight=2.0
+

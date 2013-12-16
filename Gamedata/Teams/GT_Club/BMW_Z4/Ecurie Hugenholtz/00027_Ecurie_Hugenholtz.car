@@ -1,0 +1,13 @@
+include=..\BMW_Z4.inccar
+
+GenString=2
+
+Number=00027
+Team="Ecurie Hugenholtz"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Patrick Tambay"
+
+
+//AutoHebdo, RaceRoom, CannonBall8000
+
+ComparativeTime=104

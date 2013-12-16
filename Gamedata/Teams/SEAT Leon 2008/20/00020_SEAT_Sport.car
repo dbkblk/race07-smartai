@@ -1,0 +1,7 @@
+include=..\SEAT_LEON.inccar
+Number=00020
+Team="SUNRED"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tom Coronel 08"
+
+FactoryWeight=0.9

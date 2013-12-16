@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00006
+Team="Apex Motorsport"
+GenString=1
+Driver1="Eithan Preedy"
+
+ComparativeTime=104

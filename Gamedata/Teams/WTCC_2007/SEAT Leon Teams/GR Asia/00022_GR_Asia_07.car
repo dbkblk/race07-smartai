@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_2007_4.inccar
+Number=00022
+Team="GR Asia"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Maurizio Ceresoli 07"
+
+FactoryWeight=1.3

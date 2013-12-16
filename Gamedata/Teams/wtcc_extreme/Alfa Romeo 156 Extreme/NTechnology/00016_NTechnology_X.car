@@ -1,0 +1,10 @@
+Include=..\2008_Alfa_156_Extreme.inccar
+
+GenString=3
+
+Number=00016
+Team="N.Technology"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Olivier Tielemans 08"
+
+FactoryWeight=0.9

@@ -1,0 +1,11 @@
+include=..\GTSR.inccar
+
+GenString=1
+
+Number=00002
+Team="Henrik Roos Motorsports"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Henrik Roos"
+
+
+ComparativeTime=104

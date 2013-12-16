@@ -1,0 +1,9 @@
+include=..\FormulaRR.inccar
+
+GenString=3
+
+Number=00012
+Team="Williams"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Pastor Maldonado"
+ComparativeTime=104

@@ -1,0 +1,7 @@
+include=..\BMW_320si_Stcc_seq.inccar
+Number=00005
+Team="Flash Engineering"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Jan Nilsson 008"
+
+FactoryWeight=0.6

@@ -1,0 +1,8 @@
+include=..\BMW_320i_07.inccar
+
+Number=00052
+Team="Russian Bears Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Viktor Shapovalov 07"
+
+FactoryWeight=2.0

@@ -1,0 +1,13 @@
+include=..\AstonMartin_DBRS9.inccar
+
+GenString=3
+
+Number=00026
+Team="Scott Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Dave Scott"
+
+
+//Evo Magazine, Hype, Logitech 
+
+ComparativeTime=104

@@ -1,0 +1,10 @@
+include=..\2008_BMW_320si.inccar
+
+GenString=1
+
+Number=00002
+Team="BMW Team Germany"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Jorg Muller 08"
+
+FactoryWeight=0.6

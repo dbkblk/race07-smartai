@@ -1,0 +1,6 @@
+include=..\Challenger_Race.inccar
+Number=00002
+Team="Toxic Drift"
+PitGroup=""
+Driver1="Stina Hübinette"
+FactoryWeight=0.6

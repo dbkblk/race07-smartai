@@ -1,0 +1,13 @@
+include=..\VIPER_CC.inccar
+
+GenString=1
+
+Number=00010
+Team="SimBin Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Todd Cannon"
+
+
+//KW, Navicam, ST Suspensions
+
+ComparativeTime=104

@@ -1,0 +1,13 @@
+include=..\Mosler.inccar
+
+GenString=2
+
+Number=00029
+Team="Dell Racing Team"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Andreas Nordqvist"
+
+
+//Puma, CannonBall8000, Bilsport
+
+ComparativeTime=104

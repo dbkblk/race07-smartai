@@ -1,0 +1,10 @@
+include=..\2008_BMW_E90_Extreme.inccar
+
+Genstring=1
+
+Number=00001
+Team="BMW Team UK"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Andy Priaulx 08"
+
+FactoryWeight=0.0

@@ -1,0 +1,7 @@
+include=..\Challenger.inccar
+Number=00005
+Team="Deep Water Blue"
+PitGroup=""
+Driver1="Julian Bailey"
+
+FactoryWeight=0.6

@@ -1,0 +1,7 @@
+include=..\Cadillac.inccar
+Number=00003
+Team="Blue Diamond"
+PitGroup=""
+Driver1="Edu Marzal"
+
+FactoryWeight=0.6

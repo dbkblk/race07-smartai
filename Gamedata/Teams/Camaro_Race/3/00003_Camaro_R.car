@@ -1,0 +1,6 @@
+include=..\Camaro_R.inccar
+Number=00003
+Team="LSD Racing"
+PitGroup=""
+Driver1="Mick Dunn"
+FactoryWeight=0.6

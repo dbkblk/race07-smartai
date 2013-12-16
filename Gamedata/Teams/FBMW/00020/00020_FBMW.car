@@ -1,0 +1,8 @@
+include=..\2006_FBMW_FB02.inccar
+
+GenString=1
+Number=00020
+Team="KTM Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Richard Towler"
+ComparativeTime=104

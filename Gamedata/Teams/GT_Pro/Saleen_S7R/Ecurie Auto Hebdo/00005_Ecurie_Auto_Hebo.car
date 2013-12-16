@@ -1,0 +1,11 @@
+include=..\Saleen.inccar
+
+GenString=3
+
+Number=00005
+Team="Ecurie Auto Hebdo"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Erian Parsons"
+
+
+ComparativeTime=104

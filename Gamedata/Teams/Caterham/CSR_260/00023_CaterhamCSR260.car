@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_260.inccar
+
+Number=00023
+Team="VG Racing Team"
+GenString=1
+Driver1="Henrik Roos"
+
+ComparativeTime=104

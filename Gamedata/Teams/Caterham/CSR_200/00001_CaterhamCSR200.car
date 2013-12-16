@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00001
+Team="RS Motorsport"
+GenString=1
+Driver1="David Strom"
+
+ComparativeTime=104

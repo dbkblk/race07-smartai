@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_320.inccar
+
+Number=00044
+Team="VR Racing Team"
+GenString=1
+Driver1="Cor Euser"
+
+ComparativeTime=104

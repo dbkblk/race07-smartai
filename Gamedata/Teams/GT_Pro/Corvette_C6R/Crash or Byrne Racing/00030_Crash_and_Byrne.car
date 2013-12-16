@@ -1,0 +1,11 @@
+Include=..\C6R.inccar
+
+GenString=2
+
+Number=00030
+Team="Crash or Byrne Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tommy Byrne"
+
+
+FactoryWeight=0.0

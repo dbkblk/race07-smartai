@@ -1,0 +1,94 @@
+CameraFile=..\BMW_320si.cam
+HDVehicle=..\2006_BMW_320si.hdc
+Graphics=..\BMW_320si.cas
+GenString=1
+Sounds=..\BMW_320si.aud
+HeadPhysics=..\..\..\headphysics.hed
+Eyepoint=(0.340, 0.560, 0.090)    
+CameraTarget=(0.000, 1.0, 0.00)
+MaxSeatRear=-0.05
+MaxSeatFront=-0.15
+MaxSeatUp=0.00
+MaxSeatDown=-0.07
+
+//Cockpit
+
+Eyepoint=(0.3534, 1.080, 0.315)
+CameraTarget=(0.000, 1.0, 0.000)
+SteeringWheelAxis=(0.0,0.098,0.995)
+SteeringWheelType=1
+FrontWheelsInCockpit=0
+ExternalDriverPosition=(0.340, 0.257, 0.235)
+FirstPersonDriverPosition=(0.340, 0.084, 0.169)
+
+//1st person bone markers
+
+ShiftStickPosition=(0.0148, 0.7407, -0.2658)
+ClutchPedalPosition=(0.5294, 0.4151, -0.8392)
+BrakePedalPosition=(0.4043, 0.4151, -0.8392)
+AcceleratorPedalPosition=(0.2436, 0.4151, -0.8392)
+
+LeftLegBendAngle=15.0
+RightLegBendAngle=-15.0
+
+// displays
+
+DigitalDisplays=1
+Display1Instance=MOTEC
+
+Display1RPMLights=5
+Display1RPMLightsRange=(5000,8840)
+
+Display1SessionPractice=(410,141)
+Display1SessionWarmup=(410,128)
+Display1SessionRace=(410,115)
+
+Display1SpeedHeadingParams=LARGE,LEFT
+Display1SpeedHeadingPos=(310,90)
+Display1SpeedParams=MEDIUM,LEFT
+Display1SpeedPos=(295,135)
+
+Display1GearParams=LARGE,LEFT
+Display1GearPos=(240,94)
+
+Display1LapTimeHeadingParams=LARGE,RIGHT
+Display1LapTimeHeadingPos=(230,85)
+Display1LapTImeParams=MEDIUM,RIGHT
+Display1LapTimePos=(225,130)
+
+Display1ModesPos=(37,2)
+Display1ModesScale=(0.74) // ROHO: Added to scale the long displayline with tire temps, oil + water temps, disc temps 
+
+// Exhaust smoke
+
+Exhausts=2 // number of outlets, 0-4
+ExhaustAmount=0.03 // amount of exhaust, 0.0 - 1.0
+Exhaust1=(0.295, -0.13, 2.55) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel1=(0.295, -0.20, 3.10)
+Exhaust2=(0.125, -0.13, 2.55) // emitter position (Exhaust1 - Exhaust4) left/right, up/down, z
+ExhaustVel2=(0.125, -0.20, 3.10)
+
+Number=00030
+Team="Proteam Motorsport"
+PitGroup="PITGROUP_UPDATE_ME""
+Driver1="Luca Rangoni 06"
+Description="BMW 320si E90"
+Engine="ENGINE_UPDATE_ME"
+Manufacturer="BMW_320si"
+classes="FULL,WTCC_2006"
+ComparativeTime=104
+Make="BMW"
+Model="BMW 320si E90"
+ModelID=13
+
+Horsepower=275
+HorsepowerRpm=8300
+Torque=242
+TorqueRpm=7250
+Weight=1140
+RearWheelDrive=1
+Transmission=5_SPD_HBX
+EngineVolume=1999
+Valves=16
+Engine=I4_ID
+FactoryWeight=0

@@ -1,0 +1,14 @@
+include=..\SEAT_CUPRA.inccar
+
+GenString=1
+
+Number=00021
+Team="TS Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Marie Bake"
+
+
+//Charden, Get the Game, Raadzaak
+
+ComparativeTime=104
+

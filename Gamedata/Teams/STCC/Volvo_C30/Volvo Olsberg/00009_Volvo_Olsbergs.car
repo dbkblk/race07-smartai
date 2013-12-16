@@ -1,0 +1,11 @@
+include=..\C30.inccar
+
+GenString=1
+
+Number=00009
+Team="Volvo Olsbergs Green Racing"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Tommy Rustad 008"
+
+
+ComparativeTime=104

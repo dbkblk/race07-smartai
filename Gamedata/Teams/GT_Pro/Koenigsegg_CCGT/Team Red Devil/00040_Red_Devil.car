@@ -1,0 +1,11 @@
+Include=..\CCGT.inccar
+
+GenString=3
+
+Number=00040
+Team="Team Red Devil"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Martin Donnelly"
+
+
+FactoryWeight=0.0

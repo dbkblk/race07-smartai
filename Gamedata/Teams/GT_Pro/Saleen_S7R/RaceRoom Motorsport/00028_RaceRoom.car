@@ -1,0 +1,11 @@
+include=..\Saleen.inccar
+
+GenString=1
+
+Number=00028
+Team="RaceRoom Motorsport"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Lee McCabe"
+
+
+ComparativeTime=104

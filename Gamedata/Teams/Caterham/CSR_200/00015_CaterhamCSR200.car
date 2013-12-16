@@ -1,0 +1,8 @@
+include=..\Caterham_CSR_200.inccar
+
+Number=00015
+Team="Kiwi Virtual"
+GenString=1
+Driver1="Christian von Koenigsegg"
+
+ComparativeTime=104

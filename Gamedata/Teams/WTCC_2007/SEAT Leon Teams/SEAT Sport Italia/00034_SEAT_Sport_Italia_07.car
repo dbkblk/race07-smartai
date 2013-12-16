@@ -1,0 +1,7 @@
+include=..\SEAT_LEON_2007_3.inccar
+Number=00034
+Team="SEAT Sport Italia"
+PitGroup="PITGROUP_UPDATE_ME"
+Driver1="Massimiliano Pedala 07"
+
+FactoryWeight=1.2
