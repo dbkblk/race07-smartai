@@ -69,64 +69,68 @@ If you always want to play WTCC or GT with the same AI, you can execute "_SmartA
 
 ## Technical details
 RCD:
-// Consistency = RaceAbility (based on real series)
-Passing=98.0
-CorneringAdd=1.000
-CorneringMult=1.000
-// MinRacingSkill = 0.98 (if = 1)
-Composure = 0.01
-RaceColdBrainMin=0.99
-RaceColdBrainTime=0
+
+	// Consistency = RaceAbility (based on real series)
+	Passing=98.0
+	CorneringAdd=1.000
+	CorneringMult=1.000
+	// MinRacingSkill = 0.98 (if = 1)
+	Composure = 0.01
+	RaceColdBrainMin=0.99
+	RaceColdBrainTime=0
 
 HDC:
-AIMinPassesPerTick=7
-AITorqueStab=(1.05, 1.05, 1.15) // Standard
-AITorqueStab=(0.50, 0.50, 0.75) // Single-seat
+
+	AIMinPassesPerTick=7
+	AITorqueStab=(1.05, 1.05, 1.15) // Standard
+	AITorqueStab=(0.50, 0.50, 0.75) // Single-seat
 
 GDB:
-RoadDryGrip = 1.00
-AIDryGrip = 1.00
-RoadWetGrip = 0.75
-AIWetGrip = 0.75
 
-Drafting
-{
-  BaseDropoff=0.20 // higher number -> more drafting effect
-  LeadingExponent=2.0 // higher number -> lower effect on leader
-  FollowingExponent=2.0 // higher number -> lower effect on followers
-}
+	RoadDryGrip = 1.00
+	AIDryGrip = 1.00
+	RoadWetGrip = 0.75
+	AIWetGrip = 0.75
+	Drafting
+	{
+	  BaseDropoff=0.20 // higher number -> more drafting effect
+	  LeadingExponent=2.0 // higher number -> lower effect on leader
+	  FollowingExponent=2.0 // higher number -> lower effect on followers
+	}
 
 AIW:
-WorstAdjust= // Based on calibration. Firsts in 100% = better known time.
-MidAdjust= // Based on calibration. Firsts in 100% = better known time.
-BestAdjust= // Based on calibration. Firsts in 100% = better known time.
-QualRatio=(1.0200)
-RaceRatio=(1.0500)
 
-slowwhenpushed=0
-AIBrakingStiffness=(0.9000, 0.9000, 0.9000)
-AIRange=(1.00) // 0.5 for Nordschleife, 0.8 if ref time is superior to 2min, 0.9 if between 2min and 1min30
-AISpec=(0.000, 0.000, 0.8500, 0.0700)
-AIDraftStickiness=(1.0000)
+	WorstAdjust= // Based on calibration. Firsts in 100% = better known time.
+	MidAdjust= // Based on calibration. Firsts in 100% = better known time.
+	BestAdjust= // Based on calibration. Firsts in 100% = better known time.
+	QualRatio=(1.0200)
+	RaceRatio=(1.0500)
+	slowwhenpushed=0
+	AIBrakingStiffness=(0.9000, 0.9000, 0.9000)
+	AIRange=(1.00) // 0.5 for Nordschleife, 0.8 if ref time is superior to 2min, 0.9 if between 2min and 1min30
+	AISpec=(0.000, 0.000, 0.8500, 0.0700)
+	AIDraftStickiness=(1.0000)
 
 
 PLR:
-AI Power Calibration="0"
-AI to AI Collision Rate="40" (default is 20)
-Player Car Equal="0"
-Vehicle Specific AI Setups="0"
-AI Max Load="31500.00000"
+
+	AI Power Calibration="0"
+	AI to AI Collision Rate="40" (default is 20)
+	Player Car Equal="0"
+	Vehicle Specific AI Setups="0"
+	AI Max Load="31500.00000"
 
 
 TYR:
-Front Tyres:
-AISens=(0.60, 24000.0)
-AIGripMult=1.01
-AIPeakSlip=0.148
-AIWear=0.517e-7
 
-Rear Tyres:
-AISens=(0.60, 24500.0)
-AIGripMult=1.12
-AIPeakSlip=0.14816
-AIWear=0.503e-7
+	*Front Tyres*
+	AISens=(0.60, 24000.0)
+	AIGripMult=1.01
+	AIPeakSlip=0.148
+	AIWear=0.517e-7
+
+	*Rear Tyres*
+	AISens=(0.60, 24500.0)
+	AIGripMult=1.12
+	AIPeakSlip=0.14816
+	AIWear=0.503e-7
